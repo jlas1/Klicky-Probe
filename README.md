@@ -2,11 +2,19 @@
 Microswitch probe with magnetic attachement, primarily aimed at CoreXY 3d printers with a focus on the Voron v2.4.
 It replaces the standard inductive sensors using microswitches and magnets.
 
+![Klicky Probe image](Photos/Klicky_Probe.png)
+
 There are no need for supports, recommended settings are 4 perimeters/top/bottom, 13% infill.
 
 The probe dock is mounted on the gantry, allowing it to be use as a Z endstop if desired (i use it that way).
 There are gantry extrusion mounts, one fixed to be used on the AB and another that has some variance for other toolheads.
 It is not necessary any soldering, the AB mount wires are connected with pressure from the magnets and the probe microswitch connectors are also press-fit on the magnets.
+
+<p float="left">
+  <img src="/Photos/probe_v1_underside.jpg" width="350" />
+  <img src="/Photos/AB_Mount_wiring_complete.jpg" width="350" /> 
+</p>
+
 It is however recommended to glue the magnets in place, superglue is good.
 
 You will need to add macros to klipper to be able to dock and undock the probe as necessary to do the Endstop (if necessary) and Quad Gantry Level, it is in the Klipper Macro directory.
