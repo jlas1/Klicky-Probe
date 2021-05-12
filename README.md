@@ -7,9 +7,12 @@ It replaces the standard inductive sensors using microswitches and magnets.
 There are no need for supports, recommended settings are 4 perimeters/top/bottom, 13% infill.
 
 The probe dock is mounted on the gantry, allowing it to be use as a Z endstop if desired (i use it that way).
-There are gantry extrusion mounts, one fixed to be used on the AB and another that has some variance for other toolheads.
-It is not necessary any soldering, the AB mount wires are connected with pressure from the magnets and the probe microswitch connectors are also press-fit on the magnets.
 
+There are two gantry extrusion mounts possible:
+- one fixed to be used on the AB with MGN12 or MGN9
+- one that has some variance for other toolheads.
+
+It is not necessary any soldering, the AB mount wires are connected with pressure from the magnets and the probe microswitch connectors are also press-fit on the magnets.
 <p float="left">
   <img src="/Photos/probe_v1_underside.jpg" width="350" />
   <img src="/Photos/AB_Mount_wiring_complete.jpg" width="350" /> 
@@ -43,7 +46,7 @@ variable Dock mount:
 - 2x M5x10
 - 2x M5 t-nut or equivalent
 
-I will add more detail to this repository as i go along.
+I will add more detail to this repository as we go along.
 
 The macro is based on a version provided by the user garrettwp on Discord, many thanks to him.
 
