@@ -1,3 +1,4 @@
-If using the physical Z endstop please remember to comment out the Homming overide from your printer.cfg, this requirement may change in the future, but for now it is necessary.
+If using the physical Z endstop please remember to comment out the Homming overide from your printer.cfg.
+For using the Klicky probe as a probe only (no Z endstop) it is not necessary to remove anything from your existent configuration.
 
-There is as alternate branch of the macro that is still being worked on (it works for me, it may also work for you) that is simpler here https://github.com/jlas1/Klicky-Probe/blob/macro-simplification/Klipper%20macro/klicky-probe.cfg
+You may have a faster PRINT_START if you use Attach_Probe_Lock at the beggining and Dock_Probe_Unlock at the end.
