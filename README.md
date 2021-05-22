@@ -1,6 +1,19 @@
 # Klicky-Probe
-Microswitch probe with magnetic attachement, primarily aimed at CoreXY 3d printers with a focus on the Voron v2.4.
-It replaces the standard inductive sensors using microswitches and magnets.
+Microswitch probe with magnetic attachement, primarily aimed at CoreXY 3d printers with a focus on the Voron printers, should work on other printers with the variable mount.
+
+The objectives for this project are:
+- drop in replacement for Omron TL-Q5MC2 or PL-08N2 (you don't need to replace the toolhead)
+- easier and faster to build that similiar probe types
+  - does not require soldering
+  - fixed probe dock mount (for the printers that are suported), less variables to adjust
+- be able to detect all the print surfaces
+- be as close to the hotend tip as possible
+- high repetitive and accurate probes
+- less temperature variations
+- no melting of its parts
+- cheap to built
+
+It can also be used with the new ![automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) klipper plugin to efectively calculate the Z offset from the probe and from the Z endstop.
 
 The inspiration for the Klicky Probe comes from the ![Annex magprobe](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/tree/master/All_Printers/Microswitch_Probe) and the ![Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
 
@@ -13,6 +26,8 @@ The probe dock is mounted on the gantry, allowing it to be use as a Z endstop if
 There are two gantry extrusion mounts possible:
 - one fixed to be used on the AB with MGN12 or MGN9
 - one that has some variance for other toolheads.
+
+The fixed gantry extrusion mounts have been confirmed to work on the Voron V2.4 and V1.8
 
 It is not necessary any soldering, the AB mount wires are connected with pressure from the magnets and the probe microswitch connectors are also press-fit on the magnets.
 <p float="left">
@@ -51,13 +66,20 @@ variable Dock mount:
 I will add more detail to this repository as we go along.
 
 The macro is based on a version provided by the user garrettwp on Discord, many thanks to him.
-I have tweaked it a bit.
+I have tweaked it a lot.
 It is also originally  based on the great Annex magnet dockable probe macros "#Originally developed by Mental, modified for better use on K-series printers by RyanG and Trails" and can be found ![here](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Microswitch_Probe/Klipper_Macros/dockable_probe_macros.cfg)
 
 Would also like to thank the Voron discord community and VoronDesign for all the work that was and still is being made to maintain the Voron ecosystem.
 
 The probe accuracy output is something like this:
 probe accuracy results: maximum 6.430000, minimum 6.426250, range 0.003750, average 6.428750, median 6.428750, standard deviation 0.000791
+
+There is now a arrow on the probe telling you where should the switch pole be to have the correct offset.
+The probe offsets are:
+- z_offset = 6.42
+- x_offset: 0
+- y_offset: 19.75
+
 
 It is working very well, if you decide to use it, give me feedback, either here, or on discord, my discord user is JosAr#0517.
 
