@@ -34,7 +34,7 @@ It is not necessary any soldering, the AB mount wires are connected with pressur
   <img src="/Photos/probe_v1_underside.jpg" width="350" />
   <img src="/Photos/AB_Mount_wiring_complete.jpg" width="350" /> 
 </p>
-The magnet recommended installation is that the two magnets that attach to the microswitch are installed with the same polarity, the 3rd magnet should have the inverse polarity.
+The three magnets that attach to the microswitch must be installed with the same polarity, alternating magnetic fields will result in a slow but sure demagnetization of the magnets.
 It is also recommended to glue the magnets in place, superglue is good.
 
 You will need to add macros to klipper to be able to dock and undock the probe as necessary to do the Endstop (if necessary) and Quad Gantry Level, it is in the Klipper Macro directory.
