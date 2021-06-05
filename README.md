@@ -44,7 +44,7 @@ It is also recommended to glue the magnets in place, superglue is good.
 You will need to add macros to klipper to be able to dock and undock the probe as necessary to do the Endstop (if necessary) and Quad Gantry Level, it is in the Klipper Macro directory.
 
 Probe BOM:
-- 1x microswitch (like the omron D2F)
+- 1x microswitch (the omron D2F-5 or D2F-5L (removing the lever) is recommended)
 - 4x 6x3 magnets
 
 AB mount BOM:
