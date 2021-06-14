@@ -23,9 +23,10 @@ There are no need for supports, recommended settings are 4 perimeters/top/bottom
 
 The probe dock is mounted on the gantry, allowing it to be use as a Z endstop if desired (i use it that way).
 
-There are two gantry extrusion mounts possible:
-- one fixed to be used on the AB with MGN12 or MGN9
-- one that has some variance for other toolheads.
+There are three gantry extrusion mounts possible:
+- one fixed to be used on the Voron V2.4 or V1.8 AB with MGN12 or MGN9
+- one that has some variance for other toolheads
+- one fixed sidemount dock to allow a purge/scrub bucket on the left side of the bed
 
 The fixed gantry extrusion mounts have been confirmed to work on the Voron V2.4 and V1.8
 
@@ -43,7 +44,7 @@ It is also recommended to glue the magnets in place, superglue is good.
 You will need to add macros to klipper to be able to dock and undock the probe as necessary to do the Endstop (if necessary) and Quad Gantry Level, it is in the Klipper Macro directory.
 
 Probe BOM:
-- 1x microswitch (like the omron D2F)
+- 1x microswitch (the omron D2F-5 or D2F-5L (removing the lever) is recommended)
 - 4x 6x3 magnets
 
 AB mount BOM:
