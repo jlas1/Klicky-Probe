@@ -15,7 +15,7 @@ The objectives for this project are:
 
 It can also be used with the new ![automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) klipper plugin to efectively calculate the Z offset from the probe and from the Z endstop.
 
-The inspiration for the Klicky Probe comes from the ![Annex magprobe](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/tree/master/All_Printers/Microswitch_Probe) and the ![Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
+The inspiration for the Klicky Probe comes from the ![Annex magprobe, now renamed to Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe) and the ![Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
 
 ![Klicky Probe image](Photos/Klicky_Probe.png)
 
@@ -114,5 +114,6 @@ https://user-images.githubusercontent.com/16675722/122302371-eb9c4e00-cef9-11eb-
 
 
 It is working very well, if you decide to use it, give me feedback, either here, or on discord, my discord user is JosAr#0517.
+This mod is also on VoronUsers repository, ![here](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe)
 
 By standing on the shoulders of giants, lets see if we can see further.
