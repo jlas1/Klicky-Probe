@@ -13,14 +13,16 @@ The objectives for this project are:
 - no melting of its parts
 - cheap to built
 
-It can also be used with the new ![automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) klipper plugin to efectively calculate the Z offset from the probe and from the Z endstop.
+It can also be used with the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) klipper plugin to efectively calculate the Z offset from the probe and from the Z endstop.
 
-The inspiration for the Klicky Probe comes from the ![Annex magprobe, now renamed to Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe) and the ![Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
+The inspiration for the Klicky Probe comes from the [Annex magprobe, now renamed to Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe) and the [Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
 
 ![Klicky Probe image](Photos/Klicky_Probe.png)
 
+# Print Settings
 There are no need for supports, recommended settings are 4 perimeters/top/bottom, 13% infill.
 
+# Mounting Options
 The probe dock is mounted on the gantry, allowing it to be use as a Z endstop if desired (i use it that way).
 
 There are three gantry extrusion mounts possible:
@@ -32,6 +34,8 @@ There are three gantry extrusion mounts possible:
 <img src="Photos/Fixed_sidemount_complete.jpg" width="100">
 
 The fixed gantry extrusion mounts have been confirmed to work on the Voron V2.4 and V1.8
+
+# Assembly
 
 The normal magnet installation is that the two magnets that attach to the microswitch are installed with the same polarity, the 3rd magnet should have the inverse polarity.
 There is however the possibility that the magnets will demagnetize over time due to the alternating magnetic fields thay may result in a slow but sure demagnetization of the magnets, the magnets are so strong that may take a long time to show the effects of demagnetization YMMV.
@@ -62,6 +66,8 @@ You will need to add macros to klipper to be able to dock and undock the probe a
 
 <img src="/Photos/All_Klicky_probe_components.jpg" width="600" />
 
+# Bill of Materials (BOM)
+
 Probe BOM:
 - 1x microswitch (the omron D2F-5 or D2F-5L (removing the lever) is recommended)
 - 2x M2x10 self tapping
@@ -89,9 +95,10 @@ variable Dock mount:
 
 I will add more detail to this repository as we go along.
 
+# Dock/Undock Macro
 The macro is based on a version provided by the user garrettwp on Discord, many thanks to him.
 I have tweaked it a lot.
-It is also originally  based on the great Annex magnet dockable probe macros "#Originally developed by Mental, modified for better use on K-series printers by RyanG and Trails" and can be found ![here](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Microswitch_Probe/Klipper_Macros/dockable_probe_macros.cfg)
+It is also originally  based on the great Annex magnet dockable probe macros "#Originally developed by Mental, modified for better use on K-series printers by RyanG and Trails" and can be found [here](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Microswitch_Probe/Klipper_Macros/dockable_probe_macros.cfg)
 
 Would also like to thank the Voron discord community and VoronDesign for all the work that was and still is being made to maintain the Voron ecosystem.
 
@@ -104,16 +111,16 @@ The probe offsets are:
 - x_offset: 0
 - y_offset: 19.75
 
-Assembled Klicky Probe
-<p>
-<img src="/Photos/Voron_V2.4_300mm_back.jpg" />
+# Assembled Klicky Probe
 
-Dock and undock video
+![Assembled Klicky Probe](Photos/Voron_V2.4_300mm_back.jpg)
+
+# Dock and undock video
 
 https://user-images.githubusercontent.com/16675722/122302371-eb9c4e00-cef9-11eb-91d3-3aded131bae0.mp4
 
 
 It is working very well, if you decide to use it, give me feedback, either here, or on discord, my discord user is JosAr#0517.
-This mod is also on VoronUsers repository, ![here](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe)
+This mod is also on [VoronUsers repository](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe).
 
 By standing on the shoulders of giants, lets see if we can see further.
