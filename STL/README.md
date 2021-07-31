@@ -12,12 +12,12 @@ The Klicky Probe consists on four different components:
 - the probe itself
 - probe dock
 
-![Klicky Probe detail](Photos/Klicky_Probe detail.png)
+![Klicky Probe detail](../Photos/Klicky_Probe%20detail.png)
 
 - there is also the probe dock mount, of which there are currently three versions
   - gantry fixed dock mount (center) (usable on Voron V2.4 or V1.8)
   - gantry variable dock mount (right) (allow some variance to support custom toolheads)
   - gantry fixed dock sidemount (left) (tested for now on Voron V2.4 to allow a purge/scrub bucket on the left side of the bed)
 
-![Klicky Probe detail](Photos/Klicky_Probe.png)
+![Klicky Probe detail](../Photos/Klicky_Probe.png)
 
