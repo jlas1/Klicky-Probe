@@ -34,7 +34,7 @@ probe accuracy results: maximum 6.430000, minimum 6.426250, range 0.003750, aver
 
 There are no need for supports, recommended settings are 4 perimeters/top/bottom, 13% infill.
 
-![Klicky_Probe_recommended_printing_orientation](.\Photos\Klicky_Probe_recommended_printing_orientation.png)
+![](./Photos/Klicky_Probe_recommended_printing_orientation.jpg)
 
 # Mounting Options
 The probe dock is mounted on the gantry, allowing it to be use as a Z-Endstop if desired (I use it that way).
