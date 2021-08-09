@@ -195,7 +195,7 @@ It is also recommended to glue the magnets in place, superglue is good.
 
 After everything is assembled let's check again for continuity.
 
-<img src="C:\Users\Stefan\OneDrive\Projekte\3D Printing\Klicky-Probe\Photos\ABMountCheckforContiuity.jpg" width="600px;" />
+<img src="./Photos/ABMountCheckforContiuity.jpg" width="600px;" />
 
 ## Step 4: AB Mount installation and wiring
 
@@ -205,19 +205,19 @@ For the installation you need the following parts:
 
 
 
-<img src=".\Photos\ABMountInstalled.jpg" width="600px;" />
+<img src="./Photos/ABMountInstalled.jpg" width="600px;" />
 
-Connect the two wires from the Klicky-Probe to the blue and red wire of the PL-Probe.
+Connect the two wires from the Klicky-Probe to the GND and Signal of the Y-Endstop.
 
 Then plug the probe into the Y-Endstop Port in your Z-MCU (should be z:1.28)
 
-![](C:\Users\Stefan\OneDrive\Projekte\3D Printing\Klicky-Probe\Photos\SKR-V1.4-pinout.jpg)
+![SKR pinout](./Photos/SKR-V1.4-pinout.jpg)
 
 
 
 ## Assembled Klicky Probe
 
-![Assembled Klicky Probe](Photos/Voron_V2.4_300mm_back.jpg)
+![Assembled Klicky Probe](./Photos/Voron_V2.4_300mm_back.jpg)
 
 
 
