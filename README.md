@@ -13,6 +13,8 @@ The objectives for this project are:
 - no melting of its parts
 - cheap to built
 
+Updated instructions provided by StefanRaatz (robbstech V2.663#9945 on Voron Discord)
+
 It can also be used with the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) Klipper plugin to effectively calculate the Z offset from the probe and from the Z-Endstop.
 
 The inspiration for the Klicky-Probe comes from the [Annex magprobe, now renamed to Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe) and the [Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
@@ -293,7 +295,7 @@ If you want to use your Klicky-Probe as a Z-Endstop, then you need to set the tw
 
 `variable_z_endstop_y:     0`
 
-### Calibrate Nozzle offset
+### Calibrate Nozzle offset (pending a permanent solution)
 
 There is a know bug within the macro which won't let you save the offset after the probe is undocked.
 
