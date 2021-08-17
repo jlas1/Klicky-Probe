@@ -3,15 +3,15 @@ Microswitch probe with magnetic attachment, primarily aimed at CoreXY 3d printer
 
 The objectives for this project are:
 - drop in replacement for Omron TL-Q5MC2 or PL-08N2 (you don't need to replace the toolhead)
-- easier and faster to build than similiar probe types
+- easier and faster to build than similar probe types
   - does not require soldering
-  - fixed probe dock mount (for the printers that are supported), less variables to adjust
+  - fixed probe dock mount (for the printers that are suported), less variables to adjust
 - be able to detect all the print surfaces
 - be as close to the hotend tip as possible
-- high repetitive and accurate probes
+- highly repeatable and accurate probes
 - less temperature variations
 - no melting of its parts
-- cheap to built
+- cheap to build
 
 Updated instructions provided by StefanRaatz (robbstech V2.663#9945 on Voron Discord)
 
@@ -39,7 +39,7 @@ There are no need for supports, recommended settings are 4 perimeters/top/bottom
 ![](./Photos/Klicky_Probe_recommended_printing_orientation.jpg)
 
 # Mounting Options
-The probe dock is mounted on the gantry, allowing it to be use as a Z-Endstop if desired (I use it that way).
+The probe dock is mounted on the gantry, allowing it to be used as a Z endstop if desired (I use it that way).
 
 There are three gantry extrusion mounts possible:
 - one fixed to be used on the Voron V2.4 or V1.8 AB with MGN12 or MGN9
@@ -248,7 +248,7 @@ Within the `[probe]` section also adjust your probe offset to the following valu
 
 You need to set the probe offset within your `printer.cfg`  
 
-There is now a arrow on the probe telling you where should the switch pole be to have the correct offset.
+There is now an arrow on the probe telling you where should the switch pole be to have the correct offset.
 The probe offsets are:
 
 `z_offset = 6.42`
