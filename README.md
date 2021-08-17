@@ -13,11 +13,16 @@ The objectives for this project are:
 - no melting of its parts
 - cheap to build
 
-Updated instructions provided by StefanRaatz (robbstech V2.663#9945 on Voron Discord)
-
 It can also be used with the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) Klipper plugin to effectively calculate the Z offset from the probe and from the Z-Endstop.
 
 The inspiration for the Klicky-Probe comes from the [Annex magprobe, now renamed to Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe) and the [Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
+
+Updated instructions provided by StefanRaatz (robbstech V2.663#9945 on Voron Discord).
+oc_geek and TurBoxxs were also a great help in refining and testing the CAD files.
+Garrettwp provided the initial revised macro files.
+Mental created the initial macro and one of the first magnetically attached microswitch probes.
+
+Without them, this effort would not be in the current state, many thanks to them.
 
 ![Klicky Probe image](Photos/Klicky_Probe.png)
 
