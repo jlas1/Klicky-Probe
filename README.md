@@ -214,13 +214,8 @@ For the installation you need the following parts:
 
 <img src="./Photos/ABMountInstalled.jpg" width="600px;" />
 
-Connect the two wires from the Klicky-Probe to the GND and Signal of the Y-Endstop.
-
-Then plug the probe into the Y-Endstop Port in your Z-MCU (should be z:1.28)
-
-![SKR pinout](./Photos/SKR-V1.4-pinout.jpg)
-
-
+Connect the two wires from the Klicky-Probe to the GND and Signal of the recommended Probe signal for your board, you can even leave the BAT58 that is necessary for the 24v inductive probes.
+Just take care to leave the +24V of the inductive probe disconnected.
 
 ## Assembled Klicky Probe
 
