@@ -9,8 +9,6 @@ Gave me better contact
 
 This is a modified MGN12 X carriage for the Voron 2.4 which directly interfaces
 with the Klicky. This is based on ![Arkeet's MGN12 carriage](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12)
-!!Notice!!
-The carriage needs to be updated to fix the magnet position for Hall effect endstop, works fine if not using it
 
 ![## More Roboust Klicky Probe](./oc_geek/)
 

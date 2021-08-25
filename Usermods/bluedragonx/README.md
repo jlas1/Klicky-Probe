@@ -40,6 +40,8 @@ Both dock mounts are 4mm shorter in the Z direction. The fixed dock mount is als
 
 * 2021-07-26
   - Tighter tolerances for magnet holes.
+* 2021-08-25
+  - Move hall effect magnet to correct location. 
 
 
 [1]: https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12 "Arkeet's MGN12 Carriage"
