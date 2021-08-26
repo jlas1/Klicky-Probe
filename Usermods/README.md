@@ -18,8 +18,9 @@ Microswitch body exposed by a tiny bit
 
 ![## Klicky dock mount for Legacy](./Baltojikale/)
 
-Designed for Voron Legacy
-extended the front by 15 mm (if im remembering correctly) and lowered legs upper part with all features by 12.5mm.
+~~Designed for Voron Legacy
+extended the front by 15 mm (if im remembering correctly) and lowered legs upper part with all features by 12.5mm.~~
+deprecated, new version incomming
 
 ![## Modded Z endstop for v1.8](./Yeri/)
 
