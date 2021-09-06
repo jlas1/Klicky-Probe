@@ -210,12 +210,30 @@ For the installation you need the following parts:
 
 - [ ] 2x M3x8 mm SHC Screws
 
-
-
 <img src="./Photos/ABMountInstalled.jpg" width="600px;" />
 
 Connect the two wires from the Klicky-Probe to the GND and Signal of the recommended Probe signal for your board, you can even leave the BAT58 that is necessary for the 24v inductive probes.
 Just take care to leave the +24V of the inductive probe disconnected.
+
+## Step 5: Klipper configuration
+
+This example uses the default Voron V2 SKR1.4 configuration, with the probe connected to the P0.10 pin.
+```python
+[probe]
+pin: ^P0.10
+x_offset: 0
+y_offset: 19.75
+z_offset: 6.42
+speed: 5
+samples:3 
+samples_result: median
+samples_retract_dist: 2.0
+samples_tolerance: 0.01
+samples_tolerance_retries: 3
+```
+
+Please confirm that if you are using the probe input, that the pull-up is enable by using the ^ sign.
+Normally the endstop pind have a hardware solution.
 
 ## Assembled Klicky Probe
 
@@ -283,7 +301,7 @@ If you have your Dock mounted to the bed then you need to adjust the `variable_d
 
 ### Use Klicky-Probe with/without Z-Endstop switch (Voron)
 
-If you want to use the Z-Endstop switch of the Voron to calculate the Z-Offset we the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) you also need to set the following, two lines, this is the Z-Endstop Location from your `printer.cfg`.
+If you want to use the Z-Endstop switch of the Voron you also need to set the following, two lines, this is the Z-Endstop Location from your `printer.cfg`.
 
 `variable_z_endstop_x:`     
 
@@ -295,24 +313,14 @@ If you want to use your Klicky-Probe as a Z-Endstop, then you need to set the tw
 
 `variable_z_endstop_y:     0`
 
-### Calibrate Nozzle offset (pending a permanent solution)
+### Automatic Z Calibration
 
-There is a know bug within the macro which won't let you save the offset after the probe is undocked.
+If you want to use the Z-Endstop switch of the Voron to calculate the Z-Offset, use the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration).
 
-[Probe_Calibrate Error · Issue #8 · jlas1/Klicky-Probe (github.com)](https://github.com/jlas1/Klicky-Probe/issues/8)
+Most of necessary macros are already included in the klick-probe.cfg, what is missing is the specific z_calibration configuration and the macro that is called to do the actual calibration.
+All of this is included in the [Klicky automatic Z calibration configuration](https://github.com/jlas1/Klicky-Probe/blob/main/Klipper_macro/z_calibration.cfg)
 
-Find the `PROBE_CALIBRATE` section in your `klicky-probe.cfg`and comment out the following two lines
-
-`#Dock_Probe`
-
-`#RESTORE_GCODE_STATE NAME=_original_nozzle_location MOVE=1 MOVE_SPEED={St}`
-
-Then move your printhead to the middle of your build plate and run `PROBE_CALIBRATE`
-
-After the script finished the probe accuracy test it will move the print head by the offset specified within the `printer.cfg`
-
-Now you need to manually remove the Klicky-Probe from the printhead and proceed as normal.
-
+You should then add a call to CALIBRATE_Z at the end of your PRINTER_START (before any purge line).
 
 
 Congratulations, your done :).
