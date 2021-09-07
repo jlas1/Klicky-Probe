@@ -20,7 +20,7 @@ Microswitch body exposed by a tiny bit
 
 ~~Designed for Voron Legacy
 extended the front by 15 mm (if im remembering correctly) and lowered legs upper part with all features by 12.5mm.~~
-deprecated, new version incomming
+deprecated, new version incoming
 
 ![## Modded Z endstop for v1.8](./Yeri/)
 
