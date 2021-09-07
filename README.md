@@ -222,7 +222,7 @@ This example uses the default Voron V2 SKR1.4 configuration, with the probe conn
 [probe]
 pin: ^P0.10
 x_offset: 0
-y_offset: 19.75
+y_offset: 21.00 (updated from 19.75)
 z_offset: 6.42
 speed: 5
 samples:3 
