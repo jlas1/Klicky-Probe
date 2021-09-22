@@ -39,19 +39,19 @@ probe accuracy results: maximum 6.430000, minimum 6.426250, range 0.003750, aver
 
 # Print Settings
 
-There are no need for supports, recommended settings are 4 perimeters/top/bottom, 13% infill.
+There are no need for supports, recommended settings are 4 perimeters/top/bottom, 13% infill, the STL's are already oriented.
 
-![](./Photos/Klicky_Probe_recommended_printing_orientation.jpg)
+![](./Photos/Klicky_Probe_recommended_printing_orientation.png)
 
 # Mounting Options
 The probe dock is mounted on the gantry, allowing it to be used as a Z endstop if desired (I use it that way).
 
 There are three gantry extrusion mounts possible:
-- one fixed to be used on the Voron V2.4 or V1.8 AB with MGN12 or MGN9
+- one fixed to be used on the Voron Trident, V2.4, V1.8 AB with MGN12 or MGN9
 <img src="Photos/Fixed_mount_complete.jpg" width="100">
 - one that has some variance for other toolheads
 <img src="Photos/Variable_mount_complete.jpg" width="100">
-- one fixed sidemount dock to allow a purge/scrub bucket on the left side of the bed
+- one fixed sidemount dock (also for Trident, V2.4 or V1.8) to allow a purge/scrub bucket on the left/right side of the bed
 <img src="Photos/Fixed_sidemount_complete.jpg" width="100">
 
 The fixed gantry extrusion mounts have been confirmed to work on the Voron V2.4 and V1.8
