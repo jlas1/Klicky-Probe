@@ -6,5 +6,7 @@ Modified Klicky-Probe to mount on a Voron Legacy. Docking components are designe
 ## Pertinent Info
 
 **Parts** Oriented for printing
+
 **CAD** Included should you want to modify
+
 **Tested** Currently using on a Legacy with no issues 
