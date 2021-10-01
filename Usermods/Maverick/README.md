@@ -10,3 +10,5 @@ Modified Klicky-Probe to mount on a Voron Legacy. Docking components are designe
 **CAD** Included should you want to modify
 
 **Tested** Currently using on a Legacy with no issues 
+
+![Maverick](Images/C14_Inlet.PNG)
