@@ -13,4 +13,10 @@ Modified Klicky-Probe to mount on a Voron Legacy. Docking components are designe
 
 ![Maverick](Images/klicky_legacy_1.PNG)
 
-Usermods/Maverick/Images/klicky_legacy_1.PNG
+![Maverick](Images/klicky_legacy_2.PNG)
+
+![Maverick](Images/klicky_legacy_3.PNG)
+
+![Maverick](Images/klicky_legacy_4.PNG)
+
+![Maverick](Images/klicky_legacy_5.PNG)
