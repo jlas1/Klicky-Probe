@@ -16,11 +16,9 @@ Beefier column and revised holes for zip tie (was def too small); reduced height
 Chanfered bottom in all direction (also sides) on the probe carriage
 Microswitch body exposed by a tiny bit
 
-![## Klicky dock mount for Legacy](./Baltojikale/)
+![## Klicky dock mount for Legacy](./Maverick/)
 
-~~Designed for Voron Legacy
-extended the front by 15 mm (if im remembering correctly) and lowered legs upper part with all features by 12.5mm.~~
-deprecated, new version incoming
+Modified Klicky-Probe to mount on a Voron Legacy. Docking components are designed to allow for adjustments on the Z and Y axis. 
 
 ![## Modded Z endstop for v1.8](./Yeri/)
 
