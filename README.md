@@ -54,6 +54,8 @@ There are three gantry extrusion mounts possible:
 - one fixed sidemount dock (also for Trident, V2.4 or V1.8) to allow a purge/scrub bucket on the left/right side of the bed
 <img src="Photos/Fixed_sidemount_complete.jpg" width="100">
 
+There are also some more mounting options on ![Usermods](./Usermods/), for other printers (Voron Legacy), integrated magnets in the AfterBurner toolhead and some complementary items. ***Check it out***
+
 The fixed gantry extrusion mounts have been confirmed to work on the Voron V2.4 and V1.8
 
 # Bill of Materials (BOM)
