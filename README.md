@@ -289,7 +289,8 @@ One of the last things we need to do is to adjust the probe pickup position.
 
 For this we need to home the x and y axis of our printer then attach manually the probe to the AB-Mount.
 
-Now juggl the probe to the probe dock and move it so far to the back that the probe docks, note done the X- and Y-Positions.
+Now manually move the toolhead to the probe dock and move it so far to the back that the probe docks, note the Y-Position.
+Next, again manually, move the toolhead left and right until the probe it is perfectly aligned with the mount, note the X.Position.
 
 Open you `klicky-probe.cfg` and find the `#dock location` section and edit the following two line
 
@@ -322,8 +323,13 @@ All of this is included in the [Klicky automatic Z calibration configuration](ht
 
 You should then add a call to CALIBRATE_Z at the end of your PRINTER_START (before any purge line).
 
+If you do not have a [bed mesh] section, klipper will give an error, you need to enable the [bed_mesh] section.
+
+I recommend doing all the tests with no PEI sheet and with a cool toolhead and bed.
 
 Congratulations, your done :).
+
+***WARNING when you are doing PROBE_ACCURACY, make sure that the probe is above the bed, the PROBE_ACCURACY macro does not move the toolhead in X or Y.***
 
 Enjoy your Klicky Probe!
 
