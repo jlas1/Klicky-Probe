@@ -24,6 +24,8 @@ Mental created the initial macro and one of the first magnetically attached micr
 
 Without them, this effort would not be in the current state, many thanks to them.
 
+If you want to donate something regarding this project, use this [link](https://paypal.me/Josar154), thanks
+
 ![Klicky Probe image](Photos/Klicky_Probe.png)
 
 
