@@ -272,12 +272,11 @@ You need to set the probe offset within your `printer.cfg`
 
 There is now an arrow on the probe telling you where should the switch pole be to have the correct offset.
 The probe offsets are:
-
-`z_offset = 6.42`
-
-`x_offset: 0 `
-
-`y_offset: 19.75`
+```python
+z_offset = 6.42
+x_offset: 0 
+y_offset: 19.75
+```
 
 ### Z-Endstop and Probe configuration
 
@@ -291,32 +290,45 @@ You don't need to change anything else leave it as it is, so you can easily reve
 
 One of the last things we need to do is to adjust the probe pickup position.
 
-For this we need to home the x and y axis of our printer then attach manually the probe to the AB-Mount.
+For this we need to make sure that the gantry is [deracked](https://www.youtube.com/watch?v=cOn6u9kXvy0), the x and y axis are homed and the probe is manually attached to the AB-Mount.
 
 Now manually move the toolhead to the probe dock and move it so far to the back that the probe docks, note the Y-Position.
 Next, again manually, move the toolhead left and right until the probe it is perfectly aligned with the mount, note the X.Position.
 
 Open you `klicky-probe.cfg` and find the `#dock location` section and edit the following two line
 
-`variable_docklocation_x:`
-
-`variable_docklocation_y:`
+```python
+variable_docklocation_x:
+variable_docklocation_y:
+```
 
 If you have your Dock mounted to the bed then you need to adjust the `variable_docklocation_z:`, too.
+
+#### Hall sensors as Y endstop
+
+If you are using a hall sensor as endstop, you need to make sure that on your Y maximum, the gantry is almost hitting the AB motor mounts, you can have a Y position maximum "behind" the Y endstop position, like this:
+```python
+[stepper_y]
+position_endstop: 303
+position_max: 305
+```
+
 
 ### Use Klicky-Probe with/without Z-Endstop switch (Voron)
 
 If you want to use the Z-Endstop switch of the Voron you also need to set the following, two lines, this is the Z-Endstop Location from your `printer.cfg`.
 
-`variable_z_endstop_x:`     
-
-`variable_z_endstop_y:`
+```python
+variable_z_endstop_x:
+variable_z_endstop_y:
+```
 
 If you want to use your Klicky-Probe as a Z-Endstop, then you need to set the two lines to, `0`.
 
-`variable_z_endstop_x:     0`
-
-`variable_z_endstop_y:     0`
+```python
+variable_z_endstop_x:     0
+variable_z_endstop_y:     0
+```
 
 ### Automatic Z Calibration
 
