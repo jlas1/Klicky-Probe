@@ -226,7 +226,7 @@ This example uses the default Voron V2 SKR1.4 configuration, with the probe conn
 [probe]
 pin: ^P0.10
 x_offset: 0
-y_offset: 21.00 (updated from 19.75)
+y_offset: 21.00
 z_offset: 6.42
 speed: 5
 samples:3 
@@ -234,6 +234,16 @@ samples_result: median
 samples_retract_dist: 2.0
 samples_tolerance: 0.01
 samples_tolerance_retries: 3
+```
+
+Also, make sure that the horizontal_move_z on the bed mesh and QGL is high enought that the probe will not hit the bed (needs to be at least 8mm)
+
+```python
+[bed_mesh]
+horizontal_move_z: 10
+
+[quad_gantry_level]
+horizontal_move_z: 10
 ```
 
 Please confirm that if you are using the probe input, that the pull-up is enable by using the ^ sign.
