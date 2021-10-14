@@ -255,7 +255,7 @@ Normally the endstop pind have a hardware solution.
 
 
 
-## Step 5: Klipper configuration Dock/Undock Macro
+## Step 6: Klipper configuration Dock/Undock Macro
 You will need to add macros to klipper to be able to dock and undock the probe as necessary to do the Endstop (if necessary) and Quad Gantry Level, it is in the Klipper Macro directory.
 
 The macro is based on a version provided by the user garrettwp on Discord, many thanks to him.
@@ -292,9 +292,23 @@ y_offset: 19.75
 
 If you want to use the Klicky-Probe as your Z-Endstop, you need to change the `endstop_pin:` under the `[stepper_z]` section to `probe:z_virtual_endstop` . Just comment out the old one and add a new line `endstop_pin: probe:z_virtual_endstop`. 
 
-You don't need to change anything else leave it as it is, so you can easily revert back to the original setup.
+You don't need to change anything else in the printer.cfg, so leave it as it is, you can easily revert back to the original setup.
 
+### Use Klicky-Probe with/without Z-Endstop switch (Voron)
 
+If you want to use the Z-Endstop switch of the Voron you also need to set the following two lines, this is the Z-Endstop Location from your `printer.cfg`.
+
+```python
+variable_z_endstop_x:
+variable_z_endstop_y:
+```
+
+If you want to use your Klicky-Probe as a Z-Endstop, then you need to set the two lines to, `0`.
+
+```python
+variable_z_endstop_x:     0
+variable_z_endstop_y:     0
+```
 
 ### Adjust Probe Pickup Position
 
@@ -321,23 +335,6 @@ If you are using a hall sensor as endstop, you need to make sure that on your Y 
 [stepper_y]
 position_endstop: 303
 position_max: 305
-```
-
-
-### Use Klicky-Probe with/without Z-Endstop switch (Voron)
-
-If you want to use the Z-Endstop switch of the Voron you also need to set the following, two lines, this is the Z-Endstop Location from your `printer.cfg`.
-
-```python
-variable_z_endstop_x:
-variable_z_endstop_y:
-```
-
-If you want to use your Klicky-Probe as a Z-Endstop, then you need to set the two lines to, `0`.
-
-```python
-variable_z_endstop_x:     0
-variable_z_endstop_y:     0
 ```
 
 ### Automatic Z Calibration
