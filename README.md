@@ -1,4 +1,4 @@
-# Klicky-Probe
+# Klicky Probe
 Microswitch probe with magnetic attachment, primarily aimed at CoreXY 3d printers with a focus on the Voron printers, should work on other printers with the variable mount.
 
 The objectives for this project are:
@@ -13,16 +13,16 @@ The objectives for this project are:
 - no melting of its parts
 - cheap to build
 
-It can also be used with the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) Klipper plugin to effectively calculate the Z offset from the probe and from the Z-Endstop.
+It can also be used with the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) klipper plugin to effectively calculate the Z offset from the probe and from the Z endstop.
 
-The inspiration for the Klicky-Probe comes from the [Annex magprobe, now renamed to Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe) and the [Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
+The inspiration for the Klicky Probe comes from the Quickdraw(https://github.com/Annex-Engineering/Quickdraw_Probe) and the [Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
 
-Updated instructions provided by StefanRaatz (robbstech V2.663#9945 on Voron Discord).
+Updated instructions provided by StefanRaatz.
 oc_geek and TurBoxxs were also a great help in refining and testing the CAD files.
 Garrettwp provided the initial revised macro files.
 Mental created the initial macro and one of the first magnetically attached microswitch probes.
 
-Without them, this effort would not be in the current state, many thanks to them.
+Without them, and some others this effort would not be in the current state, many thanks to them all.
 
 If you want to donate something regarding this project, use this [link](https://paypal.me/Josar154), thanks
 
@@ -48,7 +48,7 @@ There are no need for supports, recommended settings are 4 perimeters/top/bottom
 # Mounting Options
 The probe dock is mounted on the gantry, allowing it to be used as a Z endstop if desired (I use it that way).
 
-There are three gantry extrusion mounts possible:
+There are three "official" (developed by me) gantry extrusion mounts possible:
 - one fixed to be used on the Voron Trident, V2.4, V1.8 AB with MGN12 or MGN9
 <img src="Photos/Fixed_mount_complete.jpg" width="100">
 - one that has some variance for other toolheads
@@ -58,13 +58,13 @@ There are three gantry extrusion mounts possible:
 
 There are also some more mounting options on [Usermods](./Usermods/), for other printers (Voron Legacy), integrated magnets in the AfterBurner toolhead and some complementary items. ***Check it out***
 
-The fixed gantry extrusion mounts have been confirmed to work on the Voron V2.4 and V1.8
+This mod is also on [VoronUsers repository](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky Probe).
 
 # Bill of Materials (BOM)
 
 Tools:
 
-- 1.5mm Drill 
+- 1.5mm Drill (optional)
 - Multimeter to check for Continuity 
 - Super Glue
 - Soldering Iron for the heat inserts
@@ -79,7 +79,7 @@ AB mount BOM:
 
 - 3x 6 mm x 3 mm magnets
 - 2x M3x8 mm SHC Screws
-- 2 x 10cm 20AWG cable to connect the Klicky-Probe to the Mircofit Terminal
+- 2x 10cm 22AWG cable to connect the Klicky Probe to the terminal
 
 Probe Dock:
 
@@ -88,7 +88,7 @@ Probe Dock:
 
 Fixed Dock mount:
 
-- 2x M3 threaded insert M3x5x4
+- 2x M3 threaded insert M3x5 mmx4 mm
 - 2x M5x10 mm
 - 2x M5 t-nut or equivalent
 
@@ -96,7 +96,7 @@ or
 
 variable Dock mount:
 
-- 10x M3 threaded insert M3x5x4
+- 10x M3 threaded insert M3x5 mmx4 mm
 - 8x M3x8 mm
 - 2x M5x10 mm
 - 2x M5 t-nut or equivalent
@@ -115,7 +115,7 @@ I will add more detail to this repository as we go along.
 
 ## Step 1 - Dock mount and Probe Dock assembly (fixed Dock mount)
 
-- [ ] 2x M3 threaded insert M3x5x4
+- [ ] 2x M3 threaded insert M3x5 mmx 4 mm
 - [ ] 2x M5x10 mm
 - [ ] 2x M5 t-nut or equivalent
 
@@ -129,7 +129,7 @@ Install the magnet in the Probe dock and screw it onto the Dock mount with the t
 
 Secure the magnet with a dab of super glue.
 
-<img src=".\Photos\DockMountandProbeMount.jpg" alt="20210802_122818" style="zoom:15%;" />
+<img src=".\Photos\DockMountandProbeMount.jpg" alt="DockMountandProbeMount" style="zoom:15%;" />
 
 Mount the Probe Dock to the back rail of your gantry with the two M5x10 and the two roll in nuts.
 
@@ -140,7 +140,7 @@ For the probe assembly you need the following parts:
 - [ ] 1x microswitch (the omron D2F-5 or D2F-5L (removing the lever) is recommended)
 - [ ] 2x M2x10 mm self tapping
 - [ ] 4x 6 mm x 3 mm magnets
-- [ ] 1.5mm Drill 
+- [ ] 1.5mm Drill (optional)
 - [ ] Multimeter to check for Continuity 
 - [ ] Super Glue
 
@@ -185,7 +185,7 @@ If you have a normally open switch, then no current should flow, so no continuit
 For the AB Mount assembly you need the following parts
 
 - [ ] 3x 6 mm x 3 mm magnets
-- [ ] 2 x 10cm 20AWG cable to connect the Klicky-Probe to the Mircofit Terminal
+- [ ] 2 x 10cm 20AWG cable to connect the Klicky Probe to the Mircofit Terminal
 - [ ] Multimeter to check for Continuity 
 - [ ] Super Glue
 
@@ -216,10 +216,10 @@ For the installation you need the following parts:
 
 <img src="./Photos/ABMountInstalled.jpg" width="600px;" />
 
-Connect the two wires from the Klicky-Probe to the GND and Signal of the recommended Probe signal for your board, you can even leave the BAT85 that is necessary for the 24v inductive probes.
+Connect the two wires from the Klicky Probe to the GND and Signal of the recommended Probe signal for your board, you can even leave the BAT85 that is necessary for the 24v inductive probes.
 Just take care to leave the +24V of the inductive probe disconnected.
 
-## Step 5: Klipper configuration
+## Step 5: klipper configuration
 
 This example uses the default Voron V2 SKR1.4 configuration, with the probe connected to the P0.10 pin.
 ```python
@@ -255,26 +255,26 @@ Normally the endstop pind have a hardware solution.
 
 
 
-## Step 6: Klipper configuration Dock/Undock Macro
-You will need to add macros to klipper to be able to dock and undock the probe as necessary to do the Endstop (if necessary) and Quad Gantry Level, it is in the Klipper Macro directory.
+## Step 6: klipper configuration Dock/Undock Macro
+You will need to add macros to klipper to be able to dock and undock the probe as necessary to do the Endstop (if necessary) and Quad Gantry Level, it is in the klipper Macro directory.
 
 The macro is based on a version provided by the user garrettwp on Discord, many thanks to him.
 I have tweaked it a lot.
-It is also originally  based on the great Annex magnet dockable probe macros "#Originally developed by Mental, modified for better use on K-series printers by RyanG and Trails" and can be found [here](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Microswitch_Probe/Klipper_Macros/dockable_probe_macros.cfg)
+It is also originally  based on the great Annex magnet dockable probe macros "#Originally developed by Mental, modified for better use on K-series printers by RyanG and Trails" and can be found [here](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Microswitch_Probe/klipper_Macros/dockable_probe_macros.cfg)
 
 Would also like to thank the Voron discord community and VoronDesign for all the work that was and still is being made to maintain the Voron ecosystem.
 
 
 
-### Klipper Configuration and Probe offset
+### klipper Configuration and Probe offset
 
-Download the appropriate klicky-probe.cfg and upload it to your Klipper Config folder.
+Download the appropriate Klicky Probe.cfg and upload it to your klipper Config folder.
 
 Then open your printer.cfg file and add the following line before the "Macros" Section.
 
-`[include klicky-probe.cfg]`
+`[include Klicky Probe.cfg]`
 
-Within your printer.cfg file search for the `[probe]` section and change the pin assignment to the new one `z:P1.28` or the ID where you connected your Klicky-Probe to. Depending on your switch you may need to add a `!` to invert that pin (normally open vs. normally closed).
+Within your printer.cfg file search for the `[probe]` section and change the pin assignment to the new one `z:P1.28` or the ID where you connected your Klicky Probe to. Depending on your switch you may need to add a `!` to invert that pin (normally open vs. normally closed).
 
 Within the `[probe]` section also adjust your probe offset to the following values.
 
@@ -288,22 +288,22 @@ x_offset: 0
 y_offset: 19.75
 ```
 
-### Z-Endstop and Probe configuration
+### Z endstop and Probe configuration
 
-If you want to use the Klicky-Probe as your Z-Endstop, you need to change the `endstop_pin:` under the `[stepper_z]` section to `probe:z_virtual_endstop` . Just comment out the old one and add a new line `endstop_pin: probe:z_virtual_endstop`. 
+If you want to use the Klicky Probe as your Z endstop, you need to change the `endstop_pin:` under the `[stepper_z]` section to `probe:z_virtual_endstop` . Just comment out the old one and add a new line `endstop_pin: probe:z_virtual_endstop`. 
 
 You don't need to change anything else in the printer.cfg, so leave it as it is, you can easily revert back to the original setup.
 
-### Use Klicky-Probe with/without Z-Endstop switch (Voron)
+### Use Klicky Probe with/without Z endstop switch (Voron)
 
-If you want to use the Z-Endstop switch of the Voron you also need to set the following two lines, this is the Z-Endstop Location from your `printer.cfg`.
+If you want to use the Z endstop switch of the Voron you also need to set the following two lines, this is the Z endstop Location from your `printer.cfg`.
 
 ```python
 variable_z_endstop_x:
 variable_z_endstop_y:
 ```
 
-If you want to use your Klicky-Probe as a Z-Endstop, then you need to set the two lines to, `0`.
+If you want to use your Klicky Probe as a Z endstop, then you need to set the two lines to, `0`.
 
 ```python
 variable_z_endstop_x:     0
@@ -319,7 +319,7 @@ For this we need to make sure that the gantry is [deracked](https://www.youtube.
 Now manually move the toolhead to the probe dock and move it so far to the back that the probe docks, note the Y-Position.
 Next, again manually, move the toolhead left and right until the probe it is perfectly aligned with the mount, note the X.Position.
 
-Open you `klicky-probe.cfg` and find the `#dock location` section and edit the following two line
+Open you `Klicky Probe.cfg` and find the `#dock location` section and edit the following two line
 
 ```python
 variable_docklocation_x:
@@ -339,10 +339,10 @@ position_max: 305
 
 ### Automatic Z Calibration
 
-If you want to use the Z-Endstop switch of the Voron to calculate the Z-Offset, use the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration).
+If you want to use the Z endstop switch of the Voron to calculate the Z-Offset, use the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration).
 
 Most of necessary macros are already included in the klick-probe.cfg, what is missing is the specific z_calibration configuration and the macro that is called to do the actual calibration.
-All of this is included in the [Klicky automatic Z calibration configuration](https://github.com/jlas1/Klicky-Probe/blob/main/Klipper_macro/z_calibration.cfg)
+All of this is included in the [Klicky automatic Z calibration configuration](https://github.com/jlas1/Klicky Probe/blob/main/klipper_macro/z_calibration.cfg)
 
 You should then add a call to CALIBRATE_Z at the end of your PRINTER_START (before any purge line).
 
@@ -363,6 +363,5 @@ Enjoy your Klicky Probe!
 https://user-images.githubusercontent.com/16675722/122302371-eb9c4e00-cef9-11eb-91d3-3aded131bae0.mp4
 
 It is working very well, if you decide to use it, give me feedback, either here, or on discord, my discord user is JosAr#0517.
-This mod is also on [VoronUsers repository](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe).
 
 By standing on the shoulders of giants, lets see if we can see further.
