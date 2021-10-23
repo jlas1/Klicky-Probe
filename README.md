@@ -15,7 +15,7 @@ The objectives for this project are:
 
 It can also be used with the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration) klipper plugin to effectively calculate the Z offset from the probe and from the Z endstop.
 
-The inspiration for the Klicky Probe comes from the Quickdraw(https://github.com/Annex-Engineering/Quickdraw_Probe) and the [Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
+The inspiration for the Klicky Probe comes from the [Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe) and the [Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects.
 
 Updated instructions provided by StefanRaatz.
 oc_geek and TurBoxxs were also a great help in refining and testing the CAD files.
@@ -178,8 +178,6 @@ As the last step of the probe assembly check if you have continuity between thes
 
 If you have a normally open switch, then no current should flow, so no continuity. When you press the switch you should have continuity. When you have a normally closed switch then the behavior is the other way around.
 
-
-
 ## Step 3: AB Mount Assembly
 
 For the AB Mount assembly you need the following parts
@@ -207,6 +205,27 @@ It is also recommended to glue the magnets in place, superglue is good.
 After everything is assembled let's check again for continuity.
 
 <img src="./Photos/ABMountCheckforContiuity.jpg" width="600px;" />
+
+
+
+## Step 3.1: Press-fit the magnets
+
+You can now press fit the magnets in place, with the AB_mount_press_Helper and Klicky_probe_press_Helper parts:
+
+<p float="left">
+  <img src="./Photos/Klicky_probe_press_Helper.jpg" width="300" />
+  <img src="./Photos/AB_mount_press_Helper.jpg" width="300" />
+</p>
+
+Insert the AB mount and probe in the helper parts and you can then press fit with a vice or on a hard surface.
+
+<p float="left">
+  <img src="./Photos/Klicky_probe_press_Helper_inuse.jpg" width="300" />
+  <img src="./Photos/AB_mount_press_Helper_inuseBack.jpg" width="300" />
+  <img src="./Photos/AB_mount_press_Helper_inuseTop.jpg" width="300" />
+</p>
+
+
 
 ## Step 4: AB Mount installation and wiring
 
