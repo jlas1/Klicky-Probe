@@ -250,7 +250,7 @@ z_offset: 6.42
 speed: 5
 samples:3 
 samples_result: median
-samples_retract_dist: 2.0
+sample_retract_dist: 2.0
 samples_tolerance: 0.01
 samples_tolerance_retries: 3
 ```
