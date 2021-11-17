@@ -58,7 +58,7 @@ There are three "official" (developed by me) gantry extrusion mounts possible:
 
 There are also some more mounting options on [Usermods](./Usermods/), for other printers (Voron Legacy), integrated magnets in the AfterBurner toolhead and some complementary items. ***Check it out***
 
-This mod is also on [VoronUsers repository](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky Probe).
+This mod is also on [VoronUsers repository](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe) .
 
 # Bill of Materials (BOM)
 
@@ -291,7 +291,7 @@ Download the appropriate Klicky Probe.cfg and upload it to your klipper Config f
 
 Then open your printer.cfg file and add the following line before the "Macros" Section.
 
-`[include Klicky Probe.cfg]`
+`[include Klicky-Probe.cfg]`
 
 Within your printer.cfg file search for the `[probe]` section and change the pin assignment to the new one `z:P1.28` or the ID where you connected your Klicky Probe to. Depending on your switch you may need to add a `!` to invert that pin (normally open vs. normally closed).
 
@@ -338,7 +338,7 @@ For this we need to make sure that the gantry is [deracked](https://www.youtube.
 Now manually move the toolhead to the probe dock and move it so far to the back that the probe docks, note the Y-Position.
 Next, again manually, move the toolhead left and right until the probe it is perfectly aligned with the mount, note the X.Position.
 
-Open you `Klicky Probe.cfg` and find the `#dock location` section and edit the following two line
+Open your `Klicky-Probe.cfg` and find the `#dock location` section and edit the following two line
 
 ```python
 variable_docklocation_x:
@@ -362,7 +362,7 @@ If you want to use the Z endstop switch of the Voron to calculate the Z-Offset, 
 Besides the macros from this repository, you will need to install the Z Autocalibration plugin, the recommended way is via [moonraker](https://github.com/protoloft/klipper_z_calibration#moonraker-updater).
 
 Regarding the configuration and necessary macros, most of necessary macros are already included in the klick-probe.cfg, what is missing is the specific z_calibration configuration and the macro that is called to do the actual calibration.
-All of this is included in the [Klicky automatic Z calibration configuration](https://github.com/jlas1/Klicky Probe/blob/main/klipper_macro/z_calibration.cfg)
+All of this is included in the [Klicky automatic Z calibration configuration](https://github.com/jlas1/Klicky-Probe/blob/main/klipper_macro/z_calibration.cfg)
 
 You should then add a call to CALIBRATE_Z at the end of your PRINTER_START (before any purge line).
 
