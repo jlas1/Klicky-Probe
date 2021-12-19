@@ -89,7 +89,7 @@ Probe Dock:
 - 1x 6 mm x 3 mm magnets
 - 2x M3x20 mm
 
-Fixed Dock mount:
+Fixed and Trident Dock mount:
 
 - 2x M3 threaded insert M3x5 mmx4 mm
 - 2x M5x10 mm
@@ -106,7 +106,7 @@ variable Dock mount:
 
 
 
-<img src="./Photos/All_Klicky_probe_components.jpg" width="600" />
+<img src="./Photos/All_Klicky_probe_components.png" width="600" />
 
 
 
@@ -135,6 +135,12 @@ Secure the magnet with a dab of super glue.
 <img src="./Photos/DockMountandProbeMount.jpg" alt="DockMountandProbeMount" style="zoom:15%;" />
 
 Mount the Probe Dock to the back rail of your gantry with the two M5x10 and the two roll in nuts.
+
+## Step 1 - Dock mount and Probe Dock assembly (Trident Dock mount)
+
+The Trident dock is installed to the rear left vertical profile like this:
+
+<img src="./Photos/trident_dock.png" alt="TridentDock"/>
 
 ## Step 2: Probe Assembly
 
