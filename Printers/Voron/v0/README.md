@@ -14,7 +14,7 @@ There are currently two other probes available to use on the V0.1, Slideswipe an
 
 Above all, have fun and be excellent to one another, now to the instructions.
 
-This mod is not yet on [VoronUsers repository](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe, should be soon. 
+This mod is not yet on [VoronUsers repository](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/JosAr/Klicky-Probe), should be soon. 
 
 <img src="Photos/Klicky_v0_family.jpg" alt="V2.4 Klicky Probe" style="zoom:80%;" />
 
