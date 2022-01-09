@@ -34,7 +34,7 @@ universal_face
 [Klicky mount for Eva ](https://cad.onshape.com/documents/2fc54d83c144f64dfbd5b70d/w/5a27aacdedad8aa85274c7e9/e/03e92f0ea05a500c94d12e60)
 
 ## Source FreeCad files
-Ender 5 Plus arm support inside cad folder
+Ender-5 Plus arm support inside cad folder
 
 
 ## Changelog
@@ -44,16 +44,17 @@ v0.6 09/01/2021 Klicky probe modified the back size of the frame support, new ve
 ## BOM Parts:
 | No | Qty | Name                                               | Printable |
 | -- | --- | -------------------------------------------------- | --------- |
-| 1  | 1   | [Face] Eva-2.2-Klicky probe mount    | [Yes](EVA 2.2^/stl/eva-2.2-klicky_probe_mount.stl) |
-| 1  | 1   | [Face] Ender 5 Plus support arm v.1 | [Yes](Ender-5 (pro,plus)/stl/ender_5_plus-arm v.1-body.stl) |
-| 1  | 1   | [Face] Ender 5 Plus support arm v.2 | [Yes](Ender-5 (pro,plus)/stl/ender_5_plus-arm v.2-body.stl) |
+| 1  | 1   | Eva-2.2-Klicky probe mount    | [Yes](EVA 2.2^/stl/eva-2.2-klicky_probe_mount.stl) |
+| 1  | 1   | Ender-5 Plus support arm v.1 | [Yes](Ender-5 (pro,plus)/stl/ender_5_plus-arm_v.1-body.stl) |
+| 1  | 1   | Ender-5 Plus support arm v.2 | [Yes](Ender-5 (pro,plus)/stl/ender_5_plus-arm_v.2-body.stl) |
 
 
 ## STEP format:
 | No | Qty | Name                                               | Printable |
 | -- | --- | -------------------------------------------------- | --------- |
-| 1  | 1   | [Face] Eva-2.2-Klicky probe mount    | [Yes](EVA 2.2^/cad/eva-2.2-klicky_probe_mount.step) |
-| 1  | 1   | [Face] Ender 5 Plus support arm | [Yes](Ender-5 (pro,plus)/cad/ender_5_plus-arm-body.step) |
+| 1  | 1   | Eva-2.2-Klicky probe mount    | [Yes](EVA 2.2^/cad/eva-2.2-klicky_probe_mount.step) |
+| 1  | 1   | Ender-5 Plus support arm v.1 | [Yes](Ender-5 (pro,plus)/cad/ender_5_plus-arm_v.1-body.step) |
+| 1  | 1   | Ender-5 Plus support arm v.2 | [Yes](Ender-5 (pro,plus)/cad/ender_5_plus-arm_v.2-body.step) |
 
 
 ## BOM screws:
@@ -71,7 +72,7 @@ v0.6 09/01/2021 Klicky probe modified the back size of the frame support, new ve
 ## Hardware Required 
 Standard EVA
 
-Ender 5 Plus
+Ender-5 Plus
 
 ## To Do 
 pending to draw arm on OnShape
