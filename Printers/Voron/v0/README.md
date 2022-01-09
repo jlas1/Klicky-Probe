@@ -358,20 +358,22 @@ split_delta_z: 0.0125
 mesh_pps: 2,2
 ```
 
-Regarding the Screws Tilt Adjust (Klipper probes the three screws positions and recommends the number of turns to level the bed), you can use this configuration:
+Regarding the Screws Tilt Adjust (Klipper probes the three screws positions and recommends the number of turns to level the bed), you can use this configuration as a reference, the probe should be over the screws when you do send the nozzle to the respective coordinate:
 
 ```python
 [screws_tilt_adjust]
-screw1: 105,115
+screw1: 100,115          #For Long probe
 screw1_name: back right
-screw2: 0,115
+screw2: 0,115            #For Long probe
 screw2_name: back left
-screw3: 50,5
+screw3: 60,5             #For Long probe
 screw3_name: front screw
 horizontal_move_z: 20
 speed: 100
 screw_thread: CW-M3
 ```
+
+You should test this and adjust accordingly. 
 
 This is probe configuration is with the default Voron v0.1 SKR mini E3 v2 configuration, with the probe connected to the PC14 pin, please update it to your specific configuration:
 
