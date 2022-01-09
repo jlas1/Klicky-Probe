@@ -34,24 +34,26 @@ universal_face
 [Klicky mount for Eva ](https://cad.onshape.com/documents/2fc54d83c144f64dfbd5b70d/w/5a27aacdedad8aa85274c7e9/e/03e92f0ea05a500c94d12e60)
 
 ## Source FreeCad files
-Ender 5 Plus arm support inside assets folder
+Ender 5 Plus arm support inside cad folder
 
 
 ## Changelog
 v0.5 30/12/2021 TheMacBoy Release
+v0.6 09/01/2021 Klicky probe modified the back size of the frame support, new version v.2
 
 ## BOM Parts:
 | No | Qty | Name                                               | Printable |
 | -- | --- | -------------------------------------------------- | --------- |
-| 1  | 1   | [Face] Eva-2.2-Klicky probe mount    | [Yes](stl/eva-2.2-klicky_probe_mount.stl) |
-| 1  | 1   | [Face] Ender 5 Plus support arm | [Yes](stl/ender_5_plus-arm-body.stl) |
+| 1  | 1   | [Face] Eva-2.2-Klicky probe mount    | [Yes](EVA 2.2^/stl/eva-2.2-klicky_probe_mount.stl) |
+| 1  | 1   | [Face] Ender 5 Plus support arm v.1 | [Yes](Ender-5 (pro,plus)/stl/ender_5_plus-arm v.1-body.stl) |
+| 1  | 1   | [Face] Ender 5 Plus support arm v.2 | [Yes](Ender-5 (pro,plus)/stl/ender_5_plus-arm v.2-body.stl) |
 
 
 ## STEP format:
 | No | Qty | Name                                               | Printable |
 | -- | --- | -------------------------------------------------- | --------- |
-| 1  | 1   | [Face] Eva-2.2-Klicky probe mount    | [Yes](cad/eva-2.2-klicky_probe_mount.step) |
-| 1  | 1   | [Face] Ender 5 Plus support arm | [Yes](cad/ender_5_plus-arm-body.step) |
+| 1  | 1   | [Face] Eva-2.2-Klicky probe mount    | [Yes](EVA 2.2^/cad/eva-2.2-klicky_probe_mount.step) |
+| 1  | 1   | [Face] Ender 5 Plus support arm | [Yes](Ender-5 (pro,plus)/cad/ender_5_plus-arm-body.step) |
 
 
 ## BOM screws:
