@@ -44,17 +44,17 @@ v0.6 09/01/2021 Klicky probe modified the back size of the frame support, new ve
 ## BOM Parts:
 | No | Qty | Name                                               | Printable |
 | -- | --- | -------------------------------------------------- | --------- |
-| 1  | 1   | Eva-2.2-Klicky probe mount    | [Yes](EVA 2.2^/stl/eva-2.2-klicky_probe_mount.stl) |
-| 1  | 1   | Ender-5 Plus support arm v.1 | [Yes](Ender-5 (pro,plus)/stl/ender_5_plus-arm_v.1-body.stl) |
-| 1  | 1   | Ender-5 Plus support arm v.2 | [Yes](Ender-5 (pro,plus)/stl/ender_5_plus-arm_v.2-body.stl) |
+| 1  | 1   | Eva-2.2 Klicky probe mount    | [Yes](EVA_2.2^/stl/eva-2.2-klicky_probe_mount.stl) |
+| 1  | 1   | Ender-5 Plus support arm v.1 | [Yes](Ender-5_(pro,plus)/stl/ender_5_plus-arm_v.1-body.stl) |
+| 1  | 1   | Ender-5 Plus support arm v.2 | [Yes](Ender-5_(pro,plus)/stl/ender_5_plus-arm_v.2-body.stl) |
 
 
 ## STEP format:
 | No | Qty | Name                                               | Printable |
 | -- | --- | -------------------------------------------------- | --------- |
-| 1  | 1   | Eva-2.2-Klicky probe mount    | [Yes](EVA 2.2^/cad/eva-2.2-klicky_probe_mount.step) |
-| 1  | 1   | Ender-5 Plus support arm v.1 | [Yes](Ender-5 (pro,plus)/cad/ender_5_plus-arm_v.1-body.step) |
-| 1  | 1   | Ender-5 Plus support arm v.2 | [Yes](Ender-5 (pro,plus)/cad/ender_5_plus-arm_v.2-body.step) |
+| 1  | 1   | Eva-2.2 Klicky probe mount    | [Yes](EVA_2.2^/cad/eva-2.2-klicky_probe_mount.step) |
+| 1  | 1   | Ender-5 Plus support arm v.1 | [Yes](Ender-5_(pro,plus)/cad/ender_5_plus-arm_v.1-body.step) |
+| 1  | 1   | Ender-5 Plus support arm v.2 | [Yes](Ender-5_(pro,plus)/cad/ender_5_plus-arm_v.2-body.step) |
 
 
 ## BOM screws:
