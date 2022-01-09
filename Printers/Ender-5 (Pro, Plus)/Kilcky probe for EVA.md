@@ -47,6 +47,13 @@ v0.5 30/12/2021 TheMacBoy Release
 | 1  | 1   | [Face] Ender 5 Plus support arm | [Yes](stl/ender_5_plus-arm-body.stl) |
 
 
+## STEP format:
+| No | Qty | Name                                               | Printable |
+| -- | --- | -------------------------------------------------- | --------- |
+| 1  | 1   | [Face] Eva-2.2-Klicky probe mount    | [Yes](cad/eva-2.2-klicky_probe_mount.step) |
+| 1  | 1   | [Face] Ender 5 Plus support arm | [Yes](cad/ender_5_plus-arm-body.step) |
+
+
 ## BOM screws:
 | Qty | Name                                                    | Observations |
 | --- | ------------------------------------------------------- | ------------ |
