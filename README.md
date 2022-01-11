@@ -13,6 +13,7 @@ The objectives for this project are:
 - less temperature variations
 - no melting of its parts
 - cheap to build
+- reuse spare parts if possible
 
 Most of the Klicky probe users are using klipper, there are some macros in here that ease the probing process, by automating the attach, dock and use of the probe.
 
