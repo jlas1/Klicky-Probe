@@ -10,8 +10,6 @@ Above all, have fun and be excellent to one another, now to the instructions.
 
 <img src="Photos/Voron_Klicky_Probe.jpg" alt="V2.4 Klicky Probe" style="zoom:80%;" />
 
-
-
 ## Mounting options
 
 The probe dock is mounted either to the frame or to the XY gantry, allowing it to be used as a Z endstop if desired as it's Z is fixed relative to the toolhead.

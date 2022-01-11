@@ -34,6 +34,10 @@ If you want to donate something regarding this project, use this [link](https://
 
 ![Klicky Probe image](Photos/Klicky_Probe.png)klicky early version.
 
+# Upgrading from an earlier version
+
+If you are upgrading from an earlier version, check the [klipper macros](./Klipper_macros) folder, it contains update instructions.
+
 # Klicky components
 
 All the compatible printers require:
