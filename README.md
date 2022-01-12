@@ -32,6 +32,22 @@ Without them, and some others this effort would not be in the current state, man
 
 If you want to donate something regarding this project, use this [link](https://paypal.me/Josar154) or [__Buy me some ABS!__](https://www.buymeacoffee.com/JosAr), thanks
 
+# Printers Supported (by support order)
+
+The specific parts with install, configuration, troubleshoot and recommended settings can be found on each printer page, linked below.
+
+[Voron v2.4](./Printers/Voron/v1.8_v2.4_Legacy_Trident)
+
+[Voron v1.8](./Printers/Voron/v1.8_v2.4_Legacy_Trident)
+
+[Voron Legacy](./Printers/Voron/v1.8_v2.4_Legacy_Trident)
+
+[Voron Trident](./Printers/Voron/v1.8_v2.4_Legacy_Trident)
+
+[Voron v0](./Printers/Voron/v0)
+
+There are also [docks and mounts submitted by users](./Usermods) to support other printers and toolheads, you should check it out.
+
 ![Klicky Probe image](Photos/Klicky_Probe.png)klicky early version.
 
 # Klicky components
@@ -83,18 +99,6 @@ Probe BOM:
 - some m3 screws
 - some m3 heat inserts
 - some m3 nuts
-
-# Printers Supported (by support order)
-
-[Voron v2.4](./Printers/Voron/v1.8_v2.4_Legacy_Trident)
-
-[Voron v1.8](./Printers/Voron/v1.8_v2.4_Legacy_Trident)
-
-[Voron Legacy](./Printers/Voron/v1.8_v2.4_Legacy_Trident)
-
-[Voron Trident](./Printers/Voron/v1.8_v2.4_Legacy_Trident)
-
-[Voron v0](./Printers/Voron/v0)
 
 # Assembled Klicky Probe on a Voron v2.4
 

@@ -7,19 +7,19 @@ title: TheMacBoy's Klicky Probe mount for EVA and Ender 5 Plus (with rails) comp
 ## Description
 This is a modification of Klicky probe to be used in the EVA carriage, plus support arm for Ender 5 Plus with rails.
 
-![Klicky probe right](assets/klicky_mount_right.jpg)
+![Klicky probe right](./photos/klicky_mount_right.jpg)
 
-![Klicky probe left](assets/klicky_mount_left.jpg)
+![Klicky probe left](./photos/klicky_mount_left.jpg)
 
-![Klicky probe bottom](assets/klicky_mount_bottom.jpg)
+![Klicky probe bottom](./photos/klicky_mount_bottom.jpg)
 
-![Klicky probe inside](assets/klicky_mount_inside.png)
+![Klicky probe inside](./photos/klicky_mount_inside.png)
 
-![Klicky probe](assets/klicky_probe_mount.jpg)
+![Klicky probe](./photos/klicky_probe_mount.jpg)
 
-![Ender 5 Plus support arm front](assets/ender_5_plus_support_arm-front.jpg)
+![Ender 5 Plus support arm front](./photos/ender_5_plus_support_arm-front.jpg)
 
-![Ender 5 Plus support arm](assets/ender_5_plus_support_arm.jpg)
+![Ender 5 Plus support arm](./photos/ender_5_plus_support_arm.jpg)
 
 ## Compatible EVA version
 2.2.0 - ?
@@ -28,7 +28,7 @@ This is a modification of Klicky probe to be used in the EVA carriage, plus supp
 universal_face
 
 ## Source Klicky probe files
-[Klicky Probe](https://github.com/jlas1/Klicky-Probe)
+[Klicky Probe](../../Base_STL)
 
 ## Source OnShape files
 [Klicky mount for Eva ](https://cad.onshape.com/documents/2fc54d83c144f64dfbd5b70d/w/5a27aacdedad8aa85274c7e9/e/03e92f0ea05a500c94d12e60)
