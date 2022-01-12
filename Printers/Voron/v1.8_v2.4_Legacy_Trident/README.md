@@ -10,20 +10,19 @@ Above all, have fun and be excellent to one another, now to the instructions.
 
 <img src="Photos/Voron_Klicky_Probe.jpg" alt="V2.4 Klicky Probe" style="zoom:80%;" />
 
-
-
 ## Mounting options
 
 The probe dock is mounted either to the frame or to the XY gantry, allowing it to be used as a Z endstop if desired as it's Z is fixed relative to the toolhead.
 
 There are several gantry extrusion mounts possible, all attached  between the A end B motors:
 
-|                         Fixed *                         |                         Variable *                         |                 Fixed sidemount left *                  |                 Fixed sidemount right *                  |                       Legacy fixed                        |
+|                         Fixed *                         |                         Variable *                         |                Fixed sidemount left * **                |                Fixed sidemount right * **                |                       Legacy fixed                        |
 | :-----------------------------------------------------: | :--------------------------------------------------------: | :-----------------------------------------------------: | :------------------------------------------------------: | :-------------------------------------------------------: |
 | <img src="Photos/Fixed_mount_complete.jpg" width="150"> | <img src="Photos/Variable_mount_complete.jpg" width="150"> | <img src="Photos/Fixed_sidemount_left.jpg" width="150"> | <img src="Photos/Fixed_sidemount_right.jpg" width="150"> |   <img src="Photos/legacy_fixedmount.jpg" width="150">    |
 |                 fixed docking position                  |                adjustable docking position                 |   fixed docking position, allows for purge bucket mod   |   fixed docking position, allows for purge bucket mod    | fixed docking position (Legacy) (designed by Baltojikale) |
 
 *usable on the V1.8, V2.4 and Trident
+**attempts to put the dock to the side of the [purge bucket](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber), there is  [also a mod](https://github.com/Ramalama2/Voron-2-Mods/tree/main/PurgeBucket_350_Klicky) to allow the usage of the fixed dock
 
 There are also some more mounting options on [Usermods](./Usermods/), integrated magnets in the AfterBurner toolhead and some complementary items. ***Check it out***
 
@@ -64,11 +63,17 @@ This mod is also on [VoronUsers repository](https://github.com/VoronDesign/Voron
 | 2x M5 t-nut or equivalent          | 2x M5 t-nut or equivalent           | 2x M5 t-nut or equivalent          | 2x M5 t-nut or equivalent          | 2x M5 t-nut or equivalent          |
 |                                    | 8x M3x8 mm                          | 2x M3x8 mm                         | 2x M3x8 mm                         |                                    |
 
+## Parts location
 
+The probe STL's are located [here](../../../Base_STL).
+
+The printer specific STL's are located [here](./v1.8_v2.4_Legacy_Trident_STL).
+
+The CAD with all the parts are [here](../../../CAD).
 
 ## What to print
 
-### Probe 
+### Probe
 
 * 2x KlickyProbe_v2.stl (keeping a spare is always a good idea)
 
@@ -266,12 +271,12 @@ variable_safe_z:         	    25    # Minimum Z for attach/dock and homing funct
 # if true it will move the bed away from the nozzle when Z is not homed
 variable_enable_z_hop:          CHECK_COMMENT  # True on the v2.4, false on v1.8, Trident and Legacy
     
-#Dock move
+#Dock move (the final movement required to reach the dock and avoid the arms with the probe attached)
 Variable_dockmove_x:                40    # Final toolhead movement to release
 Variable_dockmove_y:                0     # the probe on the dock
 Variable_dockmove_z:                0     # (can be negative)
 
-#Attach move
+#Attach move (the final movement required release the probe on the dock)
 Variable_attachmove_x:              0     # Final toolhead movement to Dock
 Variable_attachmove_y:              30    # the probe on the dock
 Variable_attachmove_z:              0     # (can be negative)
@@ -382,9 +387,15 @@ If you want to use the Z endstop switch of the Voron to calculate the Z-Offset, 
 Besides the macros from this repository, you will need to install the Z autocalibration plugin, the recommended way is via [moonraker](https://github.com/protoloft/klipper_z_calibration#moonraker-updater).
 
 Regarding the configuration and necessary macros, most of necessary macros are already included in the klick-probe.cfg, what is missing is the specific z_calibration configuration and the macro that is called to do the actual calibration.
+
+**[I would advise you to read the detailed explanation of the plugin functionality if you want to start using it](https://github.com/protoloft/klipper_z_calibration#how-to-configure-it)**
+
 All of this is included in the [Klicky automatic Z calibration configuration](../../..Klipper_macro/klicky-z_calibration.cfg)
 
 You should then add a call to CALIBRATE_Z at the end of your PRINTER_START (before any purge line).
+To fine tune the nozzle distance to the bed, [use this](https://github.com/protoloft/klipper_z_calibration#switch-offset).
+
+#### Probe_accuracy and Probe_calibrate
 
 ***WARNING when you are doing PROBE_ACCURACY, make sure that the probe is above the bed, the PROBE_ACCURACY macro does not move the toolhead in X or Y.***
 

@@ -4,7 +4,7 @@
 
 Here you will find the necessary files and documentation to print and setup your own klicky probe on the v0 (and v0.1)
 
-This directory has the STL files properly oriented for printing and community mods for the respective printer, there are [klipper] macros and [RRF] macros on the repository.
+This directory has the STL files properly oriented for printing and community mods for the respective printer, there are [klipper](../../../Klipper_macros) macros and [RRF](../../../RRF_macros) macros on the repository.
 
 You can find more information about the Voron printers at the [website](https://vorondesign.com/) or go check the [discord](https://discord.gg/voron), for the record, i own a v2.4, this is how i would describe them "A Voron is a fast high quality printer, i print with much better quality  the perimeters at the draft speed of my old bedslinger. It also has a  big community with lots of documentation and new ideas."
 
@@ -112,7 +112,13 @@ It is also necessary to use the Screwless variable dock mount
 |          2x m3 nut          | 2x M3 threaded insert M3x5 mmx4 mm | 2x M3 threaded insert M3x5 mmx4 mm | 2x M3 threaded insert M3x5 mmx4 mm | 2x M3 threaded insert M3x5 mmx4 mm |
 |                             |                                    |                                    |             2x m3x8 mm             |             2x m3x8 mm             |
 
+## Parts location
 
+The probe STL's are located [here](../../../Base_STL).
+
+The printer specific STL's are located [here](./v0_STL).
+
+The CAD with all the parts are [here](../../../CAD).
 
 ## What to print
 
@@ -358,20 +364,22 @@ split_delta_z: 0.0125
 mesh_pps: 2,2
 ```
 
-Regarding the Screws Tilt Adjust (Klipper probes the three screws positions and recommends the number of turns to level the bed), you can use this configuration:
+Regarding the Screws Tilt Adjust (Klipper probes the three screws positions and recommends the number of turns to level the bed), you can use this configuration as a reference, the probe should be over the screws when you do send the nozzle to the respective coordinate:
 
 ```python
 [screws_tilt_adjust]
-screw1: 105,115
+screw1: 100,115          #For Long probe
 screw1_name: back right
-screw2: 0,115
+screw2: 0,115            #For Long probe
 screw2_name: back left
-screw3: 50,5
+screw3: 60,5             #For Long probe
 screw3_name: front screw
 horizontal_move_z: 20
 speed: 100
 screw_thread: CW-M3
 ```
+
+You should test this and adjust accordingly. 
 
 This is probe configuration is with the default Voron v0.1 SKR mini E3 v2 configuration, with the probe connected to the PC14 pin, please update it to your specific configuration:
 
@@ -418,22 +426,14 @@ variable_z_endstop_y:     0
 
 
 ### Step 6: klipper  Dock/Undock  configuration
-#### Y max position adjustment
+#### X max position adjustment
 
-If you are using a hall sensor as endstop, you need to make sure that on your Y maximum, the gantry is almost hitting the AB motor mounts, you can have a Y position maximum "behind" the Y endstop position, like this:
-
-```python
-[stepper_y]
-position_endstop: 303
-position_max: 305
-```
-
-Even in the stock Y endstop with a lever, you normally can add a extra mm of Y travel due to the lever extra trigger distance:
+Even in the stock X endstop with a lever, you normally can add a extra mm of X travel due to the lever extra trigger distance:
 
 ```python
-[stepper_y]
-position_endstop: 303
-position_max: 304
+[stepper_x]
+position_endstop: 120
+position_max: 121
 ```
 
 #### Adjust Probe Pickup Position
