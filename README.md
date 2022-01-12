@@ -54,7 +54,7 @@ The specific parts with install, configuration, troubleshoot and recommended set
 
 [Voron v0](./Printers/Voron/v0)
 
-There are also [docks and mounts submitted by users](./Usermods) to support other printers and toolheads, you should check it out.
+
 
 ![Klicky Probe image](Photos/Klicky_Probe.png)klicky early version.
 
