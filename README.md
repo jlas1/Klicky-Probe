@@ -3,6 +3,9 @@ Microswitch probe with magnetic attachment, primarily aimed at CoreXY 3d printer
 
 Initially it was focused on the [Voron printers](https://vorondesign.com/) (V2.4, V1.8, Trident, V0) and derivatives, now it's been restructured to better allow other printers to be documented here.
 
+**ATTENTION**
+If you come from Voronusers please read the updated Klipper configuration on this repository
+
 The objectives for this project are:
 - drop in replacement for Omron TL-Q5MC2 or PL-08N2 (you don't need to replace the toolhead), replacement of BLtouch probes
 - soldering not required
@@ -13,6 +16,7 @@ The objectives for this project are:
 - less temperature variations
 - no melting of its parts
 - cheap to build
+- reuse spare parts if possible
 
 Most of the Klicky probe users are using klipper, there are some macros in here that ease the probing process, by automating the attach, dock and use of the probe.
 
@@ -31,6 +35,10 @@ Mental created the initial macro and one of the first magnetically attached micr
 Without them, and some others this effort would not be in the current state, many thanks to them all.
 
 If you want to donate something regarding this project, use this [link](https://paypal.me/Josar154) or [__Buy me some ABS!__](https://www.buymeacoffee.com/JosAr), thanks
+
+# Upgrading from an earlier version
+
+If you are upgrading from an earlier version, check the [klipper macros](./Klipper_macros) folder, it contains update instructions.
 
 # Printers Supported (by support order)
 
