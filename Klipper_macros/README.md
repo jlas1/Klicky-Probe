@@ -13,16 +13,16 @@ The first macro on the old klicky-probe.cfg contained all the necessary variable
 
 ```python
 # if you do not have any of these variables, read the explanation on klicky-variables.cfg and the setup of the macros on your respective printer, this is a quick start quide
-variable_enable_z_hop 			# set this to false for beds that fall significantly under gravity (almost to Z max)
-variable_max_bed_y    			# bed max y size
-variable_max_bed_x	  			# bed max x size
+variable_enable_z_hop           # set this to false for beds that fall significantly under gravity (almost to Z max)
+variable_max_bed_y              # bed max y size
+variable_max_bed_x              # bed max x size
 
-variable_z_endstop_x			# copy this value over your old file
-variable_z_endstop_y			# copy this value over your old file
+variable_z_endstop_x            # copy this value over your old file
+variable_z_endstop_y            # copy this value over your old file
 
-variable_docklocation_[x,y,z]	# copy this value over your old file
-Variable_dockmove_[x,y,z]		# use 40,0,0 it's the old default
-Variable_attachmove_[x,y,z]		# use 0,30,0 it's the old default
+variable_docklocation_[x,y,z]   # copy this value over your old file
+Variable_dockmove_[x,y,z]       # use 40,0,0 it's the old default
+Variable_attachmove_[x,y,z]     # use 0,30,0 it's the old default
 ```
 
 Now if you use auto-z calibration, you also should copy z-calibration.cfg to klicky-z-calibration.cfg and remove the z-calibration.cfg include in printer.cfg.

@@ -63,11 +63,17 @@ This mod is also on [VoronUsers repository](https://github.com/VoronDesign/Voron
 | 2x M5 t-nut or equivalent          | 2x M5 t-nut or equivalent           | 2x M5 t-nut or equivalent          | 2x M5 t-nut or equivalent          | 2x M5 t-nut or equivalent          |
 |                                    | 8x M3x8 mm                          | 2x M3x8 mm                         | 2x M3x8 mm                         |                                    |
 
+## Parts location
 
+The probe STL's are located [here](../../../Base_STL).
+
+The printer specific STL's are located [here](./v1.8_v2.4_Legacy_Trident_STL).
+
+The CAD with all the parts are [here](../../../CAD).
 
 ## What to print
 
-### Probe 
+### Probe
 
 * 2x KlickyProbe_v2.stl (keeping a spare is always a good idea)
 
