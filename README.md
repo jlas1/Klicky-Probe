@@ -34,6 +34,8 @@ Mental created the initial macro and one of the first magnetically attached micr
 
 Without them, and some others this effort would not be in the current state, many thanks to them all.
 
+It is working very well, if you decide to use it, give me feedback, either here, or on discord, my discord user is JosAr#0517.
+
 If you want to donate something regarding this project, use this [link](https://paypal.me/Josar154) or [__Buy me some ABS!__](https://www.buymeacoffee.com/JosAr), thanks
 
 # Upgrading from an earlier version
