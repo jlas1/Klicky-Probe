@@ -64,16 +64,40 @@ Some printers, like the Voron v0 or Tiny-M don't have the probe as a standard co
 
 Download the appropriate files (or the zip containing them all and delete the ones that are not relevant) and upload it to your klipper Config folder.
 
+```
+cd ~/klipper_config/
+wget https://raw.githubusercontent.com/jlas1/Klicky-Probe/main/Klipper_macros/Klipper_macros.zip
+unzip klipper_macros.zip
+
+```
+
 Check the klicky-probe.cfg, remove or comment the macros that are not required for your printer or that you do not want to implement.
-Edit klicky-variables.cfg (there are printers specific recommendations on the printer configuration page) for klicky to operate properly there are some configurations that need to be checked, otherwise your will run into problems.
+Edit klicky-variables.cfg (there are printers specific recommendations on the printer configuration page) for klicky to operate properly.
+
+There are some configurations that need to be checked, otherwise your will run into **out of range** problems, that is by design.
 
 Open your printer.cfg file, comment out *safe_z_home* or *homing_override*, if you have them (the macros will take care of homing) and add the following line before the "Macros" Section.
 
 `[include Klicky-Probe.cfg]`
 
+It should look like this:
+
+```
+#####################################################################
+# 	Macros
+#####################################################################
+[include Klicky-Probe.cfg]
+```
+
 You now need to configure the probe pin, that is printer specific, and the details are on your printer configuration guide.
 
-Regarding you print start and end macros, with the helper scripts implemented, they do not need to be changed, if however you would like to reduce the times that the toolhead attaches and docks the probe, you can use Attach_Probe_Lock that prevents the probe to be docked after an operation that normally would dock the probe. **BEWARE that the probe may hit the bed depending on what you are doing**. When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock the probe.
+Regarding you print start and end macros, with the helper scripts implemented, they do not need to be changed.
+
+If however you would like to reduce the times that the toolhead attaches and docks the probe, you can use Attach_Probe_Lock that prevents the probe to be docked after an operation that normally would dock the probe.
+
+**BEWARE that the probe may hit the bed depending on what you are doing**.
+
+When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock and unlock the probe.
 
 ## Advanced users
 
