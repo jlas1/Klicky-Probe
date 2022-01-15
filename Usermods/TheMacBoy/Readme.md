@@ -7,19 +7,19 @@ title: TheMacBoy's Klicky Probe mount for EVA and Ender 5 Plus (with rails) comp
 ## Description
 This is a modification of Klicky probe to be used in the EVA carriage, plus support arm for Ender 5 Plus with rails.
 
-![Klicky probe right](./photos/klicky_mount_right.jpg)
+![Klicky probe right](./Photos/klicky_mount_right.jpg)
 
-![Klicky probe left](./photos/klicky_mount_left.jpg)
+![Klicky probe left](./Photos/klicky_mount_left.jpg)
 
-![Klicky probe bottom](./photos/klicky_mount_bottom.jpg)
+![Klicky probe bottom](./Photos/klicky_mount_bottom.jpg)
 
-![Klicky probe inside](./photos/klicky_mount_inside.png)
+![Klicky probe inside](./Photos/klicky_mount_inside.png)
 
-![Klicky probe](./photos/klicky_probe_mount.jpg)
+![Klicky probe](./Photos/klicky_probe_mount.jpg)
 
-![Ender 5 Plus support arm front](./photos/ender_5_plus_support_arm-front.jpg)
+![Ender 5 Plus support arm front](./Photos/ender_5_plus_support_arm-front.jpg)
 
-![Ender 5 Plus support arm](./photos/ender_5_plus_support_arm.jpg)
+![Ender 5 Plus support arm](./Photos/ender_5_plus_support_arm.jpg)
 
 ## Compatible EVA version
 2.2.0 - ?
