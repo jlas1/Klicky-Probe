@@ -1,30 +1,23 @@
-# Klicky Usermods
+# Klicky usermods
 
-[## Klicky Probe with additional holes](./StefanRaatz/) by StefanRaatz
+Here you can find Klicky user submitted mods to support extra printers and toolheads.
 
-This is a modified Klicky probe with two holes so that you can feed through the uninsolated part of the cable a little bit more.
-Gave me better contact
+All the compatible printers require:
 
-[## KlickyVoron 2.4 Direct Mount MGN12 X Carriage](./bluedragonx/) by bluedragonx
+* Toolhead mount (the thing that the probe attached to when it's being used), it's toolhead specific
+* Klicky probe (there are three versions, all are interchangeable and compatible, more information on the specific printer page), what actually is used to probe the bed, the parts are equal on all the printers
+* Probe dock (all the printers use the same), the parts are equal on all the printers
+* Probe dock mount (what attaches to the printer to dock the probe when not in use), should be printer specific and not toolhead specific
 
-This is a modified MGN12 X carriage for the Voron 2.4 which directly interfaces
-with the Klicky. This is based on [Arkeet's MGN12 carriage](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/arkeet/mgn12)
+The recommended macros can be found [here for klipper](..//Klipper_macros) macros and [here for RRF](../RRF_macros).
 
-[## More Roboust Klicky Probe](./oc_geek/) by oc_geek
+There are two types of user mod:
 
-Beefier column and revised holes for zip tie (was def too small); reduced height 1mm (was excess)
-Chanfered bottom in all direction (also sides) on the probe carriage
-Microswitch body exposed by a tiny bit
+* Printer dock mount (identified by "dock mount")
+* Toolhead probe mount (identified by "probe mount")
 
-[## Fixed gantry Klicky dock mount for Legacy](./Baltojikale/) by Baltojikale
+| Owner     | Descrption                                             | Mod Type    | Printer/Toolhead |
+| --------- | ------------------------------------------------------ | ----------- | ---------------- |
+| TheMacBoy | [support arm for Ender 5 Plus with rails](./TheMacBoy) | probe mount | Ender 5 Plus     |
+| TheMacBoy | [Klicky Probe mount for EVA](./TheMacBoy)              | dock mount  | EVA 2.2+         |
 
-Modified gantry Klicky Probe to mount on a Voron Legacy, should work without adjustments.
-
-[## Adjustable Klicky dock mount for Legacy](./Maverick/) by Maverick
-
-Modified Klicky Probe to mount on a Voron Legacy. Docking components are designed to allow for adjustments on the Z and Y axis. 
-
-[## Modded Z endstop for v1.8](./Yeri/) by Yeri
-
-Designed for V1.8
-"I had originally used the z endstop in the stock position but due to the crashes with the probe attached I extended it in Y by 14 mm -- here's the new stl"
