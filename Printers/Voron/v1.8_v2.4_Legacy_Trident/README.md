@@ -418,7 +418,12 @@ Regarding the configuration and necessary macros, most of necessary macros are a
 
 All of this is included in the [Klicky automatic Z calibration configuration](../../..Klipper_macro/klicky-z_calibration.cfg)
 
-You should then add a call to CALIBRATE_Z at the end of your PRINTER_START (before any purge line).
+You should then add these lines at the end of your PRINTER_START (before any purge line):
+```python
+G28 Z
+SET_GCODE_OFFSET Z=0
+CALIBRATE_Z
+```
 To fine tune the nozzle distance to the bed, [use this](https://github.com/protoloft/klipper_z_calibration#switch-offset).
 
 #### Probe_accuracy and Probe_calibrate
