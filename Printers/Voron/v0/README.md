@@ -354,7 +354,7 @@ horizontal_move_z: 20
 
 probe_count: 3,3					#if you would like more detail, use 5,5 here
 relative_reference_index: 4			 #if you use 5,5 above, place 12 here
-mmove_check_distance: 3
+move_check_distance: 3
 
 algorithm: lagrange
 fade_start: 1
