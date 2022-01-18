@@ -323,7 +323,7 @@ There is now an arrow on the probe telling you where should the switch pole be t
 
 If you want to use the Klicky Probe as your Z endstop, you need to change the `endstop_pin:` under the `[stepper_z]` section to `probe:z_virtual_endstop`.
 
-Just comment out the old one and add a new line `endstop_pin: probe:z_virtual_endstop`.
+Just comment out the old one and add a new line `endstop_pin: probe:z_virtual_endstop` and comment out position_endstop.
 
 You will need to update the klicky-variables.cfg Z probing variables,  set the two variables below to `0`, it will probe the middle of the bed.
 
@@ -331,6 +331,7 @@ You will need to update the klicky-variables.cfg Z probing variables,  set the t
 variable_z_endstop_x:     0
 variable_z_endstop_y:     0
 ```
+You also need to comment position_endstop
 
 #### Assembled Klicky Probe
 
