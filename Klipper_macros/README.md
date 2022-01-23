@@ -67,7 +67,7 @@ Download the appropriate files (or the zip containing them all and delete the on
 ```
 cd ~/klipper_config/
 wget https://raw.githubusercontent.com/jlas1/Klicky-Probe/main/Klipper_macros/Klipper_macros.zip
-unzip klipper_macros.zip
+unzip Klipper_macros.zip
 
 ```
 
@@ -78,7 +78,7 @@ There are some configurations that need to be checked, otherwise your will run i
 
 Open your printer.cfg file, comment out *safe_z_home* or *homing_override*, if you have them (the macros will take care of homing) and add the following line before the "Macros" Section.
 
-`[include Klicky-Probe.cfg]`
+`[include klicky-probe.cfg]`
 
 It should look like this:
 
@@ -86,7 +86,7 @@ It should look like this:
 #####################################################################
 # 	Macros
 #####################################################################
-[include Klicky-Probe.cfg]
+[include klicky-probe.cfg]
 ```
 
 You now need to configure the probe pin, that is printer specific, and the details are on your printer configuration guide.

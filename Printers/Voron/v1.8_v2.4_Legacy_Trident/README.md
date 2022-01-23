@@ -272,7 +272,7 @@ variable_z_drop_speed:          20    # how fast the z will lower when moving to
     
 variable_safe_z:         	    25    # Minimum Z for attach/dock and homing functions
 # if true it will move the bed away from the nozzle when Z is not homed
-variable_enable_z_hop:          CHECK_COMMENT  # True on the v2.4, false on v1.8, Trident and Legacy
+variable_enable_z_hop:          CHECK_COMMENT  # True on the v2.4, False on v1.8, Trident and Legacy
     
 #Dock move (the final movement required to reach the dock and avoid the arms with the probe attached)
 Variable_dockmove_x:                40    # Final toolhead movement to release
