@@ -11,3 +11,5 @@ Tested on a 300mm3 V2.4 with a 2mm extrusion backer on the back of the X extrusi
 ![](./Images/Dock_mount_fixed_S_02.png)
 ![](./Images/Dock_mount_fixed_S_03.png)
 ![](./Images/Dock_mount_fixed_S_04.png)
+
+Fiction#5826 on Discord
