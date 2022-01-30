@@ -78,7 +78,7 @@ There are some configurations that need to be checked, otherwise your will run i
 
 Open your printer.cfg file, comment out *safe_z_home* or *homing_override*, if you have them (the macros will take care of homing) and add the following line before the "Macros" Section.
 
-`[include Klicky-Probe.cfg]`
+`[include klicky-probe.cfg]`
 
 It should look like this:
 
