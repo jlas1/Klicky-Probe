@@ -67,7 +67,7 @@ Download the appropriate files (or the zip containing them all and delete the on
 ```
 cd ~/klipper_config/
 wget https://raw.githubusercontent.com/jlas1/Klicky-Probe/main/Klipper_macros/Klipper_macros.zip
-unzip klipper_macros.zip
+unzip Klipper_macros.zip
 
 ```
 
@@ -86,7 +86,7 @@ It should look like this:
 #####################################################################
 # 	Macros
 #####################################################################
-[include Klicky-Probe.cfg]
+[include klicky-probe.cfg]
 ```
 
 You now need to configure the probe pin, that is printer specific, and the details are on your printer configuration guide.
