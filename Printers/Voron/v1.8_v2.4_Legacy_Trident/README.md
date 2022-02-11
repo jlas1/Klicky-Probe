@@ -272,7 +272,7 @@ variable_z_drop_speed:          20    # how fast the z will lower when moving to
     
 variable_safe_z:         	    25    # Minimum Z for attach/dock and homing functions
 # if true it will move the bed away from the nozzle when Z is not homed
-variable_enable_z_hop:          CHECK_COMMENT  # True on the v2.4, false on v1.8, Trident and Legacy
+variable_enable_z_hop:          CHECK_COMMENT  # True on the v2.4, False on v1.8, Trident and Legacy
     
 #Dock move (the final movement required to reach the dock and avoid the arms with the probe attached)
 Variable_dockmove_x:                40    # Final toolhead movement to release
@@ -382,11 +382,11 @@ Your variable_docklocation_x is 17
 ```
 
 Now manually (with gcode commands) move the toolhead to the  Xvariable_docklocation_x Y(max-40) position.
-In the example above, it would be "G0 X17 Y365".
+In the example above, it would be "G0 X17 Y265".
 
 The probe and dock magnet can be 1/2 mm away from each other, that is ok, they will attact when the probe is released from the mount.
 
-Now move the toolhead 40m to the side and check if the probe is docked securely.
+Now move the toolhead 40mm to the side and check if the probe is docked securely.
 If it does, perfect, variable_docklocation_y is your Ymax, if not, you need to either increase the Ymax or add a dock extender and repeat the process.
 
 Open your `klicky-variables.cfg` and find the `#dock location` section and edit the following two line
