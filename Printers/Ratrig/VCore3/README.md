@@ -2,7 +2,7 @@
 
 # Klicky Probe for Ratrig VCore3 printers
 
-Here you will find the necessary files and documentation to print and setup your own klicky probe on the VCore3
+Here you will find the necessary files and documentation to print and setup your own klicky probe on the VCore3 
 
 This directory has the STL files properly oriented for printing and community mods for the respective printer, there are [klipper](../../../Klipper_macros) macros and [RRF](../../../RRF_macros) macros on the repository.
 
