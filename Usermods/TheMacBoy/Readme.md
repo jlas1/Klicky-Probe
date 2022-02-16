@@ -39,8 +39,11 @@ Ender-5 Plus arm support inside cad folder
 
 ## Changelog
 v0.5 30/12/2021 TheMacBoy Release
+
 v0.6 09/01/2022 Klicky probe modified the back size of the frame support, new version v.2
+
 16/02/2022 Added my custom "klicky-variables.cfg" macro as example (my custom settings on my custom Ender-5 Plus ;)
+
 
 ## BOM Parts:
 | No | Qty | Name                                               | Printable |
