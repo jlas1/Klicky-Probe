@@ -5,7 +5,33 @@ That macro as since evolved into a klipper plugin that currently is pending incl
 
 Would alse like to thank the Voron discord community and VoronDesign for all the work, suggestions and support that they have given to improve on the macros.
 
-The macros are currently separated by funcion, there is klicky-probe.cfg that should include the remaining files, this both keeps klipper's printer.cfg cleaner and allow for backward compatibility.
+## Updating from an earlier version
+
+While you should read these instructions to the end, as the necessary helper functions are now split on different files and it's better explained below, as a current user of the klicky macros, it's easier to configure.
+
+The first macro on the old klicky-probe.cfg contained all the necessary variables, you should the values you changed one by one to the new klicky-variables.cfg, the most important are these ones:
+
+```python
+# if you do not have any of these variables, read the explanation on klicky-variables.cfg and the setup of the macros on your respective printer, this is a quick start quide
+variable_enable_z_hop           # set this to false for beds that fall significantly under gravity (almost to Z max)
+variable_max_bed_y              # bed max y size
+variable_max_bed_x              # bed max x size
+
+variable_z_endstop_x            # copy this value over your old file
+variable_z_endstop_y            # copy this value over your old file
+
+variable_docklocation_[x,y,z]   # copy this value over your old file
+Variable_dockmove_[x,y,z]       # use 40,0,0 it's the old default
+Variable_attachmove_[x,y,z]     # use 0,30,0 it's the old default
+```
+
+Now if you use auto-z calibration, you also should copy z-calibration.cfg to klicky-z-calibration.cfg and remove the z-calibration.cfg include in printer.cfg.
+
+
+
+## New installation
+
+The macros are currently separated by function, there is klicky-probe.cfg that should include the remaining files, this both keeps klipper's printer.cfg cleaner and allow for backward compatibility.
 
 The remaining files are the klicky-macros.cfg that stores all the general macros (like the dock and attach macros, this file is required on all the printers), the klicky-variables.cfg where it's necessary to configure the dock location and do other printer specific configurations and the klipper helper files for specific functions.
 
@@ -38,16 +64,40 @@ Some printers, like the Voron v0 or Tiny-M don't have the probe as a standard co
 
 Download the appropriate files (or the zip containing them all and delete the ones that are not relevant) and upload it to your klipper Config folder.
 
+```
+cd ~/klipper_config/
+wget https://raw.githubusercontent.com/jlas1/Klicky-Probe/main/Klipper_macros/Klipper_macros.zip
+unzip Klipper_macros.zip
+
+```
+
 Check the klicky-probe.cfg, remove or comment the macros that are not required for your printer or that you do not want to implement.
-Edit klicky-variables.cfg (there are printers specific recommendations on the printer configuration page) for klicky to operate properly there are some configurations that need to be checked, otherwise your will run into problems.
+Edit klicky-variables.cfg (there are printers specific recommendations on the printer configuration page) for klicky to operate properly.
+
+There are some configurations that need to be checked, otherwise your will run into **out of range** problems, that is by design.
 
 Open your printer.cfg file, comment out *safe_z_home* or *homing_override*, if you have them (the macros will take care of homing) and add the following line before the "Macros" Section.
 
-`[include Klicky-Probe.cfg]`You 
+`[include klicky-probe.cfg]`
+
+It should look like this:
+
+```
+#####################################################################
+# 	Macros
+#####################################################################
+[include klicky-probe.cfg]
+```
 
 You now need to configure the probe pin, that is printer specific, and the details are on your printer configuration guide.
 
-Regarding you print start and end macros, with the helper scripts implemented, they do not need to be changed, if however you would like to reduce the times that the toolhead attaches and docks the probe, you can use Attach_Probe_Lock that prevents the probe to be docked after an operation that normally would dock the probe. **BEWARE that the probe may hit the bed depending on what you are doing**. When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock the probe.
+Regarding you print start and end macros, with the helper scripts implemented, they do not need to be changed.
+
+If however you would like to reduce the times that the toolhead attaches and docks the probe, you can use Attach_Probe_Lock that prevents the probe to be docked after an operation that normally would dock the probe.
+
+**BEWARE that the probe may hit the bed depending on what you are doing**.
+
+When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock and unlock the probe.
 
 ## Advanced users
 

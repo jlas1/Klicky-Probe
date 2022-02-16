@@ -1,0 +1,23 @@
+# Klicky usermods
+
+Here you can find Klicky user submitted mods to support extra printers and toolheads.
+
+All the compatible printers require:
+
+* Toolhead mount (the thing that the probe attached to when it's being used), it's toolhead specific
+* Klicky probe (there are three versions, all are interchangeable and compatible, more information on the specific printer page), what actually is used to probe the bed, the parts are equal on all the printers
+* Probe dock (all the printers use the same), the parts are equal on all the printers
+* Probe dock mount (what attaches to the printer to dock the probe when not in use), should be printer specific and not toolhead specific
+
+The recommended macros can be found [here for klipper](..//Klipper_macros) macros and [here for RRF](../RRF_macros).
+
+There are two types of user mod:
+
+* Printer dock mount (identified by "dock mount")
+* Toolhead probe mount (identified by "probe mount")
+
+| Owner     | Descrption                                             | Mod Type    | Printer/Toolhead |
+| --------- | ------------------------------------------------------ | ----------- | ---------------- |
+| TheMacBoy | [support arm for Ender 5 Plus with rails](./TheMacBoy) | probe mount | Ender 5 Plus     |
+| TheMacBoy | [Klicky Probe mount for EVA](./TheMacBoy)              | dock mount  | EVA 2.2+         |
+
