@@ -217,9 +217,9 @@ As of right now, klipper and RRF have no inbuilt support for a removable probe, 
 
 The macros and instructions on how to configure are located on the [Macro directory](../../../Klipper_macros), you need to **check that before continuing on the build**, there are also some [RRF scripts](../../RRF_macros) that work.
 
-This guide will assume users are using RATOS for their printer. It is probably easier to follow the generic Voron installation instructions if using a standard klipper installation.
+This guide will assume users are using RATOS for their printer. It is probably easier to follow the standard installation and configuration instructions [for Klipper](../../../Klipper_macros), you still should **check that before continuing on the build**, there are also some [RRF scripts](../../RRF_macros) that work.
 
-Add all the klicky macros to the config directory (same level as your printer.cfg file.)
+For RATOS, add all the [klicky macros](../../../Klipper_macros) to the config directory (same level as your printer.cfg file.)
 
 Update printer.cfg with the following changes:
 
