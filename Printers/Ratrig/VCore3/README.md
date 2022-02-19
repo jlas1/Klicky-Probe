@@ -129,7 +129,7 @@ For the probe assembly you need the following parts:
 - [ ] Multimeter to check for Continuity 
 - [ ] Super Glue
 
-<img src="./Photos/V0_probe_1.jpg" width="400" />
+<img src="./Photos/probe_1.jpg" width="400" />
 
 Maybe you need to clear the holes for the microswitch, a 1.5mm drill bit should work fine.
 
@@ -137,15 +137,11 @@ Install the microswitch so that the arrow on the probe body is pointing to the l
 
 The best way to install the back magnet is to attach a magnet to the probe dock and slide the probe on the dock to insert some distance and the insert he remaining with a tool, it should be slightly below the plastic.
 
-<img src="./Photos/V0_probe_2.jpg" width="400px;" />
+<img src="./Photos/probe_2.jpg" width="400px;" />
 
 Then take your self tapping screws and screw the microswitch in place, you should also now solder the wires to the outside pins of the switch, that way making this a Normally Connected probe.
 
-<img src="./Photos/V0_probe_3.jpg" width="600" />
-
-You should place the wires cover outside the ducts to the magnets and install them in the space below the magnets, more like the right wire is on the image below.
-
-<img src="./Photos/probe_wires_detail.png" width="400" />
+<img src="./Photos/probe_3.jpg" width="600" />
 
 You want to install the magnets in the way that the ones which are connected to the microswitch, have the same polarity.
 
@@ -155,11 +151,11 @@ The 3rd magnet should have the inverse polarity, wait until the system is comple
 
 You can use the included pressfit helpers to help in securing the probe when you are inserting the magnets.
 
-<img src="./Photos/V0_probe_4.jpg" width="400" />
+<img src="./Photos/probe_4.jpg" width="400" />
 
 There is no need for soldering, the probe microswitch connectors are press-fit on the magnets, they should remain with the top above the probe plastic.
 
-<img src="./Photos/V0_probe_5.jpg" width="400" />
+<img src="./Photos/probe_5.jpg" width="400" />
 
 As the last step of the probe assembly check if you have continuity between two magnets that connect to the switch.
 
@@ -177,14 +173,13 @@ For the probe mount assembly you need the following parts
 
 The probe mount wires are also connected with pressure from the magnets, you can use the probe magnets as a template to insert the probe mount magnets, it is easier that way, so that the magnets are not inserted the wrong way.
 
+<img src="./Photos/probe_wires_detail.png" width="400" />
+
 again, before placing the wire magnets, use some super glue on the holes (not a lot, just a drop), avoid the wires and the top of the magnets.
 
 The 3rd magnet should have the inverse polarity, exacly like on the probe.
 
 Wait until the system is complete and assembled before gluing the 3rd magnets, they might need adjustment to ensure a good fit on the probe.
-
-| <img src="./Photos/V0.1_probe_mount_1.jpg" style="zoom: 15%;" /> | <img src="./Photos/V0.1_probe_mount_2.jpg" style="zoom:15%;" /> | <img src="./Photos/V0.1_probe_mount_3.jpg" style="zoom:15%;" /> |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
 
 After everything is assembled let's check again for continuity, this time joining the ends of the cable and testing connectivity on the two wire magnets that have a cable.
 
@@ -194,20 +189,13 @@ For the installation you need the following parts:
 
 - [ ] 2x M3x12 mm BHSC Screws
 
-<img src="./Photos/V0.1_attached.jpg" width="600px;" />
+<img src="./Photos/probe_mount_1.jpg" width="600px;" />
 
 Route the probe mount cables between the probe mount and the fan duct and then up the side of the EVA backplate. When installing the mount be careful not to push the hex nuts out of their grooves. It is a pain to take apart the EVA assembly to put them back in.
 
 **Before going further, please turn off the printer, the boards are very picky with short circuits.**
 
 Connect the probe to the controller board. You may also put an inline connector (I chose to do this) to enable easier switching in the future.
-
-<img src="./Photos/V0.1_umbilical.jpg" width="600px;" />
-
-Connect the wires from the Klicky Probe to the Z end stop port.
-
-| <img src="./Photos/V0.1_back.jpg" width="600px;" /> | ![v0_eletronic](./Photos/v0_eletronic.JPG) |
-| --------------------------------------------------- | ------------------------------------------ |
 
 When testing the docking and attachment of the probe, make sure that the back magnet of the probe and the dock magnet do not touch, if they do, it will make attaching the probe much harder.
 
@@ -217,9 +205,9 @@ As of right now, klipper and RRF have no inbuilt support for a removable probe, 
 
 The macros and instructions on how to configure are located on the [Macro directory](../../../Klipper_macros), you need to **check that before continuing on the build**, there are also some [RRF scripts](../../RRF_macros) that work.
 
-This guide will assume users are using RATOS for their printer. It is probably easier to follow the standard installation and configuration instructions [for Klipper](../../../Klipper_macros), you still should **check that before continuing on the build**, there are also some [RRF scripts](../../RRF_macros) that work.
+This guide will assume users are using RATOS for their printer. It is probably easier to follow the generic Voron installation instructions if using a standard klipper installation.
 
-For RATOS, add all the [klicky macros](../../../Klipper_macros) to the config directory (same level as your printer.cfg file.)
+Add all the klicky macros to the config directory (same level as your printer.cfg file.)
 
 Update printer.cfg with the following changes:
 
