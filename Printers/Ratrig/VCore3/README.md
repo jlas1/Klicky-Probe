@@ -256,7 +256,7 @@ y_offset: -20.725
 
 #### Assembled Klicky Probe
 
-![Assembled Klicky Probe](./Photos/V0.1_complete.jpg)
+See assembled probe in action on youtube [here](https://youtu.be/aWnHNNrViP0)
 
 
 ### Step 6: klipper  Dock/Undock  configuration
