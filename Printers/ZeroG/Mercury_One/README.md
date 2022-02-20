@@ -22,8 +22,8 @@ Coming soon...
 
 The probe dock is mounted to the rear extrusion just to the right of the leftmost Z-axis bracket:
 
-![Klicky Dock Location](Photos/zerog-merc1-overview.jpg)
-![Klicky Dock Closeup](Photos/zerog-merc1-closeup.jpg)
+![Klicky Dock Closeup](./Photos/zerog-merc1-closeup.jpg)
+![Klicky Dock Location](./Photos/zerog-merc1-overview.jpg)
 
 > Note: The dock can be mounted slightly outside of the Y-axis build volume to help avoid unintentional probe mounting while printing.  If you want to do this, you will need to adjust your Y endstop (physically) and your `[stepper_y]` `position_max` in `printer.cfg` to make sure the toolhead can reach the probe dock.
 
@@ -48,6 +48,10 @@ It was tested and printed with ABS, might work on other materials, if you try, l
 
 ### Steps 1 through 4
 Follow assembly steps 1 through 4 in the [Voron 2.4 instructions](/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident#assembly).
+
+Make sure to print and use the dock mount in [Voron_Toolhead_STL](./Voron_Toolhead_STL) and install the heat set inserts:
+
+<img src="./Photos/zerog-merc1-dock-heatset.jpg" style="max-width: 300px" />
 
 ### Step 5: klipper configuration
 
