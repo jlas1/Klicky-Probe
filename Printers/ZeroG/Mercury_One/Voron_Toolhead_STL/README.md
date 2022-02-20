@@ -12,7 +12,7 @@ The Klicky Probe consists on four different components:
 
 The recommended printing configuration are:
 
-* initial layer height: 0,24
+* initial layer height: 0.24
 * layer height: 0.2mm
 * bottom/top/perimeters: 4
 * infill: more than 23%
