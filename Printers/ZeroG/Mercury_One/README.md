@@ -43,8 +43,8 @@ The Klicky Probe consists of four different components:
     - [`Mount_magnet_holder.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_holder.stl)
     - [`Mount_magnet_pressfit_helper.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_pressfit_helper.stl)
     - [`Mount_pressfit_holder.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_pressfit_holder.stl)
-- The probe itself, found in the [base STL directory](../../../Base_STL/)
-- Probe dock, found in the [base STL directory](../../../Base_STL/)
+- The probe itself, found in the [base STL directory](../../../Base_STL/), [KlickyProbe_v2](../../../../Base_STL/KlickyProbe_v2.stl) 
+- Probe dock, found in the [base STL directory](../../../Base_STL/), [Probe_Dock_v2](../../../../Base_STL/Probe_Dock_v2.stl) 
 - Frame dock mount from the [Voron_Toolhead_STL](./Voron_Toolhead_STL/) folder ([CAD models](./Voron_Toolhead_CAD/) are also available)
 
 The recommended printing configuration is:
@@ -61,14 +61,7 @@ The recommended printing configuration is:
 ## Assembly
 
 ### Steps 1 through 4
-Follow assembly steps 1 through 4 in the [Voron 2.4 instructions](/../../Voron/v1.8_v2.4_Legacy_Trident#assembly), the required parts are:
-
-- Toolhead mount, found in the [AB/SB STL directory](../../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL), [KlickyProbe_AB_mount_v2](../../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STLKlickyProbe_AB_mount_v2) 
-- the probe itself, found in the [base STL directory](../../../../Base_STL), [KlickyProbe_v2](../../../../Base_STL/KlickyProbe_v2.stl) 
-- probe dock, found in the [base STL directory](../../../../Base_STL), [Probe_Dock_v2](../../../../Base_STL/Probe_Dock_v2.stl) 
-- Frame dock mount, found in  [Voron_Toolhead_STL](./Voron_Toolhead_STL) 
-
-The CAD for all the files, is locate on the [main STP file](../../../../CAD).
+Follow assembly steps 1 through 4 in the [Voron 2.4 instructions](/../../Voron/v1.8_v2.4_Legacy_Trident#assembly).
 
 Make sure to print and use the dock mount in [Voron_Toolhead_STL](./Voron_Toolhead_STL) and install the heat set inserts:
 
