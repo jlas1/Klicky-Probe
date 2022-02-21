@@ -27,6 +27,8 @@ The probe dock is mounted to the rear extrusion just to the right of the leftmos
 
 > Note: The dock can be mounted slightly outside of the Y-axis build volume to help avoid unintentional probe mounting while printing.  If you want to do this, you will need to adjust your Y endstop (physically) and your `[stepper_y]` `position_max` in `printer.cfg` to make sure the toolhead can reach the probe dock.
 
+You can find the 
+
 ### Probe toolhead mount
 
 The probe is mounted to the Afterburner / Stealthburner gantry bracket inside the cavity for the inductive probe. It can be used as a Z-probe for bed mesh leveling and as a Z endstop for perfect first layers on any bed.
@@ -47,7 +49,14 @@ It was tested and printed with ABS, might work on other materials, if you try, l
 ## Assembly
 
 ### Steps 1 through 4
-Follow assembly steps 1 through 4 in the [Voron 2.4 instructions](/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident#assembly).
+Follow assembly steps 1 through 4 in the [Voron 2.4 instructions](/../../Voron/v1.8_v2.4_Legacy_Trident#assembly), the required parts are:
+
+- Toolhead mount, found in the [AB/SB STL directory](../../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL), [KlickyProbe_AB_mount_v2](../../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STLKlickyProbe_AB_mount_v2) 
+- the probe itself, found in the [base STL directory](../../../../Base_STL), [KlickyProbe_v2](../../../../Base_STL/KlickyProbe_v2.stl) 
+- probe dock, found in the [base STL directory](../../../../Base_STL), [Probe_Dock_v2](../../../../Base_STL/Probe_Dock_v2.stl) 
+- Frame dock mount, found in  [Voron_Toolhead_STL](./Voron_Toolhead_STL) 
+
+The CAD for all the files, is locate on the [main STP file](../../../../CAD).
 
 Make sure to print and use the dock mount in [Voron_Toolhead_STL](./Voron_Toolhead_STL) and install the heat set inserts:
 
