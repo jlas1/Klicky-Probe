@@ -103,7 +103,7 @@ It was tested and printed with ABS and PETG, might work on other materials, if y
 
 Install your heat set threaded inserts in the holes shown below.
 
-<img src="./Photos/probe_dock.png" style="zoom: 15%;" />
+<img src="./Photos/probe_dock.png" style="zoom: 100%;" />
 
 Install the magnet in the Probe dock, make sure that the magnet is fully inserted, it's top should be below the plastic.
 
@@ -111,7 +111,7 @@ Screw the dock onto the Dock mount with the two M3x16mm screws.
 
 Secure the magnet with a dab of super glue (not a lot, just a drop).
 
-<img src="./Photos/probe_dock_assembled.png" style="zoom: 15%;" />
+<img src="./Photos/probe_dock_assembled.png" style="zoom: 100%;" />
 
 Mount the Probe Dock to the front left extrusion, You will adjust the Z offset in a minute.
 
