@@ -31,18 +31,30 @@ The probe dock is mounted to the rear extrusion just to the right of the leftmos
 
 The probe is mounted to the Afterburner / Stealthburner gantry bracket inside the cavity for the inductive probe. It can be used as a Z-probe for bed mesh leveling and as a Z endstop for perfect first layers on any bed.
 
-### Printing instructions
+### Printed parts
+There is no need for supports, all the files are ready to print, they are in the recommended orientation.
 
-Recommended printing settings:
+The Klicky Probe consists of four different components:
 
-* initial layer height:0.24
+- Toolhead components, found in the [Voron 2.4 STL directory](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/):
+    - [`KlickyProbe_AB_mount_v2.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/KlickyProbe_AB_mount_v2.stl)
+    - [`Mount_magnet_holder.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_holder.stl)
+    - [`Mount_magnet_pressfit_helper.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_pressfit_helper.stl)
+    - [`Mount_pressfit_holder.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_pressfit_holder.stl)
+- The probe itself, found in the [base STL directory](../../../Base_STL/)
+- Probe dock, found in the [base STL directory](../../../Base_STL/)
+- Frame dock mount from the [Voron_Toolhead_STL](./Voron_Toolhead_STL/) folder ([CAD models](./Voron_Toolhead_CAD/) are also available)
+
+The recommended printing configuration is:
+
+* initial layer height: 0.24
 * layer height: 0.2mm
 * bottom/top/perimeters: 4
 * infill: more than 23%
 * infill type: Cubic
 * Thin walls: On
 
-It was tested and printed with ABS, might work on other materials, if you try, let me know how it worked out.
+
 
 ## Assembly
 
@@ -210,10 +222,10 @@ SET_VELOCITY_LIMIT VELOCITY=100
 Enjoy your Klicky Probe!
 
 ## Dock, undock and Z-endstop probing video
-This video shows the docking, undocking and z-endstop probing process in a Zero G Mecury One
+This video shows the docking, undocking and z-endstop probing process in a Zero G Mercury One
 
 [![Klicky Probe in action](https://img.youtube.com/vi/HXm9AFOVeQQ/0.jpg)](https://www.youtube.com/watch?v=HXm9AFOVeQQ)
 
-It is working very well, if you decide to use it, give me feedback, either here, or on discord, my discord user is JosAr#0517.
+It is working very well, if you decide to use it, give me feedback, either here, or on discord, my discord user is srkthain#6222.
 
 By standing on the shoulders of giants, lets see if we can see further.
