@@ -58,6 +58,9 @@ The specific parts with install, configuration, troubleshoot and recommended set
 
 [VCore-3](./Printers/Ratrig/VCore3)
 
+[MercuryOne](./Printers/ZeroG/Mercury_One)
+
+
 There are also [docks and mounts submitted by users](./Usermods) to support other printers and toolheads, you should check it out.
 
 ![Klicky Probe image](Photos/Klicky_Probe.png)klicky early version.
