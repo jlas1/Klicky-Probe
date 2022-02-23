@@ -15,3 +15,8 @@ CAD files
 * KlickyProbe_v2_v53
 
   added VCore3 probe dock and EVA mount
+  
+* KlickyProbe_v2_v54
+
+  added V0.1 Mosquito Cowling
+
