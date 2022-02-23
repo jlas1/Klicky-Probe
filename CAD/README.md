@@ -8,4 +8,10 @@ CAD files
 
   corrected dock mount fixed distance, it was 2 mm short
 
-  
+* KlickyProbe_v2_v51
+
+  added MercuryOne probe dock
+
+* KlickyProbe_v2_v53
+
+  added VCore3 probe dock and EVA mount
