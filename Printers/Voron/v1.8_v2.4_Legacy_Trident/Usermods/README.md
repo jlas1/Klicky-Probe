@@ -40,3 +40,8 @@ Designed for V1.8
 "The 2.4 Dock and Variable Dock take up quite a lot of space which could be better used for nozzle scrubbing etc.
 I've created an alternative Dock, that attaches to the rear left vertical profile."
 It's compatible with the Klicky v2 dock
+
+[## Retractable Probe Dock](https://github.com/tronfu/Voron-Mods/tree/main/Retractable_Probe_Dock) by Tronfu
+
+A Servo-powered Retractable Dock for Klicky Probe and Nozzle Brush.
+
