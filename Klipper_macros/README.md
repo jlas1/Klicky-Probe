@@ -109,8 +109,9 @@ I recognize that some users are very technical and may want to write custom macr
 
 ```python
 # Probe entry location
-G0 X{docklocation_x|int - attachmove_x|int} Y{docklocation_y|int - attachmove_y|int} F{travel_feedrate}
+G0 X{docklocation_x|int - attachmove_x|int - attachmove2_x|int} Y{docklocation_y|int - attachmove_y|int - attachmove2_y} F{travel_feedrate}
 # Attach probe
+G0 X{docklocation_x|int - attachmove2_x|int} Y{docklocation_y|int - attachmove2_y} F{travel_feedrate}
 G0 X{docklocation_x} Y{docklocation_y} F{dock_feedrate}
 # Probe exit location
 G0 X{docklocation_x|int - attachmove_x|int} Y{docklocation_y|int - attachmove_y|int} F{release_feedrate}
@@ -125,6 +126,7 @@ G0 X{docklocation_x|int - attachmove_x|int} Y{docklocation_y|int - attachmove_y|
 G0 X{docklocation_x} Y{docklocation_y} F{dock_feedrate}
 # Probe decoupling
 G0 X{docklocation_x|int + dockmove_x|int} Y{docklocation_y|int + dockmove_y|int} F{release_feedrate}
+G0 X{docklocation_x|int + dockmove_x|int - attachmove_x|int} Y{docklocation_y|int + dockmove_y|int - attachmove_y|int} F{release_feedrate}
 ```
 
 The typical variables values are:
@@ -142,5 +144,9 @@ Variable_dockmove_z:              0    # (can be negative)
 Variable_attachmove_x:          30    # Final toolhead movement to Dock
 Variable_attachmove_y:            0    # the probe on the dock
 Variable_attachmove_z:            0    # (can be negative)
+
+Variable_attachmove2_x:          0    # intermediate toolhead movement to attach
+Variable_attachmove2_y:          0    # the probe on the dock (can be negative)
+Variable_attachmove2_z:          0    # (to be used as a last move before attaching the probe, suitable for Euclid)
 
 **Again, be advised that these will not raize the bed to avoid hitting it, won't check if the probe is docked or attached. USE EXTREME CAUTION**
