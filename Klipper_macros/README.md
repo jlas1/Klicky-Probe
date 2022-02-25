@@ -99,6 +99,34 @@ If however you would like to reduce the times that the toolhead attaches and doc
 
 When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock and unlock the probe.
 
+## 
+
+## Pre and Post macros for dock operations
+
+If your setup requires a custom move or macro to be called before attaching and docking, there are two placeholder macros (_DeployDock,_RetractDock) that can be replaced according to your needs.
+
+You can place your custom macros on klicky-specific.cfg or on your printer.cfg
+
+```python
+####################
+# Deploy klicky dock
+[gcode_macro _DeployDock]
+rename_existing: _DeployDock_
+description: Deploys the dock
+gcode:
+    YOUR CODE HERE
+
+####################
+# Retracts klicky dock
+[gcode_macro _RetractDock]
+rename_existing: _RetractDock_
+description: Retracts the dock
+gcode:
+    YOUR CODE HERE
+```
+
+
+
 ## Advanced users
 
 **Beware going forward, you will leave the safety that the macros provide**
