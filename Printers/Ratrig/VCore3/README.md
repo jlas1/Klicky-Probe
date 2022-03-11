@@ -64,12 +64,10 @@ The printer specific STL's are located [here](./VCore3_STL).
 
 ## What to print
 
-- 2x KlickyProbe_Long_v2.stl (keeping a spare is always a good idea)
+- 2x KlickyProbe_v2.stl (keeping a spare is always a good idea)
 - Probe_Mount_v1.stl
 - Probe_Dock_v2.stl
 - Probe_Dock_Mount_v1.stl
-
-The KlickyProbe_v2.stl is also compatible, but has a different Y offset and cannot probe all the bed.
 
 <img src="Photos/printed_parts.jpg" alt="printed parts" style="zoom:60%;" />
 
@@ -77,7 +75,7 @@ The KlickyProbe_v2.stl is also compatible, but has a different Y offset and cann
 
 - Probe_magnet_pressfit_helper.st
 - Probe_magnet_holder.stl
-- Longer_probe_pressfit_helper.stl
+- probe_pressfit_helper.stl
 
 ### Printing instructions
 
