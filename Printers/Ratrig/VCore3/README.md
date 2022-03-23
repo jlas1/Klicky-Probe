@@ -56,6 +56,12 @@ The probe toolhead mount has been designed to be directly compatable with the EV
 - 2x M6x12 cap head bolt
 - 2x M3 threaded insert M3x5 mmx4 mm
 
+## Sourcing
+
+To get the best experience, please consider purchasing from the trusted list of suppliers bellow.
+
+[trusted suppliers list](./Sourcing.md)
+
 ## Parts location
 
 The probe STL's are located [here](../../../Base_STL).

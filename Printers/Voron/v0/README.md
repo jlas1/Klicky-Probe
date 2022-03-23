@@ -112,6 +112,12 @@ It is also necessary to use the Screwless variable dock mount
 |          2x m3 nut          | 2x M3 threaded insert M3x5 mmx4 mm | 2x M3 threaded insert M3x5 mmx4 mm | 2x M3 threaded insert M3x5 mmx4 mm | 2x M3 threaded insert M3x5 mmx4 mm |
 |                             |                                    |                                    |             2x m3x8 mm             |             2x m3x8 mm             |
 
+## Sourcing
+
+To get the best experience, please consider purchasing from the trusted list of suppliers bellow.
+
+[trusted suppliers list](./Sourcing.md)
+
 ## Parts location
 
 The probe STL's are located [here](../../../Base_STL).
