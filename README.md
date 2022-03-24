@@ -115,6 +115,12 @@ Probe BOM:
 - some m3 heat inserts
 - some m3 nuts
 
+# Sourcing guide
+
+To get the best experience, please consider purchasing from the trusted list of suppliers bellow.
+
+[trusted suppliers list](./Sourcing.md)
+
 # Assembled Klicky Probe on a Voron v2.4
 
 # ![Assembled Klicky Probe](./Photos/Voron_V2.4_300mm_back.jpg)

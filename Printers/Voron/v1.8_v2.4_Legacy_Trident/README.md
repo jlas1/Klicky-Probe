@@ -66,6 +66,12 @@ This mod is also on [VoronUsers repository](https://github.com/VoronDesign/Voron
 | 2x M5 t-nut or equivalent          | 2x M5 t-nut or equivalent           | 2x M5 t-nut or equivalent          | 2x M5 t-nut or equivalent          | 2x M5 t-nut or equivalent          |
 |                                    | 8x M3x8 mm                          | 2x M3x8 mm                         | 2x M3x8 mm                         |                                    |
 
+## Sourcing
+
+To get the best experience, please consider purchasing from the trusted list of suppliers bellow.
+
+[trusted suppliers list](./Sourcing.md)
+
 ## Parts location
 
 The probe STL's are located [here](../../../Base_STL).

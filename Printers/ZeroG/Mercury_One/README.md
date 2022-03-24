@@ -13,6 +13,12 @@ There are two supported gantry configurations for the Mercury One:
 - *EVA*: This is the standard gantry, compatible with toolheads from the [EVA project](https://main.eva-3d.page/) project.
 - *Voron Afterburner / Stealthburner*: This gantry supports the same toolheads as the Voron 2.4.
 
+### Sourcing
+
+To get the best experience, please consider purchasing from the trusted list of suppliers bellow.
+
+[trusted suppliers list](./Sourcing.md)
+
 ### EVA Probe dock mount
 
 Coming soon...
@@ -26,8 +32,6 @@ The probe dock is mounted to the rear extrusion just to the right of the leftmos
 ![Klicky Dock Location](./Photos/zerog-merc1-overview.jpg)
 
 > Note: The dock can be mounted slightly outside of the Y-axis build volume to help avoid unintentional probe mounting while printing.  If you want to do this, you will need to adjust your Y endstop (physically) and your `[stepper_y]` `position_max` in `printer.cfg` to make sure the toolhead can reach the probe dock.
-
-You can find the 
 
 ### Probe toolhead mount
 
