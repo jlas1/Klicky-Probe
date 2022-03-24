@@ -99,8 +99,6 @@ If however you would like to reduce the times that the toolhead attaches and doc
 
 When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock and unlock the probe.
 
-## 
-
 ## Pre and Post macros for dock operations
 
 If your setup requires a custom move or macro to be called before attaching and docking, there are two placeholder macros (_DeployDock,_RetractDock) that can be replaced according to your needs.
@@ -125,7 +123,11 @@ gcode:
     YOUR CODE HERE
 ```
 
+## XY Sensorless homing 
 
+If you are using sensorless homing, and have your own X and/or Y homing macros, you can use override the klicky macros behavior with your very own _HOME_X and _HOME_Y macros.
+
+If they exist on your klipper configuration, klicky macro will use them instead of the default G28 commands.
 
 ## Advanced users
 
