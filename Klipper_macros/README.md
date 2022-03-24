@@ -39,14 +39,14 @@ The helper files work by expanding the standard klipper function with a attach a
 
 Right now the macros are divided in multiple files, that way it is much easier to upgrade, configure and maintain
 
-| File                             |        v2.4        |        v1.8        |       Legacy       |      Trident       |         v0         |       Tiny-M       |      V-core3       |
-| -------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: |
-| klicky-probe.cfg                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| klick-variables.cfg              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| klicky-bed-mesh-calibrate.cfg    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Klicky-quad-gantry-level.cfg     | :heavy_check_mark: |        :x:         |        :x:         |        :x:         |        :x:         |        :x:         |        :x:         |
-| Klicky-screws-tilt-calculate.cfg |        :x:         | :heavy_check_mark: | :heavy_check_mark: |        :x:         | :heavy_check_mark: | :heavy_check_mark: |        :x:         |
-| klicky-z-tilt-adjust.cfg         |        :x:         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |        :x:         |        :x:         | :heavy_check_mark: |
+| File                             |        v2.4        |        v1.8        |       Legacy       |      Trident       |         v0         |       Tiny-M       |      V-core3       | MercuryOne         |
+| -------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | ------------------ |
+| klicky-probe.cfg                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| klick-variables.cfg              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| klicky-bed-mesh-calibrate.cfg    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Klicky-quad-gantry-level.cfg     | :heavy_check_mark: |        :x:         |        :x:         |        :x:         |        :x:         |        :x:         |        :x:         | :x:                |
+| Klicky-screws-tilt-calculate.cfg |        :x:         | :heavy_check_mark: | :heavy_check_mark: |        :x:         | :heavy_check_mark: | :heavy_check_mark: |        :x:         | :grey_question:    |
+| klicky-z-tilt-adjust.cfg         |        :x:         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |        :x:         |        :x:         | :heavy_check_mark: | :heavy_check_mark: |
 
 
 
@@ -68,7 +68,6 @@ Download the appropriate files (or the zip containing them all and delete the on
 cd ~/klipper_config/
 wget https://raw.githubusercontent.com/jlas1/Klicky-Probe/main/Klipper_macros/Klipper_macros.zip
 unzip Klipper_macros.zip
-
 ```
 
 Check the klicky-probe.cfg, remove or comment the macros that are not required for your printer or that you do not want to implement.
@@ -101,27 +100,7 @@ When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock an
 
 ## Pre and Post macros for dock operations
 
-If your setup requires a custom move or macro to be called before attaching and docking, there are two placeholder macros (_DeployDock,_RetractDock) that can be replaced according to your needs.
-
-You can place your custom macros on klicky-specific.cfg or on your printer.cfg
-
-```python
-####################
-# Deploy klicky dock
-[gcode_macro _DeployDock]
-rename_existing: _DeployDock_
-description: Deploys the dock
-gcode:
-    YOUR CODE HERE
-
-####################
-# Retracts klicky dock
-[gcode_macro _RetractDock]
-rename_existing: _RetractDock_
-description: Retracts the dock
-gcode:
-    YOUR CODE HERE
-```
+If your setup requires a custom move, a macro to be called before attaching and docking, there are two macros \_DeployDock and \_RetractDock that are executed (if they are configured) when it's required for the dock to be ready for docking and attachment operations.
 
 ## XY Sensorless homing 
 
