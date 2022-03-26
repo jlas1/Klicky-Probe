@@ -414,23 +414,12 @@ If you have your Dock mounted to the bed then you need to adjust the `variable_d
 
 ***This requires manual klipper plug-in configuration and installation, it is recommended to be familiar with klipper before attempting this***
 
-If you want to use the Z endstop switch of the Voron to calculate the Z-Offset, use the new [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration).
+If you want to use the Z endstop switch of the Voron to calculate the Z-Offset, use the [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration).
 Besides the macros from this repository, you will need to install the Z autocalibration plugin, the recommended way is via [moonraker](https://github.com/protoloft/klipper_z_calibration#moonraker-updater).
 
 Sometimes after installation it's necessary to run the install script manually, if you installed using the moonraker mothod above, run "/home/pi/klipper_z_calibration/install.sh" on the raspberry pi command prompt.
-Regarding the configuration and necessary macros, most of necessary macros are already included in the klick-probe.cfg, what is missing is the specific z_calibration configuration and the macro that is called to do the actual calibration.
 
 **[I would advise you to read the detailed explanation of the plugin functionality if you want to start using it](https://github.com/protoloft/klipper_z_calibration#how-to-configure-it)**
-
-All of this is included in the [Klicky automatic Z calibration configuration](../../..Klipper_macro/klicky-z_calibration.cfg)
-
-You should then add these lines at the end of your PRINTER_START (before any purge line):
-```python
-G28 Z
-SET_GCODE_OFFSET Z=0
-CALIBRATE_Z
-```
-To fine tune the nozzle distance to the bed, [use this](https://github.com/protoloft/klipper_z_calibration#switch-offset).
 
 #### Probe_accuracy and Probe_calibrate
 
