@@ -414,7 +414,7 @@ If you have your Dock mounted to the bed then you need to adjust the `variable_d
 
 ***This requires manual klipper plug-in configuration and installation, it is recommended to be familiar with klipper before attempting this***
 
-If you want to use the Z endstop switch of the Voron to calculate the Z-Offset, use the automatic Z calibration](https://github.com/protoloft/klipper_z_calibration).
+If you want to use the Z endstop switch of the Voron to calculate the Z-Offset, use the [automatic Z calibration](https://github.com/protoloft/klipper_z_calibration).
 Besides the macros from this repository, you will need to install the Z autocalibration plugin, the recommended way is via [moonraker](https://github.com/protoloft/klipper_z_calibration#moonraker-updater).
 
 Sometimes after installation it's necessary to run the install script manually, if you installed using the moonraker mothod above, run "/home/pi/klipper_z_calibration/install.sh" on the raspberry pi command prompt.
