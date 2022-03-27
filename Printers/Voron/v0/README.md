@@ -374,11 +374,11 @@ Regarding the Screws Tilt Adjust (Klipper probes the three screws positions and 
 
 ```python
 [screws_tilt_adjust]
-screw1: 100,115          #For Long probe
+screw1: 107,115          #For Long probe
 screw1_name: back right
 screw2: 0,115            #For Long probe
 screw2_name: back left
-screw3: 60,5             #For Long probe
+screw3: 52,5             #For Long probe
 screw3_name: front screw
 horizontal_move_z: 20
 speed: 100
