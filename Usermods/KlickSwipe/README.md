@@ -78,3 +78,11 @@ Restart Klipper, then execute `_DeployDock` followed by `_RetractDock`  you shou
 The animation below shows the basic assembly process.  Take care to attach the servo arm so that it is parallel to the body of the servo, and the probe dock is fully retracted.
 
 ![Assembly](./images/assembly.gif)
+
+
+## Installation
+
+The Servo mount attaches to 1515 extrusion and can be installed on the front-right extrusion of a V0 as pictured below.
+
+![Installation](./images/installation.gif)
+
