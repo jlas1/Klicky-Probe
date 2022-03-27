@@ -29,16 +29,16 @@ There are 22mm and 32mm arms provided, only one size is needed, depending on how
 ![STL Orientation](./images/STL.png)
 
 
-## Assembly
-![Assembly](./images/assembly.gif)
-
-
 ## Configuration
-Connect the servo motor.  If your controller board has a 5-pin `probe` connector, connect the servo wires to +5, GND, and and the servo pin.  The remaining 2 pins may be used by the klicky probe itself.
+It is necessary to connect and configure the servo motor before you begin the assembly, so that it can be set to it's zero position first.
+
+You may choose to route your wires to the final install location at this time as well.
+
+Connect the servo motor to your controller board.  If your board has a 5-pin `probe` connector, connect the servo wires to +5, GND, and and the servo pin.  The remaining 2 pins may be used by the klicky probe itself.
+
 The diagram below is for the BTT SKR Mini E3 V2.  Reference your controller's documentation for other configurations.
 
 ![Wiring](./images/skr_mini_e3_v2_wiring.png)
-
 
 
 Add the servo to your printer.cfg file 
@@ -69,3 +69,12 @@ gcode:
     SET_SERVO SERVO=KlickSwipe WIDTH=0
 
 ```
+
+Restart Klipper, then execute `_DeployDock` followed by `_RetractDock`  you should hear the servo motor turn.  It is now in the zero position, ready for assembly.
+
+
+## Assembly
+ 
+The animation below shows the basic assembly process.  Take care to attach the servo arm so that it is parallel to the body of the servo, and the probe dock is fully retracted.
+
+![Assembly](./images/assembly.gif)
