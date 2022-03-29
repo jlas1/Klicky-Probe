@@ -1,6 +1,6 @@
 # Klicky usermods
 
-Here you can find Klicky user submitted mods to support extra printers and toolheads.
+Here you can find Klicky user submitted mods to support extra printers and toolheads, mods that support a printer with specific documentation (Like the Vorons ot the Vcore3) have a dedicated usermod directory in the specific printer directory.
 
 All the compatible printers require:
 
