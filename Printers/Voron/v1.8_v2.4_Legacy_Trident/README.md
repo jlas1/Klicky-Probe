@@ -1,6 +1,7 @@
 # Klicky Probe for  Vorondesign V1.8,V2.4, Legacy and Trident printers
 
 Here you will find the necessary files and documentation to print and setup your own klicky probe.
+Don't forget to download all [the necessary parts](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident#parts-location).
 
 This directory has the specific klipper macros (and a link to RRF scripts), STL files properly oriented for printing and community mods for the respective printer.
 
