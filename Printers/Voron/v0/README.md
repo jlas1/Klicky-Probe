@@ -414,18 +414,9 @@ Please confirm that if you are not using a endstop pin, that the pull-up is enab
 Depending on your switch you may need to add a `!` to invert that pin (normally open vs. normally closed).
 
 
-#### Z endstop and Probe configuration
+#### Z endstop and Probe configuration (virtual Z endstop)
 
-If you want to use the Klicky Probe as your Z endstop, you need to change the `endstop_pin:` under the `[stepper_z]` section to `probe:z_virtual_endstop`.
-
-Just comment out the old one and add a new line `endstop_pin: probe:z_virtual_endstop`.
-
-You will need to update the Z probing variables,  set the two variables below to `0`, it will probe the middle of the bed.
-
-```python
-variable_z_endstop_x:     0
-variable_z_endstop_y:     0 
-```
+If you want to use the Klicky Probe as your Z endstop, please read this [excellent documentation](https://github.com/T4KUUY4/Voron-Stuff/tree/main/KlickyProbeZoffset) by Takuya and Clee, as it was written for a Voron v2.4 you need to use the probe offsets that are defined in here.
 
 #### Assembled Klicky Probe
 

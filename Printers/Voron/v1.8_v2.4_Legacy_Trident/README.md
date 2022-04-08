@@ -301,7 +301,7 @@ pin: ^P0.10
 x_offset: 0
 y_offset: 19.75
 z_offset: 6.42
-speed: 7
+speed: 5
 samples:3 
 samples_result: median
 sample_retract_dist: 2.0
@@ -319,26 +319,16 @@ horizontal_move_z: 10
 horizontal_move_z: 10
 ```
 
-I recommend a probing speed between 5mm/s and 10mm/s, you may experiment to see what is the better speed for your machine.
+I recommend a probing speed between 3mm/s and 10mm/s, you may experiment to see what is the better speed for your machine.
 Please confirm that if you are using the probe input, that the pull-up is enable by using the ^ sign, normally the endstop pins have a hardware solution that does not require this configuration.
 Depending on your switch you may need to add a `!` to invert that pin (normally open vs. normally closed).
 Normally the endstop pins use a hardware solution, so it is not necessary.
 
 There is now an arrow on the probe telling you where should the switch pole be to have the correct offset.
 
-#### Z endstop and Probe configuration
+#### Z endstop and Probe configuration (virtual Z endstop)
 
-If you want to use the Klicky Probe as your Z endstop, you need to change the `endstop_pin:` under the `[stepper_z]` section to `probe:z_virtual_endstop`.
-
-Just comment out the old one and add a new line `endstop_pin: probe:z_virtual_endstop` and comment out position_endstop.
-
-You will need to update the klicky-variables.cfg Z probing variables,  set the two variables below to `0`, it will probe the middle of the bed.
-
-```python
-variable_z_endstop_x:     0
-variable_z_endstop_y:     0
-```
-You also need to comment position_endstop
+If you want to use the Klicky Probe as your Z endstop, please read this [excellent documentation](https://github.com/T4KUUY4/Voron-Stuff/tree/main/KlickyProbeZoffset) by Takuya and Clee.
 
 #### Assembled Klicky Probe
 
