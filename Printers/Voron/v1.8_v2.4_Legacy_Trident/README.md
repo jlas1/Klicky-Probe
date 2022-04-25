@@ -212,7 +212,7 @@ If you have a normally closed switch (as you should), then you should have a cur
 For the AB/SB Mount assembly you need the following parts
 
 - [ ] 3x 6 mm x 3 mm magnets
-- [ ] 2 x 10cm 22AWG cable to connect the Klicky Probe to the Mircofit Terminal
+- [ ] 2 x 18cm 22AWG cable to connect the Klicky Probe to the Microfit Terminal (if it turn out it's too big, can always cut to lenght)
 - [ ] Multimeter to check for Continuity 
 - [ ] Super Glue
 
