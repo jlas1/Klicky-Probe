@@ -4,7 +4,7 @@ I made the probe dock mount with press fit m3 nuts instead of heat inserts used 
 In case of collision on z axis between the dock and the probe i added 2 more versions : one with z offset of the probe dock mount 1 mm lower and one 1 mm higher .
 
 Klicky probe is a cheap and more precise alternative to various probe sensors (BlTouch, 3dTouch, inductive/capacitive sensors ) , and tested by me a standard deviation of 0.00065 
-There are 4 parts needed : probe mount , probe (vorious probe lenghts and even a switch extender if needed can be found on the klicky github) , probe dock and probe dock mount. 
+There are 4 parts needed : probe mount , probe (various probe lengths and even a switch extender if needed can be found on the klicky github) , probe dock and probe dock mount. 
  Inside the pictures folder i will put the print orientation. For the print settings i use a 0.2 layer height, 3 walls,5 top/bottom and 35% infill.
 
 All the credits go to klicky probe creator and obvious to VzBot creators.
