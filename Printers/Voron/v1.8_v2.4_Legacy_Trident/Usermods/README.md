@@ -49,3 +49,6 @@ It's compatible with the Klicky v2 dock
 
 A Servo-powered Retractable Dock for Klicky Probe and Nozzle Brush.
 
+[## Probe bracket retainer](./Kunsak/) by Kunsak
+
+Stronger probe AB/SB bracket.
