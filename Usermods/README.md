@@ -1,6 +1,6 @@
 # Klicky usermods
 
-Here you can find Klicky user submitted mods to support extra printers and toolheads.
+Here you can find Klicky user submitted mods to support extra printers and toolheads, mods that support a printer with specific documentation (Like the Vorons ot the Vcore3) have a dedicated usermod directory in the specific printer directory.
 
 All the compatible printers require:
 
@@ -21,4 +21,5 @@ There are two types of user mod:
 | TheMacBoy | [support arm for Ender 5 Plus with rails](./TheMacBoy)       | dock mount  | Ender 5 Plus     |
 | TheMacBoy | [Klicky Probe mount for EVA](./TheMacBoy)                    | probe mount | EVA 2.2+         |
 | DoubleT   | [Klicky Probe mount for EVA Trihorn UHF fan duct](./DoubleT) | probe mount | EVA 2.4+         |
+| SSerpente | [Klicky Probe mount for VzBot](./SSerpente)                  | dock mount  | VzBot            |
 

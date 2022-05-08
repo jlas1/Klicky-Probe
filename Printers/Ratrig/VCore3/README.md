@@ -8,9 +8,9 @@ This directory has the STL files properly oriented for printing and community mo
 
 You can find more information about the RatRig printers at the [website](https://www.ratrig.com/) or go check the [discord](https://discord.gg/bxqvFH4UzW). As the main developer of this modification variant for the VCore3 I own a custom shaped VCore3 printer. These parts have however been tested now with quite a few of the standard variations sold by Ratrig.
 
-Due to the fact there is no area on the VCore3 where the dock can be fully outside the footprint of the print bed you will lose a small amount of print volume in the very front left corner... Note the default profile uses this area for the purge line anyway and this does not need to be modified as the direction of the purge line ensure the probe is not picked up.
+Due to the fact there is no area on the VCore3 where the dock can be fully outside the footprint of the print bed you will lose a small amount of print volume in the very front left corner... Note the default profile uses this area for the purge line anyway and this does not need to be modified as the direction of the purge line ensures the probe is not picked up.
 
-Above all, have fun and be excellent to one another, now to the instructions.
+Above all, have fun and be excellent to one another, now on to the instructions.
 
 <img src="Photos/probe_mount_installed.jpg" alt="V2.4 Klicky Probe" style="zoom:60%;" />
 
@@ -37,12 +37,11 @@ The probe toolhead mount has been designed to be directly compatable with the EV
 
 - 1x microswitch (the omron D2F-5 or D2F-5L (removing the lever is required), other also work with reduced accuracy or repeatability (mostly anecdotal evidence, needs a proper sudy)
 - 2x M2x10 mm self tapping
-- 10cm of 22AWG cable (to wire the magnets to the switch)
-- 5x 6 mm x 3 mm magnets (N35 magnets work)
+- 4x 6 mm x 3 mm magnets (N35 magnets work)
 
 ### Probe mount:
 
-- 4x 6 mm x 3 mm magnets (N35 magnets work)
+- 3x 6 mm x 3 mm magnets (N35 magnets work)
 - 2x 22AWG cable (to connect the Klicky Probe to the control board)
 - 2x M3x6 mm BHSC Screw
 
@@ -143,7 +142,7 @@ The best way to install the back magnet is to attach a magnet to the probe dock 
 
 <img src="./Photos/probe_2.jpg" width="400px;" />
 
-Then take your self tapping screws and screw the microswitch in place, you should also now solder the wires to the outside pins of the switch, that way making this a Normally Connected probe.
+Then take your self tapping screws and screw the microswitch in place, the pins on the switch will contact the magnets once installed, that way making this a Normally Connected probe.
 
 <img src="./Photos/probe_3.jpg" width="600" />
 

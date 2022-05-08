@@ -35,6 +35,8 @@ It can be frustrating on the v0 to add extra m3 nuts on the 1515 extrusion after
 |    <img src="Photos/DockMount_variable.jpg" width="200">     |      <img src="Photos/DockMount_fixed.jpg" width="300">      |    <img src="Photos/DockMount_extrabeef.jpg" width="200">    |   <img src="Photos/DockMount_TopScrews.jpg" width="500">    |   <img src="Photos/DockMount_SideScrews.jpg" width="400">    |
 | recommended for most setups, does not require extra m3 nuts on the extrusion (v0.0/1) | fixed position, does not require extra m3 nuts on the extrusion (v0.1) | fixed, fits X carriages that are 2mm thicker, does not require extra m3 nuts on the extrusion(v0.1) | fixed, requires 2 extra m3 nuts on the top extrusion (v0.1) | fixed, requires 2 extra m3 nuts on the front extrusion (v0.1) |
 
+There are also some more mounting options on [Usermods](./Usermods/), like a servo powered dock. ***Check it out***
+
 ### Probe toolhead mount
 
 The v0 toolhead was not designed to use a probe, so there is no inbuilt location to add one, so i designed two options for the v0.1 variant and one for the original v0.
@@ -412,18 +414,9 @@ Please confirm that if you are not using a endstop pin, that the pull-up is enab
 Depending on your switch you may need to add a `!` to invert that pin (normally open vs. normally closed).
 
 
-#### Z endstop and Probe configuration
+#### Z endstop and Probe configuration (virtual Z endstop)
 
-If you want to use the Klicky Probe as your Z endstop, you need to change the `endstop_pin:` under the `[stepper_z]` section to `probe:z_virtual_endstop`.
-
-Just comment out the old one and add a new line `endstop_pin: probe:z_virtual_endstop`.
-
-You will need to update the Z probing variables,  set the two variables below to `0`, it will probe the middle of the bed.
-
-```python
-variable_z_endstop_x:     0
-variable_z_endstop_y:     0 
-```
+If you want to use the Klicky Probe as your Z endstop, please read this [excellent documentation](https://github.com/T4KUUY4/Voron-Stuff/tree/main/KlickyProbeZoffset) by Takuya and Clee, as it was written for a Voron v2.4 you need to use the probe offsets that are defined in here.
 
 #### Assembled Klicky Probe
 

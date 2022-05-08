@@ -49,3 +49,11 @@ It's compatible with the Klicky v2 dock
 
 A Servo-powered Retractable Dock for Klicky Probe and Nozzle Brush.
 
+
+[## Another Roboust AB/SB mount](./sporkus/) by sporkus
+
+Tested on MGN12 carriage from V2.4. Mounts with M3x20 SHCS.
+* Internal wiring groove. No need for zip tie.
+* Prints flat on the back. Magnet bed is a vertical face, not bridged surface, may improve installed flatness.
+* Eyebrows o\ /o
+
