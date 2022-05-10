@@ -57,3 +57,6 @@ Tested on MGN12 carriage from V2.4. Mounts with M3x20 SHCS.
 * Prints flat on the back. Magnet bed is a vertical face, not bridged surface, may improve installed flatness.
 * Eyebrows o\ /o
 
+[## X Carriage Probe Bracket for Klicky](./eamars/) by EAMARS
+* Fix the Klicky mount in place without too much stress.
+* Tested only against MGN12 X Carriage.
