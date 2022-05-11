@@ -52,7 +52,7 @@ There is no need for supports; recommended settings are 4 perimeters/top/bottom,
 | <img src="./Photos/NG_Probe_insert.JPG" alt="NG_Probe_insert" style="zoom:5%;" /> | Probe Insert, required to hold the switch and the two magnets that make the electrical connection |
 | <img src="./Photos/NG_Probe_body.JPG" alt="NG_Probe_body" style="zoom:5%;" /> | Probe body, required to prevent the two front magnets from escaping the probe, holds the third magnet to help attach the probe to the mount and the back magnet to secure it to the dock |
 | <img src="./Photos/NG_back_mount.JPG" alt="NG_back_mount" style="zoom:5%;" /> | Mount back, mounts to the AB/SB, holds the third magnet and the wire connections |
-| <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" style="zoom:5%;" /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" style="zoom:5%;" /> | Mount front, 2 versions; one for arround 2.75mm (instead of 3mm) height, and one for actual 3mm-height magnets |
+| <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" style="zoom:5%;" /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" style="zoom:5%;" /> | Mount front, 2 versions; one for around 2.75mm (instead of 3mm) height, and one for actual 3mm-height magnets |
 
 # Bill of Materials (BOM)
 
@@ -90,7 +90,7 @@ First, assemble the required materials.
   <img src="./Photos/20220510_235357.jpg" alt="20220510_235357" style="zoom:50%;" />
 - Insert the wire on the holes on the back mount
   <img src="./Photos/20220510_235456.jpg" alt="20220510_235456" style="zoom:50%;" />
-- Rotate the wires arround the other end to prevent them from escaping when the mount is being assembled
+- Rotate the wires around the other end to prevent them from escaping when the mount is being assembled
   <img src="./Photos/20220510_235612.jpg" alt="20220510_235612" style="zoom:50%;" />
 - Put two magnets on top on the probe front magnets
   <img src="./Photos/20220510_235643.jpg" alt="20220510_235643" style="zoom:50%;" />
@@ -102,7 +102,7 @@ First, assemble the required materials.
   <img src="./Photos/20220510_235911.jpg" alt="20220510_235911" style="zoom:50%;" />
 - Attach another magnet on the 3rd probe magnet
   <img src="./Photos/20220510_235937.jpg" alt="20220510_235937" style="zoom:50%;" />
-- Respecting its polarity, put it into the mount back socket
+- Respecting its polarity, put it into the mount back magnet socket
   <img src="./Photos/20220510_235952.jpg" alt="20220510_235952" style="zoom:50%;" />
 - The mount is now assembled!
   | <img src="./Photos/20220511_000033.jpg" alt="20220511_000033" style="zoom:50%;" /> | <img src="./Photos/20220511_000042.jpg" alt="20220511_000042" style="zoom:50%;" /> |
