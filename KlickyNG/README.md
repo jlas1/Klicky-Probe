@@ -21,7 +21,7 @@ For now this document will only deal with KlickyNG-specific wiring; for all the 
 
 The inspiration for the Klicky Probe comes from the [Quickdraw](https://github.com/Annex-Engineering/Quickdraw_Probe) and the [Euclid probe](https://github.com/nionio6915/Euclid_Probe), it uses some concepts from each of the projects, but with this version, it expands on the concept, as the method that it uses was developed independently. 
 
-Please check the main Klicky repository for all the people that helped this project, for NG, would like to thank (in no specific order) Dustinspeed, Drachenkatze, clee, top_gun_de and whoppingpochard.
+Please check the main Klicky repository for all the people that helped this project, for NG, would like to thank (in no specific order) Dustinspeed, Drachenkatze, clee, maz and whoppingpochard.
 
 If you want to donate something regarding this project, use this [link](https://paypal.me/Josar154) or [__Buy me some ABS!__](https://www.buymeacoffee.com/JosAr), thanks
 
