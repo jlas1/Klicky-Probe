@@ -51,12 +51,13 @@ There are no need for supports, recommended settings are 4 perimeters/top/bottom
 
 
 
-| <img src="./Photos/NG_Probe_Dock.JPG" alt="NG_Probe_Dock" style="zoom:25%;" /><img src="./Photos/NG_2mm_extender.JPG" alt="NG_2mm_extender" style="zoom: 25%;" /> | If you want to reuse your old Klicky dock, it needs to use this setup of back magnet setup.<br /><br />It will also be necessary to print the 2mm NG extender, as the dock needs to be 2mm longer |
+
+| <img src="./Photos/NG_Probe_Dock.JPG" alt="NG_Probe_Dock" style="zoom:5%;" /><img src="./Photos/NG_2mm_extender.JPG" alt="NG_2mm_extender" style="zoom: 5%;" /> | If you want to reuse your old Klicky dock, it needs to use this setup of back magnet setup.It will also be necessary to print the 2mm NG extender, as the dock needs to be 2mm longer |
 | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| <img src="./Photos/NG_Probe_insert.JPG" alt="NG_Probe_insert" style="zoom:25%;" /> | Probe Insert, required, it will hold the switch and the two magnets that make the electrical connection |
-| <img src="./Photos/NG_Probe_body.JPG" alt="NG_Probe_body" style="zoom:25%;" /> | Probe body, prevents the two front magnets from escaping the probe, holds the third magnet to help attach the probe to the mount and the back magnet to secure it to the dock |
-| <img src="./Photos/NG_back_mount.JPG" alt="NG_back_mount" style="zoom:25%;" /> | Mount back, mounts to the AB/SB, holds the third magnet and the wire connections |
-| <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" style="zoom:25%;" /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" style="zoom:25%;" /> | mount front, there are 2 versions, one for arround 2.75mm (instead of 3mm) long, and one for actual 3mm magnets |
+| <img src="./Photos/NG_Probe_insert.JPG" alt="NG_Probe_insert" style="zoom:5%;" /> | Probe Insert, required, it will hold the switch and the two magnets that make the electrical connection |
+| <img src="./Photos/NG_Probe_body.JPG" alt="NG_Probe_body" style="zoom:5%;" /> | Probe body, prevents the two front magnets from escaping the probe, holds the third magnet to help attach the probe to the mount and the back magnet to secure it to the dock |
+| <img src="./Photos/NG_back_mount.JPG" alt="NG_back_mount" style="zoom:5%;" /> | Mount back, mounts to the AB/SB, holds the third magnet and the wire connections |
+| <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" style="zoom:5%;" /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" style="zoom:5%;" /> | mount front, there are 2 versions, one for arround 2.75mm (instead of 3mm) long, and one for actual 3mm magnets |
 
 # Bill of Materials (BOM)
 
@@ -69,60 +70,60 @@ There are no need for supports, recommended settings are 4 perimeters/top/bottom
 # Build Process
 
 First, assemble the required materials
-![material](./Photos/20220510_234804.jpg)
+<img src="./Photos/20220510_234804.jpg" alt="material" style="zoom:50%;" />
 
 ## Probe assembly
 
 put two magnets on the KlickyNGProbe_v3 Insert, make sure they have the same polarity
-![20220510_234928](./Photos/20220510_234928.jpg)
+<img src="./Photos/20220510_234928.jpg" alt="20220510_234928" style="zoom:50%;" />
 
-Next, insert another magnet on the back groove of the KlickyNGProbe_v3 Body, in this image all 3 magnets should have the same polarity on top, so that when they are assembled, the back magnet will repulse the two front ones![20220510_235026](./Photos/20220510_235026.jpg)
+Next, insert another magnet on the back groove of the KlickyNGProbe_v3 Body, in this image all 3 magnets should have the same polarity on top, so that when they are assembled, the back magnet will repulse the two front ones<img src="./Photos/20220510_235026.jpg" alt="20220510_235026" style="zoom:50%;" />
 
 Now, place the insert on the body, aligning the magnets and making sure that the front magnets do not move out of place
-![20220510_235051](./Photos/20220510_235051.jpg)
+<img src="./Photos/20220510_235051.jpg" alt="20220510_235051" style="zoom:50%;" />
 
-insert the switch on it's place (pictured here a KW10)![20220510_235119](./Photos/20220510_235119.jpg)
+insert the switch on it's place (pictured here a KW10)<img src="./Photos/20220510_235119.jpg" alt="20220510_235119" style="zoom:50%;" />
 
-secure with the two m2x10 screws, it will secure the switch, but also the two parts together![20220510_235228](./Photos/20220510_235228.jpg)
+secure with the two m2x10 screws, it will secure the switch, but also the two parts together<img src="./Photos/20220510_235228.jpg" alt="20220510_235228" style="zoom:50%;" />
 
 Insert the back magnet and the probe is complete
 
-| ![20220510_235234](./Photos/20220510_235234.jpg) | ![20220510_235241](./Photos/20220510_235241.jpg) |
-| ------------------------------------------------ | ------------------------------------------------ |
+| <img src="./Photos/20220510_235234.jpg" alt="20220510_235234" style="zoom:50%;" /> | <img src="./Photos/20220510_235241.jpg" alt="20220510_235241" style="zoom:50%;" /> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 ## AB/SB mount assembly
 
 cut the 30cm of wire in 2 15cm ones, remove 3/4 cm of isolation and rotate the core to prevent loose wires
-![20220510_235357](./Photos/20220510_235357.jpg)
+<img src="./Photos/20220510_235357.jpg" alt="20220510_235357" style="zoom:50%;" />
 
 insert the wire on the holes on the back mount
-![20220510_235456](./Photos/20220510_235456.jpg)
+<img src="./Photos/20220510_235456.jpg" alt="20220510_235456" style="zoom:50%;" />
 
 rotate the wires arround the other end to prevent them from escaping when the mount is being assembled
-![20220510_235612](./Photos/20220510_235612.jpg)
+<img src="./Photos/20220510_235612.jpg" alt="20220510_235612" style="zoom:50%;" />
 
-Put two magnets on top on the probe front magnets![20220510_235643](./Photos/20220510_235643.jpg)
+Put two magnets on top on the probe front magnets<img src="./Photos/20220510_235643.jpg" alt="20220510_235643" style="zoom:50%;" />
 
 Insert the correct front mount on the magnets so that they remain attracted to the probe.
-![20220510_235658](./Photos/20220510_235658.jpg)
+<img src="./Photos/20220510_235658.jpg" alt="20220510_235658" style="zoom:50%;" />
 
 with the magnets and front secure, joint the mount front and back with an m2 screw
-![20220510_235814](./Photos/20220510_235814.jpg)
+<img src="./Photos/20220510_235814.jpg" alt="20220510_235814" style="zoom:50%;" />
 
 Now complete with the remaining two m2 screws that will keep the front level
-![20220510_235911](./Photos/20220510_235911.jpg)
+<img src="./Photos/20220510_235911.jpg" alt="20220510_235911" style="zoom:50%;" />
 
 attach another magnet on the 3rd probe magnet
-![20220510_235937](./Photos/20220510_235937.jpg)
+<img src="./Photos/20220510_235937.jpg" alt="20220510_235937" style="zoom:50%;" />
 
 Respecting it's polarity, put it into the mount back socket
 
-## ![20220510_235952](./Photos/20220510_235952.jpg)
+## <img src="./Photos/20220510_235952.jpg" alt="20220510_235952" style="zoom:50%;" />
 
 The mount is now assembled
 
-| ![20220511_000033](./Photos/20220511_000033.jpg) | ![20220511_000042](./Photos/20220511_000042.jpg) |
-| ------------------------------------------------ | ------------------------------------------------ |
+| <img src="./Photos/20220511_000033.jpg" alt="20220511_000033" style="zoom:50%;" /> | <img src="./Photos/20220511_000042.jpg" alt="20220511_000042" style="zoom:50%;" /> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 ## Final thouhts
 
