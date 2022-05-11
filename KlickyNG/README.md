@@ -51,12 +51,12 @@ There are no need for supports, recommended settings are 4 perimeters/top/bottom
 
 
 
-| <img src="C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\NG_Probe_Dock.JPG" alt="NG_Probe_Dock" style="zoom:25%;" /><img src="C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\NG_2mm_extender.JPG" alt="NG_2mm_extender" style="zoom: 25%;" /> | If you want to reuse your old Klicky dock, it needs to use this setup of back magnet setup.<br /><br />It will also be necessary to print the 2mm NG extender, as the dock needs to be 2mm longer |
+| <img src="./Photos/NG_Probe_Dock.JPG" alt="NG_Probe_Dock" style="zoom:25%;" /><img src="./Photos/NG_2mm_extender.JPG" alt="NG_2mm_extender" style="zoom: 25%;" /> | If you want to reuse your old Klicky dock, it needs to use this setup of back magnet setup.<br /><br />It will also be necessary to print the 2mm NG extender, as the dock needs to be 2mm longer |
 | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| <img src="C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\NG_Probe_insert.JPG" alt="NG_Probe_insert" style="zoom:25%;" /> | Probe Insert, required, it will hold the switch and the two magnets that make the electrical connection |
-| <img src="C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\NG_Probe_body.JPG" alt="NG_Probe_body" style="zoom:25%;" /> | Probe body, prevents the two front magnets from escaping the probe, holds the third magnet to help attach the probe to the mount and the back magnet to secure it to the dock |
-| <img src="C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\NG_back_mount.JPG" alt="NG_back_mount" style="zoom:25%;" /> | Mount back, mounts to the AB/SB, holds the third magnet and the wire connections |
-| <img src="C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" style="zoom:25%;" /><img src="C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\NG_front_mount.JPG" alt="NG_front_mount" style="zoom:25%;" /> | mount front, there are 2 versions, one for arround 2.75mm (instead of 3mm) long, and one for actual 3mm magnets |
+| <img src="./Photos/NG_Probe_insert.JPG" alt="NG_Probe_insert" style="zoom:25%;" /> | Probe Insert, required, it will hold the switch and the two magnets that make the electrical connection |
+| <img src="./Photos/NG_Probe_body.JPG" alt="NG_Probe_body" style="zoom:25%;" /> | Probe body, prevents the two front magnets from escaping the probe, holds the third magnet to help attach the probe to the mount and the back magnet to secure it to the dock |
+| <img src="./Photos/NG_back_mount.JPG" alt="NG_back_mount" style="zoom:25%;" /> | Mount back, mounts to the AB/SB, holds the third magnet and the wire connections |
+| <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" style="zoom:25%;" /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" style="zoom:25%;" /> | mount front, there are 2 versions, one for arround 2.75mm (instead of 3mm) long, and one for actual 3mm magnets |
 
 # Bill of Materials (BOM)
 
@@ -74,55 +74,55 @@ First, assemble the required materials
 ## Probe assembly
 
 put two magnets on the KlickyNGProbe_v3 Insert, make sure they have the same polarity
-![20220510_234928](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_234928.jpg)
+![20220510_234928](./Photos/20220510_234928.jpg)
 
-Next, insert another magnet on the back groove of the KlickyNGProbe_v3 Body, in this image all 3 magnets should have the same polarity on top, so that when they are assembled, the back magnet will repulse the two front ones![20220510_235026](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235026.jpg)
+Next, insert another magnet on the back groove of the KlickyNGProbe_v3 Body, in this image all 3 magnets should have the same polarity on top, so that when they are assembled, the back magnet will repulse the two front ones![20220510_235026](./Photos/20220510_235026.jpg)
 
 Now, place the insert on the body, aligning the magnets and making sure that the front magnets do not move out of place
-![20220510_235051](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235051.jpg)
+![20220510_235051](./Photos/20220510_235051.jpg)
 
-insert the switch on it's place (pictured here a KW10)![20220510_235119](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235119.jpg)
+insert the switch on it's place (pictured here a KW10)![20220510_235119](./Photos/20220510_235119.jpg)
 
-secure with the two m2x10 screws, it will secure the switch, but also the two parts together![20220510_235228](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235228.jpg)
+secure with the two m2x10 screws, it will secure the switch, but also the two parts together![20220510_235228](./Photos/20220510_235228.jpg)
 
 Insert the back magnet and the probe is complete
 
-| ![20220510_235234](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235234.jpg) | ![20220510_235241](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235241.jpg) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![20220510_235234](./Photos/20220510_235234.jpg) | ![20220510_235241](./Photos/20220510_235241.jpg) |
+| ------------------------------------------------ | ------------------------------------------------ |
 
 ## AB/SB mount assembly
 
 cut the 30cm of wire in 2 15cm ones, remove 3/4 cm of isolation and rotate the core to prevent loose wires
-![20220510_235357](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235357.jpg)
+![20220510_235357](./Photos/20220510_235357.jpg)
 
 insert the wire on the holes on the back mount
-![20220510_235456](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235456.jpg)
+![20220510_235456](./Photos/20220510_235456.jpg)
 
 rotate the wires arround the other end to prevent them from escaping when the mount is being assembled
-![20220510_235612](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235612.jpg)
+![20220510_235612](./Photos/20220510_235612.jpg)
 
-Put two magnets on top on the probe front magnets![20220510_235643](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235643.jpg)
+Put two magnets on top on the probe front magnets![20220510_235643](./Photos/20220510_235643.jpg)
 
 Insert the correct front mount on the magnets so that they remain attracted to the probe.
-![20220510_235658](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235658.jpg)
+![20220510_235658](./Photos/20220510_235658.jpg)
 
 with the magnets and front secure, joint the mount front and back with an m2 screw
-![20220510_235814](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235814.jpg)
+![20220510_235814](./Photos/20220510_235814.jpg)
 
 Now complete with the remaining two m2 screws that will keep the front level
-![20220510_235911](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235911.jpg)
+![20220510_235911](./Photos/20220510_235911.jpg)
 
 attach another magnet on the 3rd probe magnet
-![20220510_235937](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235937.jpg)
+![20220510_235937](./Photos/20220510_235937.jpg)
 
 Respecting it's polarity, put it into the mount back socket
 
-## ![20220510_235952](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220510_235952.jpg)
+## ![20220510_235952](./Photos/20220510_235952.jpg)
 
 The mount is now assembled
 
-| ![20220511_000033](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220511_000033.jpg) | ![20220511_000042](C:\Users\Jose\Documents\Git\Klicky-Probe\KlickyNG\Photos\20220511_000042.jpg) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![20220511_000033](./Photos/20220511_000033.jpg) | ![20220511_000042](./Photos/20220511_000042.jpg) |
+| ------------------------------------------------ | ------------------------------------------------ |
 
 ## Final thouhts
 
