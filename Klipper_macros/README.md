@@ -100,7 +100,7 @@ When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock an
 
 ## Pre and Post macros for dock operations
 
-If your setup requires a custom move, a macro to be called before attaching and docking, there are two macros \_DeployDock and \_RetractDock that are executed (if they are configured) when it's required for the dock to be ready for docking and attachment operations.
+If your setup requires a custom move, a macro to be called before attaching and docking, there are two macros **\_DeployDock** and **\_RetractDock** that are executed (if they are configured) when it's required for the dock to be ready for docking and attachment operations.
 
 ## XY Sensorless homing 
 

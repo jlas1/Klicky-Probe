@@ -41,9 +41,11 @@ Designed for V1.8
 I've created an alternative Dock, that attaches to the rear left vertical profile."
 It's compatible with the Klicky v2 dock
 
+
 [## Dock mount fixed S](./Fiction/) by Fiction
 
 "A dock mount that can be positioned closer to the end of the V2 or Trident rear gantry extrusion to avoid the nozzle brush, without using a side mount. It also puts the dock 2.5mm forward (i.e. in the negative y direction) which was necessary for my setup."
+
 
 [## Retractable Probe Dock](https://github.com/tronfu/Voron-Mods/tree/main/Retractable_Probe_Dock) by Tron Fu
 
@@ -56,4 +58,9 @@ Tested on MGN12 carriage from V2.4. Mounts with M3x20 SHCS.
 * Internal wiring groove. No need for zip tie.
 * Prints flat on the back. Magnet bed is a vertical face, not bridged surface, may improve installed flatness.
 * Eyebrows o\ /o
+
+
+[## X Carriage Probe Bracket for Klicky](./eamars/) by EAMARS
+* Fix the Klicky mount in place without too much stress.
+* Tested only against MGN12 X Carriage.
 
