@@ -24,4 +24,3 @@ updated the probe dock to have back inserted magnets, it's not possible now for 
 KlickyProbe_v2_v57
 Added V0.1 integrated Voron Revo Cowling
 
-
