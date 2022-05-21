@@ -28,7 +28,7 @@ There is no need for supports; recommended settings are 4 perimeters/top/bottom,
 
 | <img src="./Photos/ProbeDock.jpg" alt="NG_Probe_Dock" style="zoom:50%;" /> | Klicky dock, it secures the probe to the dock via an extra magnet.<br />Allows to pull the probe by at least 2mm away |
 | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| <img src="./Photos/ProbeBody.JPG" alt="Probebody" style="zoom:50%;" /> | Probe body                                                   |
+| <img src="./Photos/ProbeBody.jpg" alt="Probebody" style="zoom:50%;" /> | Probe body                                                   |
 
 The required files are located here:
 
