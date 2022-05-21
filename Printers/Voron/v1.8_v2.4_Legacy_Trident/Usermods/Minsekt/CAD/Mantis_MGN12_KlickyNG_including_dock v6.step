@@ -11,9 +11,9 @@ FILE_DESCRIPTION(
 FILE_NAME(
 /* name */ 
 'C:/Users/gamin/GitHub/Klicky-Probe/Printers/Voron/v1.8_v2.4_Legacy_Tr
-ident/Usermods/Minsekt/CAD/Mantis_MGN12_KlickyNG_including_dock v4.ste
+ident/Usermods/Minsekt/CAD/Mantis_MGN12_KlickyNG_including_dock v6.ste
 p',
-/* time_stamp */ '2022-05-21T17:43:48+02:00',
+/* time_stamp */ '2022-05-21T19:16:32+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
@@ -2264,8 +2264,8 @@ SURFACE()
 #558=MANIFOLD_SOLID_BREP('magnet_front_r',#27532);
 #559=MANIFOLD_SOLID_BREP('magnet_back',#27533);
 #560=MANIFOLD_SOLID_BREP('clamp',#27534);
-#561=MANIFOLD_SOLID_BREP('lgx_lite (1)',#27535);
-#562=MANIFOLD_SOLID_BREP('lgx_lite (1) (1)',#27536);
+#561=MANIFOLD_SOLID_BREP('lgx_lite',#27535);
+#562=MANIFOLD_SOLID_BREP('stock',#27536);
 #563=MANIFOLD_SOLID_BREP('Body1',#27537);
 #564=MANIFOLD_SOLID_BREP('Body1',#27538);
 #565=MANIFOLD_SOLID_BREP('Body1',#27539);
@@ -56629,7 +56629,7 @@ SOLID_ANGLE_UNIT()
 #52580=SHAPE_REPRESENTATION('',(#29268),#52540);
 #52581=PRODUCT_DEFINITION_CONTEXT('part definition',#52610,'design');
 #52582=PRODUCT_DEFINITION('Mantis_MGN12_KlickyNG_including_dock',
-'Mantis_MGN12_KlickyNG_including_dock v5',#52591,#52581);
+'Mantis_MGN12_KlickyNG_including_dock v6',#52591,#52581);
 #52583=PRODUCT_DEFINITION('NG Unklicky Carriage','NG Unklicky Carriage',
 #52592,#52581);
 #52584=PRODUCT_DEFINITION('M2x8 Self-tapping Screw (1)',
@@ -56653,8 +56653,8 @@ SOLID_ANGLE_UNIT()
 #52598=PRODUCT_DEFINITION_FORMATION('',$,#52619);
 #52599=PRODUCT_DEFINITION_FORMATION('',$,#52620);
 #52600=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'Mantis_MGN12_KlickyNG_including_dock v5',
-'Mantis_MGN12_KlickyNG_including_dock v5',(#52612));
+'Mantis_MGN12_KlickyNG_including_dock v6',
+'Mantis_MGN12_KlickyNG_including_dock v6',(#52612));
 #52601=PRODUCT_RELATED_PRODUCT_CATEGORY('NG Unklicky Carriage',
 'NG Unklicky Carriage',(#52613));
 #52602=PRODUCT_RELATED_PRODUCT_CATEGORY('M2x8 Self-tapping Screw (1)',
@@ -56674,7 +56674,7 @@ SOLID_ANGLE_UNIT()
 'Core Data for Automotive Mechanical Design Process');
 #52611=PRODUCT_CONTEXT('part definition',#52610,'mechanical');
 #52612=PRODUCT('Mantis_MGN12_KlickyNG_including_dock',
-'Mantis_MGN12_KlickyNG_including_dock v5',$,(#52611));
+'Mantis_MGN12_KlickyNG_including_dock v6',$,(#52611));
 #52613=PRODUCT('NG Unklicky Carriage','NG Unklicky Carriage',$,(#52611));
 #52614=PRODUCT('M2x8 Self-tapping Screw (1)',
 'M2x8 Self-tapping Screw (1)',$,(#52611));
