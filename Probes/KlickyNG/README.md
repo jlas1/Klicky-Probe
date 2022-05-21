@@ -32,12 +32,14 @@ The eyebrows are clee+whoppingpochard's design.
 
 # KlickyNG support
 
-For now, only printers compatible with Voron StealthBurner/AfterBurner are compatible, as the NG mount has changed significantly.
+For now, only printers compatible with Voron StealthBurner/AfterBurner are compatible, as the NG mount has changed significantly and needs to be ported to the other mounts.
 
-- [The CAD with all the files](./CAD)
-- [Common KlickyNG STLs](./STL)
+- [The CAD with all the files](../../CAD)
+- [STL Files](./STL)
 
-You can also [view an exploded view](https://youtu.be/mlyU2tHjebo).
+The arms are compatible with both Klicky and KlickyNG.
+
+There is also [an exploded view](https://youtu.be/mlyU2tHjebo).
 
 ## Print Settings
 

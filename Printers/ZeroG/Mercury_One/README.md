@@ -47,8 +47,8 @@ The Klicky Probe consists of four different components:
     - [`Mount_magnet_holder.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_holder.stl)
     - [`Mount_magnet_pressfit_helper.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_magnet_pressfit_helper.stl)
     - [`Mount_pressfit_holder.stl`](../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL/Mount_pressfit_holder.stl)
-- The probe itself, found in the [base STL directory](../../../Base_STL/), [KlickyProbe_v2](../../../../Base_STL/KlickyProbe_v2.stl) 
-- Probe dock, found in the [base STL directory](../../../Base_STL/), [Probe_Dock_v2](../../../../Base_STL/Probe_Dock_v2.stl) 
+- The probe itself, found in the [KlickyProbe directory](../../../Probes/KlickyProbe/STL), [KlickyProbe_v2](../../../../Probes/KlickyProbe/STL/KlickyProbe_v2.stl) 
+- Probe dock, found in the [base STL directory](../../../Probes/KlickyProbe/STL/), [Probe_Dock_v2](../../../../Probes/KlickyProbe/STL/Probe_Dock_v2.stl) 
 - Frame dock mount from the [Voron_Toolhead_STL](./Voron_Toolhead_STL/) folder ([CAD models](./Voron_Toolhead_CAD/) are also available)
 
 The recommended printing configuration is:
