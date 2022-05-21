@@ -102,7 +102,8 @@ To get the best experience, please consider purchasing from the trusted list of 
 
 ## Parts location
 
-The probe STL's are located [here](../../../Base_STL).
+The Regular probe STL's are located [here](../../../Probes/KlickyProbe/STL).
+KlickyNG probe STL's are located [here](../../../Probes/KlickyNG/STL).
 
 The printer specific STL's are located [here](./v1.8_v2.4_Legacy_Trident_STL).
 
