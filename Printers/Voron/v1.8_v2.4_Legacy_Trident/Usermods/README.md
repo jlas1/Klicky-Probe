@@ -1,5 +1,9 @@
 # Klicky Usermods
 
+[## Native KlickyNG Mantis Xcarriage (MGN12H) including Dock](./Minsekt/) by Minsekt
+
+This is a modified Mantis Xcarriage to fit KlickyNG based on [KayosMaker's Klicky X-Carriage](https://github.com/mandryd/MantisUsermods/tree/main/Usermods/KayosMaker/MGN12_Klicky). there's also a Carriage included that supports a LGX Lite.
+
 [## Klicky Probe with additional holes](./StefanRaatz/) by StefanRaatz
 
 This is a modified Klicky probe with two holes so that you can feed through the uninsolated part of the cable a little bit more.
