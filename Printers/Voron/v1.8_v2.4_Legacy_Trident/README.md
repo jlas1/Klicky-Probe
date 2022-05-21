@@ -281,12 +281,12 @@ variable_safe_z:         	    25    # Minimum Z for attach/dock and homing funct
 # if true it will move the bed away from the nozzle when Z is not homed
 variable_enable_z_hop:          CHECK_COMMENT  # True on the v2.4, False on v1.8, Trident and Legacy
     
-#Dock move (the final movement required to reach the dock and avoid the arms with the probe attached)
+#Dock move (the final movement required to release the probe on the dock)
 Variable_dockmove_x:                40    # Final toolhead movement to release
 Variable_dockmove_y:                0     # the probe on the dock
 Variable_dockmove_z:                0     # (can be negative)
 
-#Attach move (the final movement required release the probe on the dock)
+#Attach move (the final movement required to reach the dock and avoid the arms with the probe attached)
 Variable_attachmove_x:              0     # Final toolhead movement to Dock
 Variable_attachmove_y:              30    # the probe on the dock
 Variable_attachmove_z:              0     # (can be negative)
