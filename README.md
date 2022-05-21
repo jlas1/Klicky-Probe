@@ -51,9 +51,9 @@ First klicky probe, based on the [Quickdraw probe](https://github.com/Annex-Engi
 
 It uses magnets to secure the probe to the mount and also to make the electrical connection.
 The magnets can be glued to prevent them from coming loose.
-It supports a [microswitch probe](../../../Probes/KlickyProbe/) and [Unklicky](../../../Probes/UnklickyProbe/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
+It supports a [microswitch probe](./Probes/KlickyProbe/) and [Unklicky](./Probes/UnklickyProbe/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
 
-### [Assembly instruction](../../../Probes/KlickyProbe/)
+### [Assembly instruction](./Probes/KlickyProbe/)
 
 ## KlickyNG
 
@@ -62,9 +62,9 @@ This approach only uses common and easy to source parts.
 
 <img src="./Probes/KlickyNG/Photos/KlickyNG.png" alt="klickyprobe" style="zoom:50%;" />
 
-Also supports [microswitch probe](../../../Probes/KlickyNG/) and [Unklicky](../../../Probes/UnklickyNG/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
+Also supports [microswitch probe](./Probes/KlickyNG/) and [Unklicky](./Probes/UnklickyNG/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
 
-### [Assembly instruction](
+### [Assembly instruction](./Probes/KlickyNG/)
 
 # Printers With detailed instructions and specific parts (by support order)
 
@@ -87,7 +87,7 @@ The specific parts with install, configuration, troubleshoot and recommended set
 
 There are also [docks and mounts submitted by users](./Usermods) to support other printers and toolheads, you should check it out.
 
-![Klicky Probe image](Photos/Klicky_Probe.png)klicky early version.
+![Klicky Probe image](./Photos/Klicky_Probe.png)klicky early version.
 
 # Klicky components
 
