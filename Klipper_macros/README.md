@@ -11,7 +11,7 @@ While you should read these instructions to the end, as the necessary helper fun
 
 The first macro on the old klicky-probe.cfg contained all the necessary variables, you should the values you changed one by one to the new klicky-variables.cfg, the most important are these ones:
 
-```python
+```ini
 # if you do not have any of these variables, read the explanation on klicky-variables.cfg and the setup of the macros on your respective printer, this is a quick start quide
 variable_enable_z_hop           # set this to false for beds that fall significantly under gravity (almost to Z max)
 variable_max_bed_y              # bed max y size
@@ -64,7 +64,7 @@ Some printers, like the Voron v0 or Tiny-M don't have the probe as a standard co
 
 Download the appropriate files (or the zip containing them all and delete the ones that are not relevant) and upload it to your klipper Config folder.
 
-```
+```bash
 cd ~/klipper_config/
 wget https://raw.githubusercontent.com/jlas1/Klicky-Probe/main/Klipper_macros/Klipper_macros.zip
 unzip Klipper_macros.zip
@@ -81,7 +81,7 @@ Open your printer.cfg file, comment out *safe_z_home* or *homing_override*, if y
 
 It should look like this:
 
-```
+```ini
 #####################################################################
 # 	Macros
 #####################################################################
@@ -101,6 +101,44 @@ When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock an
 ## Pre and Post macros for dock operations
 
 If your setup requires a custom move, a macro to be called before attaching and docking, there are two macros **\_DeployDock** and **\_RetractDock** that are executed (if they are configured) when it's required for the dock to be ready for docking and attachment operations.
+
+Currently, thanks to Kyleisah there is also support to use a simple servo setup, when a certain angle deploys the dock and another retracts it, you can find the following variables on klicky-variables.cfg.
+
+```ini
+#The following variables are used if the dock is deployed and retracted via a servo motor
+variable_enable_dock_servo:  False    # Set to true if your klicky dock is servo-controlled
+variable_servo_name:        'NAME'    # The name of the dock servo defined in printer.cfg under [servo]
+variable_servo_deploy:          10    # This EXAMPLE is the value used to deploy the servo fully
+variable_servo_retract:         11    # This EXAMPLE is the value used to retract the servo fully (initial_angle in [servo] config)
+variable_servo_delay:         1000    # This is a delay to wait the servo to reach the requested position, be carefull with high values
+```
+
+On printer.cfg to add servo support, you need to add the following:
+
+```ini
+[servo klicky_servo]
+pin: PC12
+#   PWM output pin controlling the servo. This parameter must be
+#   provided.
+maximum_servo_angle: 180
+#   The maximum angle (in degrees) that this servo can be set to. The
+#   default is 180 degrees.
+minimum_pulse_width: 0.00025
+#   The minimum pulse width time (in seconds). This should correspond
+#   with an angle of 0 degrees. The default is 0.001 seconds.
+maximum_pulse_width: 0.0024
+#   The maximum pulse width time (in seconds). This should correspond
+#   with an angle of maximum_servo_angle. The default is 0.002
+#   seconds.
+```
+
+To increase the servo strength, you should connect the servo 5v to a PSU instead of to the MCU.
+
+## Status leds
+
+Thanks to foonietunes we now have status leds support (specially useful for SB leds).
+
+[You can read how to implement it here](https://github.com/VoronDesign/Voron-Afterburner/tree/sb-beta/Klipper_Macros).
 
 ## XY Sensorless homing 
 
@@ -128,7 +166,7 @@ G0 X{docklocation_x|int - attachmove_x|int} Y{docklocation_y|int - attachmove_y|
 
 ### Probe dock commands
 
-```python
+```py
 # Probe entry location
 G0 X{docklocation_x|int - attachmove_x|int} Y{docklocation_y|int - attachmove_y|int} F{travel_feedrate}
 # Drop Probe to Probe location
@@ -140,22 +178,22 @@ G0 X{docklocation_x|int + dockmove_x|int - attachmove_x|int} Y{docklocation_y|in
 
 The typical variables values are:
 
+```ini
 variable_travel_speed:          100    # how fast all other travel moves will be performed when running these macros
 variable_dock_speed:             50    # how fast should the toolhead move when docking the probe for the final movement
-variable_release_speed:         75    # how fast should the toolhead move to release the hold of the magnets after docking
-variable_docklocation_x:                 # X Dock position
-variable_docklocation_y:                 # Y Dock position
+variable_release_speed:          75    # how fast should the toolhead move to release the hold of the magnets after docking
 #Dock move (if the dock is mounted on the back extrusion, these values can be left untouched)
 Variable_dockmove_x:              0    # Final toolhead movement to release
-Variable_dockmove_y:            40    # the probe on the dock
+Variable_dockmove_y:             40    # the probe on the dock
 Variable_dockmove_z:              0    # (can be negative)
 #Attach move (if the dock is mounted on the back extrusion, these values can be left untouched)
-Variable_attachmove_x:          30    # Final toolhead movement to Dock
+Variable_attachmove_x:           30    # Final toolhead movement to Dock
 Variable_attachmove_y:            0    # the probe on the dock
 Variable_attachmove_z:            0    # (can be negative)
 
-Variable_attachmove2_x:          0    # intermediate toolhead movement to attach
-Variable_attachmove2_y:          0    # the probe on the dock (can be negative)
-Variable_attachmove2_z:          0    # (to be used as a last move before attaching the probe, suitable for Euclid)
+Variable_attachmove2_x:           0    # intermediate toolhead movement to attach
+Variable_attachmove2_y:           0    # the probe on the dock (can be negative)
+Variable_attachmove2_z:           0    # (to be used as a last move before attaching the probe, suitable for Euclid)
+```
 
 **Again, be advised that these will not raize the bed to avoid hitting it, won't check if the probe is docked or attached. USE EXTREME CAUTION**
