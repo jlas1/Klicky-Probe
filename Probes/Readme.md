@@ -12,7 +12,7 @@ It uses magnets to secure the probe to the mount and also to make the electrical
 The magnets can be glued to prevent them from coming loose.
 It supports a [microswitch probe](./KlickyProbe/) and [Unklicky](./UnklickyProbe/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
 
-### [Assembly instruction](./KlickyProbe/)
+#### [Assembly instruction](./KlickyProbe/)
 
 ## KlickyNG
 
@@ -23,4 +23,4 @@ This approach only uses common and easy to source parts.
 
 Also supports [microswitch probe](./KlickyNG/) and [Unklicky](./UnklickyNG/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
 
-### [Assembly instruction](./KlickyNG/)
+#### [Assembly instruction](./KlickyNG/)

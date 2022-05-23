@@ -36,7 +36,7 @@ This mod is also on [VoronUsers repository](https://github.com/VoronDesign/Voron
 
 Right now, there are two probe attachment options, each with two probe types.
 
-### [Regular Klicky]()
+### [Regular Klicky](../../../Probes/KlickyProbe/)
 
 First klicky probe, based on the [Quickdraw probe](https://github.com/Annex-Engineering/Quickdraw_Probe), with an added third magnet for added stability and fixed dock gantry setups.
 
@@ -192,7 +192,7 @@ Mount the Probe Dock to the back rail of your gantry with the two M5x10 and the 
 
 ### Step 3: Probe Assembly
 
-
+Please [go to the probes directory and choose the one you want to install](../../../Probes/), the instructions are also there.
 
 ### Step 4: AB/SB Mount installation and wiring
 

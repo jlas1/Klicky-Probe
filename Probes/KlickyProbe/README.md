@@ -142,7 +142,7 @@ Insert the AB mount and probe in the helper parts and you can then press fit wit
 - Apply dabs of glue to the probe mount and line up the magnets from  the probe to the magnet holes of the mount and press them in best you  can so they stay in the holes
 - Using the press fit tools, force the probe and mount together so they bottom out against each other.
 - Do not pull the probe and mount apart, slide them apart and allow the glue to cure.
-- After the glue has sufficiently cured (read the label) slide the  mount and probe back together so the magnets realign and check for  continuity as the ends of the probe leads.
+- After the glue has sufficiently cured (read the label) slide the  mount and probe back together so the magnets realign and check for  continuity at the ends of the probe leads.
 
 
 
