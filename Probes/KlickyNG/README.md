@@ -2,7 +2,7 @@
 Microswitch probe with magnetic attachment, primarily aimed at CoreXY 3d printers, with enclosed magnets, don't fall, don't need to be glued.
 
 This version is still a **BETA** version, so please use with care.
-Its parent version, and still the recommended one is [Klicky](https://github.com/jlas1/Klicky-Probe).
+Its parent version, and still the recommended one is [Klicky](../KlickyProbe/).
 
 The objectives for this project are:
 - drop in replacement for Omron TL-Q5MC2 or PL-08N2 (you don't need to replace the toolhead), replacement of BLtouch probes
