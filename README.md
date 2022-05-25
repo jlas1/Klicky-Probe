@@ -3,9 +3,6 @@ Microswitch probe with magnetic attachment, primarily aimed at CoreXY 3d printer
 
 Initially it was focused on the [Voron printers](https://vorondesign.com/) (V2.4, V1.8, Trident, V0) and derivatives, now it's been restructured to better allow other printers to be documented here.
 
-**ATTENTION**
-If you come from Voronusers please read the updated Klipper configuration on this repository
-
 The objectives for this project are:
 - drop in replacement for Omron TL-Q5MC2 or PL-08N2 (you don't need to replace the toolhead), replacement of BLtouch probes
 - soldering not required
@@ -42,6 +39,33 @@ If you want to donate something regarding this project, use this [link](https://
 
 If you are upgrading from an earlier version, check the [klipper macros](./Klipper_macros) folder, it contains update instructions.
 
+# Probe options
+
+Right now, there are two probe attachment options, each with two probe types.
+
+## Regular Klicky
+
+First klicky probe, based on the [Quickdraw probe](https://github.com/Annex-Engineering/Quickdraw_Probe), with an added third magnet for added stability and fixed dock gantry setups.
+
+<img src="./Probes/KlickyProbe/Photos/KlickyProbe.png" alt="klickyprobe" style="zoom:50%;" />
+
+It uses magnets to secure the probe to the mount and also to make the electrical connection.
+The magnets can be glued to prevent them from coming loose.
+It supports a [microswitch probe](./Probes/KlickyProbe/) and [Unklicky](./Probes/UnklickyProbe/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
+
+### [Assembly instruction](./Probes/KlickyProbe/)
+
+## KlickyNG
+
+New enclosed magnets probe, it does not require glue to help prevent the magnets from coming loose, magnets are also self aligning.
+This approach only uses common and easy to source parts.
+
+<img src="./Probes/KlickyNG/Photos/klickyNG.png" alt="klickyprobe" style="zoom:50%;" />
+
+Also supports [microswitch probe](./Probes/KlickyNG/) and [Unklicky](./Probes/UnklickyNG/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
+
+### [Assembly instruction](./Probes/KlickyNG/)
+
 # Printers With detailed instructions and specific parts (by support order)
 
 The specific parts with install, configuration, troubleshoot and recommended settings can be found on each printer page, linked below.
@@ -63,7 +87,7 @@ The specific parts with install, configuration, troubleshoot and recommended set
 
 There are also [docks and mounts submitted by users](./Usermods) to support other printers and toolheads, you should check it out.
 
-![Klicky Probe image](Photos/Klicky_Probe.png)klicky early version.
+![Klicky Probe image](./Photos/Klicky_Probe.png)klicky early version.
 
 # Klicky components
 
@@ -76,7 +100,8 @@ All the compatible printers require:
 
 The CAD with all the files is located [Here](./CAD)
 
-Common Klicky STL's (parts that are common to all the printers)  are located [here](./Base_STL).
+KlickyProbe STL's are now located on each probe type directory.
+
 Printer specific STL are in each printer directory.
 
 The klipper macros are [here](./Klipper_macros), the RRF [here](./RRF_macros).

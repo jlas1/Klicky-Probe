@@ -6,8 +6,8 @@ There is no need for supports, all the files are ready to print, they are in the
 
 The Klicky Probe consists on four different components:
 - Toolhead mount, found on the [AB/SB STL directory](../../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STL) [KlickyProbe_AB_mount_v2](../../../Voron/v1.8_v2.4_Legacy_Trident/v1.8_v2.4_Legacy_Trident_STLKlickyProbe_AB_mount_v2) 
-- the probe itself, found on the [base STL directory](../../../../Base_STL) [KlickyProbe_v2](../../../../Base_STL/KlickyProbe_v2.stl) 
-- probe dock, found on the [base STL directory](../../../../Base_STL) [Probe_Dock_v2](../../../../Base_STL/Probe_Dock_v2.stl) 
+- the probe itself, found on the [KlickyProbe STL directory](../../../../Probes/KlickyProbes/STL) [KlickyProbe_v2](../../../../Probes/KlickyProbes/STL/KlickyProbe_v2.stl) 
+- probe dock, found on the [base STL directory](../../../../Probes/KlickyProbes/STL) [Probe_Dock_v2](../../../../Probes/KlickyProbes/STL/Probe_Dock_v2.stl) 
 - Frame dock mount, found in this directory.
 
 The recommended printing configuration are:
