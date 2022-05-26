@@ -146,6 +146,31 @@ If you are using sensorless homing, and have your own X and/or Y homing macros, 
 
 If they exist on your klipper configuration, klicky macro will use them instead of the default G28 commands.
 
+## Euclid support
+
+To support euclid side dock and undock, try these values
+
+```python
+#Attach move. final toolhead movement to attach the probe on the mount
+#it's a relative move
+Variable_attachmove_x:          -70
+Variable_attachmove_y:            0
+Variable_attachmove_z:         1000
+
+#Attach move2
+Variable_attachmove2_x:          0
+Variable_attachmove2_y:         40
+Variable_attachmove2_z:       1000
+
+#Dock move, final toolhead movement to release the probe on the dock
+#it's a relative move
+Variable_dockmove_x:              0
+Variable_dockmove_y:            -40
+Variable_dockmove_z:           1000
+```
+
+**you need to check that is the Z height of the Euclid Dock**
+
 ## Advanced users
 
 **Beware going forward, you will leave the safety that the macros provide**
@@ -166,7 +191,7 @@ G0 X{docklocation_x|int - attachmove_x|int} Y{docklocation_y|int - attachmove_y|
 
 ### Probe dock commands
 
-```py
+```python
 # Probe entry location
 G0 X{docklocation_x|int - attachmove_x|int} Y{docklocation_y|int - attachmove_y|int} F{travel_feedrate}
 # Drop Probe to Probe location
