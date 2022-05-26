@@ -28,7 +28,7 @@ This is a modification of Klicky probe to be used in the EVA carriage, plus supp
 universal_face
 
 ## Source Klicky probe files
-[Klicky Probe](../../Base_STL)
+[Klicky Probe](../../Probes/KlickyProbes/STL)
 
 ## Source OnShape files
 [Klicky mount for Eva ](https://cad.onshape.com/documents/2fc54d83c144f64dfbd5b70d/w/5a27aacdedad8aa85274c7e9/e/03e92f0ea05a500c94d12e60)
