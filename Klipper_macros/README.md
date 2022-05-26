@@ -169,7 +169,7 @@ Variable_dockmove_y:            -40
 Variable_dockmove_z:           1000
 ```
 
-**you need to check that is the Z height of the Euclid Dock**
+**you need to check whay is the Z height of the Euclid Dock to replace the 1000 z moves above**
 
 ## Advanced users
 
