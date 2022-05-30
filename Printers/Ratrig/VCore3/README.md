@@ -226,9 +226,25 @@ Add the include line for the klicky probe
 # Inductive/Capacitive probe
 [include config/z-probe/probe.cfg]
 [include klicky-probe.cfg]
+
+# Physical endstops
+#[include config/printers/v-core-3/physical-endstops.cfg]
+# Sensorless homing (Beware: this requires manual tinkering and does not work if your x/y stepper drivers
+# have clipped DIAG pins). It is strongly encouraged to use physical endstops if you're a beginner.
+# If you still wish to proceed, copy config/templates/sensorless-homing-tmc2209.cfg to the root directory and 
+# remove the # from the line below.
+#[include sensorless-homing-tmc2209.cfg]
+[stepper_x]
+endstop_pin: x_endstop_pin
+homing_retract_dist: 5.0
+
+[stepper_y]
+endstop_pin: y_endstop_pin
+homing_positive_dir: true
+homing_retract_dist: 5.0
 ```
 
-Comment out the bltouch line if using and uncomment the probe line. Add line specifying that the probe is now connector to the z endstop pin (check your boards pinout to get the pin number). Comment out the whole safe z homing section
+Comment out the bltouch line if using and uncomment the probe line. Add line specifying that the probe is now connector to the z endstop pin (check your boards pinout to get the pin number). Comment out the whole safe z homing section. Comment out the physical endstops line and then Add lines for stepper X and stepper Y - this is done to avoid a klipper error and to avoid changing ratos files.
 
 ```python
 # Z Probe configuration
