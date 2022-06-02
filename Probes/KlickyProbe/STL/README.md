@@ -1,3 +1,6 @@
+Please go to the CAD for the latest files, these are not the latest version.
+https://github.com/jlas1/Klicky-Probe/blob/main/CAD/KlickyNGProbe%20v4.step
+
 # STL files for common parts for Klicky probe
 
 ![](../Photos/klicky_base.jpg)
