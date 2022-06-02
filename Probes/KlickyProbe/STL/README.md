@@ -1,11 +1,4 @@
-Please go to the CAD for the latest files, these are not the latest version.
-https://github.com/jlas1/Klicky-Probe/blob/main/CAD/KlickyNGProbe%20v4.step
-
-# STL files for common parts for Klicky probe
-
-![](../Photos/klicky_base.jpg)
-
-Here you can find the parts that are common across all printers-
+# STL files for Klicky probe regular probe
 
 There is no need for supports, all the files are ready to print, they are in the recommended orientation, the standard probe (KlickyProbe_v2.stl) can also be printed with the magnet hole facing down without supports.
 You can also use brim on the probes to help with bed adhesion.
