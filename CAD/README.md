@@ -27,3 +27,5 @@ Added V0.1 integrated Voron Revo Cowling
 KlickyNGProbe_v4
 Reduced the probe socket height, to better handle 2.7mm magnets
 
+KlickyNGProbe_v5
+Added a 3mm socket height, to better handle 3mm magnets
