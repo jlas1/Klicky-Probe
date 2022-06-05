@@ -98,7 +98,7 @@ Also supports [microswitch probe](../../../Probes/KlickyNG/) and [Unklicky](../.
 
 To get the best experience, please consider purchasing from the trusted list of suppliers bellow.
 
-[trusted suppliers list](./Sourcing.md)
+[trusted suppliers list](../../../Sourcing.md)
 
 ## Parts location
 

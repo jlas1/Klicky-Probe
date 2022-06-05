@@ -53,7 +53,7 @@ To assemble this probe, choose one and head to the assembly instruction below, t
 New enclosed magnets probe, it does not require glue to help prevent the magnets from coming loose, magnets are also self aligning.
 This approach only uses common and easy to source parts.
 
-<img src="C:/Users/Jose/Documents/Git/Klicky-Probe/Probes/KlickyNG/Photos/klickyNG.png" alt="klickyprobe" style="zoom:50%;" />
+<img src="../../../Probes/KlickyNG/Photos/klickyNG.png" alt="klickyprobe" style="zoom:50%;" />
 
 Also supports a microswitch probe and Unklicky ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
 
@@ -107,13 +107,13 @@ To assemble this probe, choose one and head to the assembly instruction below, t
 
 To get the best experience, please consider purchasing from the trusted list of suppliers bellow.
 
-[trusted suppliers list](./Sourcing.md)
+[trusted suppliers list](../../../Sourcing.md)
 
 ## Parts location
 
 The probe STL's are located on each probe directory on the STL
 
-The printer specific STL's are located [here](./STL).
+The printer specific STL's are located [here](./SW_STL).
 
 The CAD with all the parts are [here](../../../CAD).
 
@@ -440,7 +440,7 @@ Congratulations, your done :).
 
 ## Firsts tests
 
-Before starting to test klicky, and from past mistakes, please remove your PEI sheet (the probe works on the magnetic sheet) and if possible, change your printer maximum speed, acceleration and Z current, on klipper with TMC steppers, you can do this:
+Before starting to test klicky, and from past mistakes, please use either the metal side of your PEI or your most damaged sheet and if possible, change your printer maximum speed, acceleration and Z current, on klipper with TMC steppers, you can do this:
 
 ```python
 SET_TMC_CURRENT STEPPER=stepper_z CURRENT=0.2 
