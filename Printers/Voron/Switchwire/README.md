@@ -4,6 +4,8 @@
 
 Here you will find the necessary files and documentation to print and setup your own klicky probe on the Switchwire (finally).
 
+![Switchwire Klicky](./Photos/IMG_20220606_1958332.jpg)
+
 It uses a slightly different approach than most magnetically attached probes, it's secured on the X extrusion, so it's available on any Z height and can be used without knowing the Z position, just like all the others.
 
 I do not own a  Switchwire, so the tests were made with the help of the Voron community to whom i would like to thanks for the support, first and foremost to Patrice who was an excelent contributor to the project and main instigator, and also marciorssilva, Iconic FAB lv and Jason who tested and troubleshooted several components.
@@ -22,7 +24,7 @@ They say an image is worth a 1000 words, but this is better described by a [smal
 
 Some picture before heading to bussiness.
 
-| <img src="./Photos/sw_backview.png" alt="backview" height="400" /> | <img src="./Photos/sw_frontview.png" alt="sw_frontview" height="400" /> |
+| <img src="./Photos/IMG_20220606_1942002.jpg" alt="backview" height="400" /> | <img src="./Photos/IMG_20220606_1936042.jpg" alt="sw_frontview" height="400" /> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 
@@ -53,7 +55,7 @@ To assemble this probe, choose one and head to the assembly instruction below, t
 New enclosed magnets probe, it does not require glue to help prevent the magnets from coming loose, magnets are also self aligning.
 This approach only uses common and easy to source parts.
 
-<img src="../../../Probes/KlickyNG/Photos/klickyNG.png" alt="klickyprobe" style="zoom:50%;" />
+<img src="C:/Users/Jose/Documents/Git/Klicky-Probe/Probes/KlickyNG/Photos/klickyNG.png" alt="klickyprobe" style="zoom:50%;" />
 
 Also supports a microswitch probe and Unklicky ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
 
@@ -107,13 +109,13 @@ To assemble this probe, choose one and head to the assembly instruction below, t
 
 To get the best experience, please consider purchasing from the trusted list of suppliers bellow.
 
-[trusted suppliers list](../../../Sourcing.md)
+[trusted suppliers list](./Sourcing.md)
 
 ## Parts location
 
 The probe STL's are located on each probe directory on the STL
 
-The printer specific STL's are located [here](./SW_STL).
+The printer specific STL's are located [here](./STL).
 
 The CAD with all the parts are [here](../../../CAD).
 
@@ -228,7 +230,7 @@ And complete assembly by attaching the Servo_Mount_Body_left and secure with 2x2
 
 Now attach the probe dock assembly that you want to use to the Dock arm with 2x16mm m3 screws.
 
-INSERT PICTURE HERE
+<img src="./Photos/20220609_002535.jpg" alt="dock_mount4" width=600 />
 
 Note: you may need to use later a dock extender to allow for easier probe docking and attaching.
 
@@ -324,11 +326,28 @@ variable_servo_retract:         angle value with the arms on the retract positio
 
 ### Step 8: Physical installation
 
-**NEEDS DOCUMENTATION**
+- 2x M5x10 BHCS
+- 2x M5 T-Nut for 2020 extrusion
+
+The servo mount is mounted on the back of the X extrusion with two M5 T-Nuts, it has a M5 hole on each side of the servo mount that you secure to the extrusion.
+
+<img src="./Photos/back_servo.png" alt="back_servo" width=800 />
+
+Is is better to mount it near the Z cable chain so that the servo cable path is smaller and you can keep the stock servo cable, and just change the dupont end to a microfit or similar.
+
+The servo mount is slightly adjustable on the Z, so you push the dock (with a probe) to the deploy position and attach the probe to the toolhead and then secure the servo dock in a position that can deliver the probe consistently to the toolhead mount.
+
+<img src="./Photos/IMG_20220606_1931462.jpg" alt="servo_deployed" width=800 />
+
+It should look like the image above when installed.
 
 ### Step 9: Servo Wiring on the chains
 
-**NEEDS DOCUMENTATION**
+To wire the servo, it's recommended to use 3 new wires on the Z cable chain connected to a microfit or a JST female, that will connect to the servo cable like on the images bellow.
+
+<img src="./Photos/IMG_20220606_1932032_2.jpg" alt="wire_chains" width=800 />
+
+Then connect and recheck the MCU connections and 5v PSU servo connections as you configured on step 6.
 
 ### Step 10: klipper configuration
 
@@ -418,12 +437,12 @@ Depending on your switch you may need to add a `!` to invert that pin (normally 
 
 One of the last things we need to do is to adjust the probe pickup position.
 
-**NEEDS TOBE DOCUMENTED STILL**
+Home the X axis of your printer, then manually (with G0 X or GUI moves) move the toolhead until you can simulate with sucess the docking and attaching of the probe to the toolhead mount, use this value.
 
 Open your `klicky-variables.cfg` and find the `#dock location` section and edit the following two line
 
 ```python
-variable_docklocation_x:
+variable_docklocation_x: #what you found above
 variable_docklocation_y:125 #middle of the bed
 ```
 
@@ -440,7 +459,7 @@ Congratulations, your done :).
 
 ## Firsts tests
 
-Before starting to test klicky, and from past mistakes, please use either the metal side of your PEI or your most damaged sheet and if possible, change your printer maximum speed, acceleration and Z current, on klipper with TMC steppers, you can do this:
+Before starting to test klicky, and from past mistakes, please remove your PEI sheet (the probe works on the magnetic sheet) and if possible, change your printer maximum speed, acceleration and Z current, on klipper with TMC steppers, you can do this:
 
 ```python
 SET_TMC_CURRENT STEPPER=stepper_z CURRENT=0.2 
