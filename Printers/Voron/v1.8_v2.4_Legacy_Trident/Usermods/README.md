@@ -1,12 +1,8 @@
 # Klicky Usermods
 
-[## Native KlickyNG Mantis Xcarriage (MGN12H) including Dock](./Minsekt/MGN12H_native_mantis_KlickyNG_xcarriage/) by Minsekt
+[## Native KlickyNG Mantis Xcarriage (MGN12H) including Dock](./Minsekt/) by Minsekt
 
 This is a modified Mantis Xcarriage to fit KlickyNG based on [KayosMaker's Klicky X-Carriage](https://github.com/mandryd/MantisUsermods/tree/main/Usermods/KayosMaker/MGN12_Klicky). there's also a Carriage included that supports a LGX Lite.
-
-[## Native UnklickyNG (6x3) Mantis Xcarriage (MGN12H) including Dock](./Minsekt/MGN12H_native_mantis_UnklickyNG_6x3_xcarriage/) by Minsekt
-
-Modified Mantis Xcarriage for the UnklickyNG 6x3 including a fitting dock. this one is just as lightweight as the stock mantis Xcarriage!
 
 [## Klicky Probe with additional holes](./StefanRaatz/) by StefanRaatz
 
