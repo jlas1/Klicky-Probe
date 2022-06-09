@@ -389,7 +389,7 @@ variable_docklocation_y:      1000    # Y Dock position
 variable_docklocation_z:      -128    # Z dock position (-128 for a gantry/frame mount)
 
 #The following variables are used if the dock is deployed and retracted via a servo motor
-variable_enable_dock_servo:  False    # Set to true if your klicky dock is servo-controlled
+variable_enable_dock_servo:   True    # Set to true if your klicky dock is servo-controlled
 variable_servo_name: 'klicky_servo'   # The name of the dock servo defined in printer.cfg under [servo]
 variable_servo_deploy:          10    # angle value with the arms on the deploy position (found in step 7)
 variable_servo_retract:         11    # angle value with the arms on the retract position (found in step 7)
