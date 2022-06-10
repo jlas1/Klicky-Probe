@@ -84,6 +84,8 @@ The specific parts with install, configuration, troubleshoot and recommended set
 
 [MercuryOne](./Printers/ZeroG/Mercury_One)
 
+[Voron Switchwire](./Printers/Voron/Switchwire)
+
 
 There are also [docks and mounts submitted by users](./Usermods) to support other printers and toolheads, you should check it out.
 
