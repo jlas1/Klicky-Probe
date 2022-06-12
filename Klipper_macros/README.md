@@ -39,14 +39,14 @@ The helper files work by expanding the standard klipper function with a attach a
 
 Right now the macros are divided in multiple files, that way it is much easier to upgrade, configure and maintain
 
-| File                             |        v2.4        |        v1.8        |       Legacy       |      Trident       |         v0         |       Tiny-M       |      V-core3       | MercuryOne         |
-| -------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | ------------------ |
-| klicky-probe.cfg                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| klick-variables.cfg              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| klicky-bed-mesh-calibrate.cfg    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Klicky-quad-gantry-level.cfg     | :heavy_check_mark: |        :x:         |        :x:         |        :x:         |        :x:         |        :x:         |        :x:         | :x:                |
-| Klicky-screws-tilt-calculate.cfg |        :x:         | :heavy_check_mark: | :heavy_check_mark: |        :x:         | :heavy_check_mark: | :heavy_check_mark: |        :x:         | :grey_question:    |
-| klicky-z-tilt-adjust.cfg         |        :x:         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |        :x:         |        :x:         | :heavy_check_mark: | :heavy_check_mark: |
+| File                             |        v2.4        |        v1.8        |       Legacy       |      Trident       | Switchwire         |         v0         |       Tiny-M       |      V-core3       | MercuryOne         |
+| -------------------------------- | :----------------: | :----------------: | :----------------: | :----------------: | ------------------ | :----------------: | :----------------: | :----------------: | ------------------ |
+| klicky-probe.cfg                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| klick-variables.cfg              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| klicky-bed-mesh-calibrate.cfg    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Klicky-quad-gantry-level.cfg     | :heavy_check_mark: |        :x:         |        :x:         |        :x:         | :x:                |        :x:         |        :x:         |        :x:         | :x:                |
+| Klicky-screws-tilt-calculate.cfg |        :x:         | :heavy_check_mark: | :heavy_check_mark: |        :x:         | :x:                | :heavy_check_mark: | :heavy_check_mark: |        :x:         | :grey_question:    |
+| klicky-z-tilt-adjust.cfg         |        :x:         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |        :x:         |        :x:         | :heavy_check_mark: | :heavy_check_mark: |
 
 
 
