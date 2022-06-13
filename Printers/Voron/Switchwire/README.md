@@ -393,7 +393,7 @@ variable_enable_dock_servo:   True    # Set to true if your klicky dock is servo
 variable_servo_name: 'klicky_servo'   # The name of the dock servo defined in printer.cfg under [servo]
 variable_servo_deploy:          10    # angle value with the arms on the deploy position (found in step 7)
 variable_servo_retract:         11    # angle value with the arms on the retract position (found in step 7)
-variable_servo_delay:         1000    # This is a delay to wait the servo to reach the requested position, be carefull with high values
+variable_servo_delay:          250    # This is a delay to wait the servo to reach the requested position, be carefull with high values
 
 #Dock move, final toolhead movement to release the probe on the dock
 #it's a relative move
