@@ -264,10 +264,10 @@ maximum_pulse_width: 0.0024
 
 [gcode_macro _servo_test_angle]
 gcode:
-	{% set angle  = params.angle|int %}
+	{% set ANGLE  = params.ANGLE|int %}
 	
-    SET_SERVO SERVO=klicky_servo ANGLE={angle}
-    G4 P1000
+    SET_SERVO SERVO=klicky_servo ANGLE={ANGLE}
+    G4 P250
     SET_SERVO SERVO=klicky_servo WIDTH=0.0
 ```
 
