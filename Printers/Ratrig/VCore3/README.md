@@ -4,328 +4,246 @@
 
 Here you will find the necessary files and documentation to print and setup your own klicky probe on the VCore3 
 
-This directory has the STL files properly oriented for printing and community mods for the respective printer, there are [klipper](../../../Klipper_macros) macros and [RRF](../../../RRF_macros) macros on the repository.
+This directory has the STL files for printing although it is helpful if you also download and like the [prusaprintables version](https://www.printables.com/model/226368-klicky-and-unklicky-for-vcore3/) as it helps get me some free filament to print more dev parts!
 
 You can find more information about the RatRig printers at the [website](https://www.ratrig.com/) or go check the [discord](https://discord.gg/bxqvFH4UzW). As the main developer of this modification variant for the VCore3 I own a custom shaped VCore3 printer. These parts have however been tested now with quite a few of the standard variations sold by Ratrig.
 
-Due to the fact there is no area on the VCore3 where the dock can be fully outside the footprint of the print bed you will lose a small amount of print volume in the very front left corner... Note the default profile uses this area for the purge line anyway and this does not need to be modified as the direction of the purge line ensures the probe is not picked up.
+Due to the fact there is no area on the VCore3 where the dock can be fully outside the footprint of the print bed you will lose a small amount of print volume in the very front left corner.
 
 Above all, have fun and be excellent to one another, now on to the instructions.
 
-<img src="Photos/probe_mount_installed.jpg" alt="V2.4 Klicky Probe" style="zoom:60%;" />
+<img src="Photos/klicky_full.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-## Mounting
+# BOM
+DISCLAIMER: I use affiliate links in my BOM and in many product links on my site. These links help generate revenue so that I can keep my content both add free and at zero cost to you!
 
-### Probe dock mount
+- 2 x M3*16mm [Aliexpress](https://s.click.aliexpress.com/e/_De4xA9Z)
+- 2 x M2*10mm self tapping screws [Aliexpress](https://s.click.aliexpress.com/e/_DmxbgMn)
+- 2 x M3 x D4.6 x L4.0 heat set inserts [Aliexpress](https://s.click.aliexpress.com/e/_Ddrgszh)
+- 7 x 6*3mm magnets [Aliexpress](https://s.click.aliexpress.com/e/_DD4HIvp)
+- 1 x D2F switch [Aliexpress](https://s.click.aliexpress.com/e/_DCo538T)
+- 24AWG wire [Aliexpress](https://s.click.aliexpress.com/e/_DkDpExV)
 
-The probe dock is mounted to the front left extrusion, depending on your leadscrew length some of it may poke through the hole in the bracket
+# Printed parts
+The parts have been released on Printables and will soon be merged into the Klicky GitHub repo
 
-### Probe toolhead mount
+Print everything except the piston probe body and piston with 0.2mm layer height using a 0.4mm nozzle. Recommend 4 walls, 4 top/bottom layers and 40% infill. 
 
-The probe toolhead mount has been designed to be directly compatable with the EVA system and bolts onto the probe mounting holes. (Note it does however have a different probe offset to the standard bl touch and inductive probes)
+For the piston probe body and piston print them with the same settings but at 0.1mm layer height. You may also want to add a scaled up and down piston (by 1-2%) in addition to the provided size as the fit is important. Suggested orientation is shown below.
 
-## Bill of Materials (BOM)
+<img src="Photos/print_orientation_klicky.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-### Tools:
+For EVA3:
 
-- 1.5mm Drill (optional)
-- Multimeter to check for Continuity 
-- Super Glue (optional but advised)
-- Soldering Iron
+- 1 x VCore3 Klicky mount
+- 1 x EVA3 klicky probe arm
+- 1 x Klicky probe
+- 1 x Piston Klicky Body
+- 1 x Piston Klicky pin
 
-### Probe:
+For EVA2:
 
-- 1x microswitch (the omron D2F-5 or D2F-5L (removing the lever is required), other also work with reduced accuracy or repeatability (mostly anecdotal evidence, needs a proper sudy)
-- 2x M2x10 mm self tapping
-- 4x 6 mm x 3 mm magnets (N35 magnets work)
+- 1 x VCore3 Klicky mount
+- 1 x EVA2 klicky probe arm
+- 1 x Klicky probe
+- 1 x Piston Klicky Body
+- 1 x Piston Klicky pin
 
-### Probe mount:
+# Compatibility
+I have tried my hardest to design this mod to be compatible with as many popular combinations as possible. This work has been extended further by Arlock.
 
-- 3x 6 mm x 3 mm magnets (N35 magnets work)
-- 2x 22AWG cable (to connect the Klicky Probe to the control board)
-- 2x M3x6 mm BHSC Screw
+## VCore3
 
-### Probe dock:
+- Standard frame
+- OpenFront mod
+- Official enclosure
 
-- 1x 6 mm x 3 mm magnets (N35 magnets work)
-- 2x M3x16 mm
+## EVA3
 
-### Probe dock mounts:
+- All configurations except the tank shroud
 
-- 2x M6x12 cap head bolt
-- 2x M3 threaded insert M3x5 mmx4 mm
+## EVA2
+- All configurations
+- Not compatible with the top MFBS mods. Please see the mod Arlock has released that adds compatibility with that ecosystem.
 
-## Sourcing
+# Setup process
+Either watch the [youtube assembly video](https://youtu.be/YpNB8FlAlf0) below or scroll further down for a step by step written description of the process.
 
-To get the best experience, please consider purchasing from the trusted list of suppliers bellow.
+## Assembling the dock
+Press a magnet into this hole on the dock. No glue is required as it will be captive inside the assembly (useful for if you need to upgrade in the future!). The orientation doesn’t matter at this stage as we will set the orientation of the one in the probe based on this.
 
-[trusted suppliers list](./Sourcing.md)
+<img src="Photos/1.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-## Parts location
+Next bolt the probe dock to the mounting bracket using two M3x18mm bolts. Make sure it is oriented as shown with the magnet on the right hand side and the countersinks on the mounting bracket facing down.
 
-The probe STL's are located [here](../../../Probes/KlickyProbes/STL).
+<img src="Photos/2.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-The printer specific STL's are located [here](./VCore3_STL).
+The new dock has been designed to locate accurately off of the existing frame. It fits in the front left corner underneath the idler plate. Carefully remove the two bolts circled in red. You want to avoid knocking the T nuts out of place so when you replace with a long bolt they are in the right spot for it to catch and do back up.
 
-## What to print
+<img src="Photos/3.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-- 2x KlickyProbe_v2.stl (keeping a spare is always a good idea)
-- Probe_Mount_v1.stl
-- Probe_Dock_v2.stl
-- Probe_Dock_Mount_v1.stl
+The dock will only fit one way round due to the cutout for the idler bolt. Push the dock firmly into the corner, add the bolts and tighten up.
 
-<img src="Photos/printed_parts.jpg" alt="printed parts" style="zoom:60%;" />
+## Assembling Klicky piston probe
+Install the read magnet in the Klicky probe body. Add a small drop of superglue and then press the magnet in. This magnet needs to be oriented such that it attracts towards the one in the dock as it will be used to keep the Klicky probe in place. This magnet will sit just under flush to reduce the undocking force.
 
-#### Helpers to pressfit the probe magnet
+<img src="Photos/4.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-- Probe_magnet_pressfit_helper.st
-- Probe_magnet_holder.stl
-- probe_pressfit_helper.stl
+Remove the spring arm if required and then install the switch by pressing it into the probe body. Make sure the switch aligns with the arrow.
 
-### Printing instructions
+<img src="Photos/5.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-Recommended printing settings:
+Install the printed piston into the piston housing. Run it back and forth a few times until it is running smoothly. If it is too tight scale the print down a little and try again. We will run 500 probes to bed the probe in but it needs to be reasonably close from the start.
 
-* initial layer height:0,24
-* layer height: 0.2mm
-* bottom/top/perimeters: 4
-* infill: more than 23%
-* infill type: Cubic
-* Thin walls: On
+<img src="Photos/6.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-It was tested and printed with ABS and PETG, might work on other materials, if you try, let me know how it worked out.
+Attach the piston housing to the probe body using two m2 self tapping screws. The piston will compress the switch very slightly when assembled but should not activate it until you press on it. This will also hold the switch in place for the next few steps of adding the remaining magnets.
 
-## Assembly
+<img src="Photos/7.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-### Step 1 - Dock mount and Probe Dock assembly 
+Install the center magnet on the top face, orientation doesn’t matter unless you already have an existing probe arm installed, in which case match the polarity so it attracts to its corresponding magnet. Again add a small drop of superglue then press the magnet in. I find I can do this by hand but there are helper tools available in on the github. Apply pressure until glue has dried.
 
-- [ ] 2x M3 threaded insert M3x5 mmx 4 mm
-- [ ] 1x 6 mm x 3 mm magnets
-- [ ] 2x M3x16 mm
-- [ ] Super Glue
+<img src="Photos/8.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-Install your heat set threaded inserts in the holes shown below.
+IMPORTANT – Wait for the glue to dry. It is really really easy to accidentally pull the magnet back out while you add the next two in.
 
-<img src="./Photos/probe_dock.png" style="zoom: 100%;" />
+Install the other 2 magnets using the same method. These should have the opposite polarity to the central one.
 
-Install the magnet in the Probe dock, make sure that the magnet is fully inserted, it's top should be below the plastic.
+<img src="Photos/9.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-Screw the dock onto the Dock mount with the two M3x16mm screws.
+Once finished your probe assembly should look like this. Check that the piston when pressed causes the switch to click and then again as you release. Now is the time to use a multimeter and check you get continuity between the two magnets circled above. You should be able to note the continuity being made and broken when you actuate the switch. This ensures the probe is assembled and working.
 
-Secure the magnet with a dab of super glue (not a lot, just a drop).
+<img src="Photos/10.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-<img src="./Photos/probe_dock_assembled.png" style="zoom: 100%;" />
+## Assembling the probe arm
+Start by feeding two 22AWG wires through the holes at the top. Strip a 10mm length of insulation off of each one. Twist the ends and then feed them back up through the holes at the edges of the magnet cutouts. Once done I like to add a 2pole connector such as a JST SM inline connector so that it can be removed or swapped without messing with your entire print head wiring loom.
 
-Mount the Probe Dock to the front left extrusion, You will adjust the Z offset in a minute.
+<img src="Photos/11.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-<img src="Photos/probe_dock_mount_attached.png" alt="Klicky Dockmount attached" style="zoom:100%;" />
+Add a small drop of superglue to the central magnet hole. This magnet needs to be oriented such that the central magnet on the probe side will be attracted to it. Use the magnet assembly helpers or a flat surface to insure they sit flat.
 
-### Step 2: Probe Assembly
+<img src="Photos/12.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-For the probe assembly you need the following parts:
+IMPORTANT – Wait for the glue to dry. It is really really easy to accidentally pull the magnet back out while you add the next two in.
 
-- [ ] 1x microswitch
-- [ ] 2x M2x10 mm self tapping
-- [ ] 5x 6 mm x 3 mm magnets
-- [ ] 22AWG cable
-- [ ] 1.5mm Drill (optional)
-- [ ] Multimeter to check for Continuity 
-- [ ] Super Glue
+Install the other 2 magnets using the same method. These should have the opposite polarity to the central one.
 
-<img src="./Photos/probe_1.jpg" width="400" />
+<img src="Photos/13.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-Maybe you need to clear the holes for the microswitch, a 1.5mm drill bit should work fine.
+Once completed your probe arm should look similar to this. The magnets will be slightly proud of the surface and should be level.
 
-Install the microswitch so that the arrow on the probe body is pointing to the little switch.
+<img src="Photos/14.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-The best way to install the back magnet is to attach a magnet to the probe dock and slide the probe on the dock to insert some distance and the insert he remaining with a tool, it should be slightly below the plastic.
+Install the probe arm onto the EVA carriage in the standard probe location and using the standard M3 bolts.
 
-<img src="./Photos/probe_2.jpg" width="400px;" />
+<img src="Photos/15.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-Then take your self tapping screws and screw the microswitch in place, the pins on the switch will contact the magnets once installed, that way making this a Normally Connected probe.
+# Wiring
+The klicky probe should be wired into the BLTouch port on your controller board. I won’t add wiring diagrams here because there are so many boards being used out there. One wire should be connected to the probe pin and the other to ground. It doesn’t matter which way round as there is no fancy electronics in the switch 🙂.
 
-<img src="./Photos/probe_3.jpg" width="600" />
+# Configuring RatOS for Klicky
+If you installed Klicky before then you will be familiar with the standard set of Klicky macros. These can still be configured to be used with this docking system but many users found this hard to achieve and writing a guide that was able to take into account everyone’s unique setups was difficult! Miklschmidt has been working some magic in the background and there is now a development branch of RatOS that supports stowable probes out of the box. In parallel I’ve provided the configuration for the Klicky probe setup above.
 
-You want to install the magnets in the way that the ones which are connected to the microswitch, have the same polarity.
+In the near future you will be able to configure your setup for the Klicky probe with just a single line change in the printer.cfg but unfortunately we are not quite there yet. As the branch is still in development there are some changes you need to do to switch over. You can test it out right now though! (And it’s still easier than setting up Klicky the old way!)
 
-Before placing the switch magnets, use some super glue on the holes (not a lot, just a drop), avoid the wires and the top of the magnets.
+WARNING: If you follow the changes below you will be switching to the DEVELOPMENT branch for RatOS. This branch is evolving constantly and has not been tested fully for release. Whilst it was stable at the time of writing this I can’t promise it will always be stable. You will need to swap back once the dev branch gets merged but you shouldn’t have to change your printer config again.
 
-The 3rd magnet should have the inverse polarity, wait until the system is complete and assembled before gluing the magnets, they might need adjustment to ensure a good fit on the mount.
+SSH into your printers raspberry pi and swap to the development branch.
 
-You can use the included pressfit helpers to help in securing the probe when you are inserting the magnets.
+```
+ssh pi@ratos.local
+cd ~/klipper_config/config
+git fetch origin
+git checkout development
+```
+Update your moonraker.conf to include the two lines relating to the dev branch. (It’s best to include comments so you can easily remember which bits to remove at a later date!)
 
-<img src="./Photos/probe_4.jpg" width="400" />
+```
+[update_manager client RatOS]
+type: git_repo
+path: /home/pi/klipper_config/config
+origin: <https://github.com/Rat-OS/RatOS-configuration.git>
+install_script: /home/pi/klipper_config/config/scripts/ratos-install.sh
+# Dev branch
+primary_branch: development
+```
+Now is the big step. The development branch requires a newly configured printer.cfg as quite a lot has changed in the background. It’s not hard to do but I advise you take the opportunity to download and save your current one in case something goes wrong and your need to backtrack. Once you have a backup saved navigate to /config/config/templates and open v-core-3-printer.template.cfg. Copy all the text from there. Navigate back to your printer.cfg. Select all the text and delete it. Then paste in the new config.
 
-There is no need for soldering, the probe microswitch connectors are press-fit on the magnets, they should remain with the top above the probe plastic.
+Configure the new file as per your physical setup. Use the old config as a reference. Make sure to copy over your user overides (unless they relate to the probe usage). Lastly to enable Klicky simply uncomment the lines in the homing section as per the code block below
 
-<img src="./Photos/probe_5.jpg" width="400" />
-
-As the last step of the probe assembly check if you have continuity between two magnets that connect to the switch.
-
-If you have a normally closed switch (as you should), then you should have a current flow, so continuity is established. When you press the switch you should lose continuity. When you have a normally open switch then the behavior is the other way around.
-
-### Step 3: Probe mount Assembly
-
-For the probe mount assembly you need the following parts
-
-- [ ] 3x 6 mm x 3 mm magnets
-- [ ] 22AWG cable to connect the Klicky Probe
-- [ ] 2x M3 x 12mm BHSC 
-- [ ] Multimeter to check for Continuity 
-- [ ] Super Glue
-
-The probe mount wires are also connected with pressure from the magnets, you can use the probe magnets as a template to insert the probe mount magnets, it is easier that way, so that the magnets are not inserted the wrong way.
-
-<img src="./Photos/probe_wires_detail.png" width="400" />
-
-again, before placing the wire magnets, use some super glue on the holes (not a lot, just a drop), avoid the wires and the top of the magnets.
-
-The 3rd magnet should have the inverse polarity, exacly like on the probe.
-
-Wait until the system is complete and assembled before gluing the 3rd magnets, they might need adjustment to ensure a good fit on the probe.
-
-After everything is assembled let's check again for continuity, this time joining the ends of the cable and testing connectivity on the two wire magnets that have a cable.
-
-### Step 4: Probe Mount installation and wiring
-
-For the installation you need the following parts:
-
-- [ ] 2x M3x12 mm BHSC Screws
-
-<img src="./Photos/probe_mount_1.jpg" width="600px;" />
-
-Route the probe mount cables between the probe mount and the fan duct and then up the side of the EVA backplate. When installing the mount be careful not to push the hex nuts out of their grooves. It is a pain to take apart the EVA assembly to put them back in.
-
-**Before going further, please turn off the printer, the boards are very picky with short circuits.**
-
-Connect the probe to the controller board. You may also put an inline connector (I chose to do this) to enable easier switching in the future.
-
-When testing the docking and attachment of the probe, make sure that the back magnet of the probe and the dock magnet do not touch, if they do, it will make attaching the probe much harder.
-
-### Step 5: klipper configuration
-
-As of right now, klipper and RRF have no inbuilt support for a removable probe, fortunately, it does support very robust macro programming, so you will need to add macros to be able to dock and attach the probe as necessary, as well as supporting the rest of the functions that require the usage of a probe.
-
-The macros and instructions on how to configure are located on the [Macro directory](../../../Klipper_macros), you need to **check that before continuing on the build**, there are also some [RRF scripts](../../RRF_macros) that work.
-
-This guide will assume users are using RATOS for their printer. It is probably easier to follow the generic Voron installation instructions if using a standard klipper installation.
-
-Add all the klicky macros to the config directory (same level as your printer.cfg file.)
-
-Update printer.cfg with the following changes:
-
-Add the include line for the klicky probe
-
-```python
+```
 #############################################################################################################
 ### HOMING
 ### Pick your probe and endstops
 #############################################################################################################
 # BL Touch
 #[include config/z-probe/bltouch.cfg]
+ 
 # Inductive/Capacitive probe
-[include config/z-probe/probe.cfg]
-[include klicky-probe.cfg]
-
+#[include config/z-probe/probe.cfg]
+ 
+# Euclid probe (please read the RatOS documentation for instructions)
+#[include config/z-probe/euclid.cfg]
+ 
+# Klicky probe (please read the RatOS documentation for instructions)
+[include config/z-probe/klicky/klicky.cfg]
+#[include config/z-probe/klicky/unklicky.cfg] 
+ 
 # Physical endstops
-#[include config/printers/v-core-3/physical-endstops.cfg]
-# Sensorless homing (Beware: this requires manual tinkering and does not work if your x/y stepper drivers
-# have clipped DIAG pins). It is strongly encouraged to use physical endstops if you're a beginner.
+[include config/printers/v-core-3/physical-endstops.cfg]
+ 
+# Sensorless homing (Beware: this requires manual tinkering and does not work if your x/y stepper drivers 
+# have clipped DIAG pins). It is strongly encouraged to use physical endstops if you're a beginner. 
 # If you still wish to proceed, copy config/templates/sensorless-homing-tmc2209.cfg to the root directory and 
-# remove the # from the line below.
+# remove the # from the line below. 
 #[include sensorless-homing-tmc2209.cfg]
-[stepper_x]
-endstop_pin: x_endstop_pin
-homing_retract_dist: 5.0
-
-[stepper_y]
-endstop_pin: y_endstop_pin
-homing_positive_dir: true
-homing_retract_dist: 5.0
 ```
 
-Comment out the bltouch line if using and uncomment the probe line. Add line specifying that the probe is now connector to the z endstop pin (check your boards pinout to get the pin number). Comment out the whole safe z homing section. Comment out the physical endstops line and then Add lines for stepper X and stepper Y - this is done to avoid a klipper error and to avoid changing ratos files.
+You should be ready to commission the probe now!
 
-```python
-# Z Probe configuration
-#[bltouch]
-#z_offset: 0.0 # Adjust this to fit your setup
-[probe]
-#z_offset: 0.0 # Adjust this to fit your setup
-pin=PG10 # Added because using Z endstop pin as probe pin
-#pin: ^probe_pin # For NPN NC probes such as the Super Pinda / Vinda / SupCR / Decoprobe probes.
-#pin: ^!probe_pin # NPN NO (refer to the specs on your probe)
-#pin: probe_pin # PNP NO (refer to the specs on your probe)
-#pin: !probe_pin # PNP NC (refer to the specs on your probe)
+# Commissioning the probe
+WARNING: Make sure you follow the next few steps before doing anything else. These steps should help check that the dock location and your end stops are all in right place for the probe docking procedure to work smoothly and not cause crashes.
 
-# Safe Z Home (Physical endstops only)
-#[safe_z_home]
-#home_xy_position: 150,150 # 300mm printer
-#home_xy_position: 200,200 # 400mm printer
-#home_xy_position: 250,250 # 500mm printer
+WARNING: make sure you bed is pretty close to level by eye before trying a new probe there is always a risk that if the bed has too greater angle you will crash the nozzle or probe into it.
+
+- Home XY axis (DO NOT HOME ALL or Z!)
+- Move printhead to X13.0 Y6.5
+- Check that the probe arm sits perfectly over the probe/dock
+- If it doesn’t adjust your X or Y endstop slightly in the direction needed.
+- Repeat steps 1-4 until happy
+- From X13.0 Y6.5 move your printhead about 60mm in positive X. The probe should - smoothly come out of the dock.
+- Move the printhead back to X13 Y6.5. the probe should smoothly move into the dock
+- Move the printhead by about 60mm in the positive y direction. The probe should - slide off the probe arm and stay seated in the dock.
+- Try running DEPLOY_PROBE and STOW_PROBE. the probe should smoothly dock and undock. If it doesn’t you may need to go back and repeat steps 1-8.
+- Deploy the probe and move it to the centre of the bed. Run the command below to do 500 probe cycles. This will help bed in the piston section and give you more reliable results going forwards
+```PROBE_ACCURACY samples=500```
+
+If you got through all the steps above without issue then you are good go! Enjoy the Klicky life!
+
+# Reverting back to master RatOS branch
+SSH into the pi and run the following commands to swap back to the Master branch
+
 ```
-In the user overides section add the following section.
-
-```python
-[probe]
-x_offset: -24.526
-y_offset: -20.725
+ssh pi@ratos.local
+cd ~/klipper_config/config
+git fetch origin
+git checkout master
 ```
+Comment out the primary branch line in your moonraker.conf
 
-
-#### Assembled Klicky Probe
-
-See assembled probe in action on youtube [here](https://youtu.be/aWnHNNrViP0)
-
-
-### Step 6: klipper  Dock/Undock  configuration
-
-#### Adjust Probe Pickup Position
-
-One of the last things we need to do is to adjust the probe pickup position. I suggested manually moving the print head into position and use that to set your probe dock mount z height on the extrusion.
-
-Turn your printer on and then make sure that the x and y axis are homed and the probe is manually attached to mount.
-
-Now manually (with gcode commands) move the toolhead to the probe dock and move it so far to the back that the probe docks, note the Y-Position.
-
-Next, again manually, move the toolhead parallel to the probe dock until the probe it is perfectly aligned with the mount, note the X.Position.
-
-Open your `klicky-variables.cfg` and find the `#dock location` section and edit the following two line
-
-```python
-variable_docklocation_x:
-variable_docklocation_y:
+```
+[update_manager client RatOS]
+type: git_repo
+path: /home/pi/klipper_config/config
+origin: <https://github.com/Rat-OS/RatOS-configuration.git>
+install_script: /home/pi/klipper_config/config/scripts/ratos-install.sh
+# Dev branch
+#primary_branch: development
 ```
 
-Test now with the ATTACH_PROBE and DOCK_PROBE if it docks and is removed correctly, some common points that can give problems are:
+NOTE: if the reason you are doing this isn’t because the changes on development branch have been merged into master then you will also need to do the next step.
 
-* the dock magnet is touching the back probe magnet, they cannot touch, push them further in
-* the probe is hitting the dock arms, please move the toolhead more to the side where the probe does not hit, by 1mm at a time, until it works
-* the probe is falling after being release, the dock is too far away, you can insert one or several 1mm spacer to move the dock and solve this
-
-***WARNING when you are doing PROBE_ACCURACY, make sure that the probe is above the bed, the PROBE_ACCURACY macro does not move the toolhead in X or Y.***
-
-Congratulations, your done :).
-
-## Firsts tests
-
-Before starting to test klicky, and from past mistakes, please remove your PEI sheet (the probe works on the magnetic sheet) and if possible, change your printer maximum speed, acceleration and Z current, on klipper with TMC steppers, you can do this:
-
-```python
-SET_TMC_CURRENT STEPPER=stepper_z CURRENT=0.2 
-SET_VELOCITY_LIMIT ACCEL=1000
-SET_VELOCITY_LIMIT VELOCITY=50
-```
-
-Enjoy your Klicky Probe!
-
-
-
-## Dock and undock video
-
-https://youtu.be/qqRuQJcBS7o
-
-It is working very well, if you decide to use it, give me feedback, either here, or on discord, my discord user is Slzer#2881. Also a massive shoutout to JosAr#0517 who create the Klicky, all I did was modify it for the VCore3.
+Replace your printer.cfg with the backup you stored at the start of the firmware section.
 
 For help using or installing Klicky take a look at the guides posted on my blog [3DPandME](https://www.3dpandme.com/) or join the [discord](https://discord.gg/kKj9epxn7B) 
 
