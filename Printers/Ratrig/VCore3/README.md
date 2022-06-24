@@ -40,6 +40,7 @@ For EVA3:
 - 1 x Klicky probe
 - 1 x Piston Klicky Body
 - 1 x Piston Klicky pin
+- 1 x Klicky prove dock v2
 
 For EVA2:
 
@@ -48,6 +49,7 @@ For EVA2:
 - 1 x Klicky probe
 - 1 x Piston Klicky Body
 - 1 x Piston Klicky pin
+- 1 x Klicky prove dock v2
 
 # Compatibility
 I have tried my hardest to design this mod to be compatible with as many popular combinations as possible. This work has been extended further by Arlock.
