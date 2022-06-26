@@ -102,7 +102,9 @@ If you have a normally closed switch (as you should), then you should have a cur
 - Do not pull the probe and mount apart, slide them apart and allow the glue to cure.
 - After the glue has sufficiently cured (read the label) slide the  mount and probe back together so the magnets realign and check for  continuity at the ends of the probe leads.
 
+## AB/SB Mount
 
+If you are going to use a AB/SB mount, please proceed to it's [instruction here](./ABSB_mount.md), otherwise proceed with the setup instructions of your printer.
 
 ## Final thoughts
 
