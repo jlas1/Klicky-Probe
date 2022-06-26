@@ -80,7 +80,7 @@ The specific parts with install, configuration, troubleshoot and recommended set
 
 [Voron v0](./Printers/Voron/v0)
 
-[VCore-3](./Printers/Ratrig/VCore3)
+[VCore 3.0/3.1 ](./Printers/Ratrig/VCore3.0_3.1)
 
 [MercuryOne](./Printers/ZeroG/Mercury_One)
 

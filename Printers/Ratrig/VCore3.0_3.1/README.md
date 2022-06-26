@@ -24,8 +24,12 @@ DISCLAIMER: I use affiliate links in my BOM and in many product links on my site
 - 1 x D2F switch [Aliexpress](https://s.click.aliexpress.com/e/_DCo538T)
 - 24AWG wire [Aliexpress](https://s.click.aliexpress.com/e/_DkDpExV)
 
+If you are in a hurry or want local suppliers, you can [check this list of suppliers](https://github.com/jlas1/Klicky-Probe/blob/main/Sourcing.md).
+
 # Printed parts
-The parts have been released on Printables and will soon be merged into the Klicky GitHub repo
+The parts have been released on [Printables](https://www.printables.com/model/226368-klicky-and-unklicky-for-vcore3/) and also locally [here](./VCore3_STL).
+
+The Dock and probe depend on the one you select below and can be retrieved from the build instructions below.
 
 Print everything except the piston probe body and piston with 0.2mm layer height using a 0.4mm nozzle. Recommend 4 walls, 4 top/bottom layers and 40% infill. 
 
@@ -40,7 +44,7 @@ For EVA3:
 - 1 x Klicky probe
 - 1 x Piston Klicky Body
 - 1 x Piston Klicky pin
-- 1 x Klicky prove dock v2
+- 1 x Klicky probe dock v2
 
 For EVA2:
 
@@ -49,7 +53,7 @@ For EVA2:
 - 1 x Klicky probe
 - 1 x Piston Klicky Body
 - 1 x Piston Klicky pin
-- 1 x Klicky prove dock v2
+- 1 x Klicky probe dock v2
 
 # Compatibility
 I have tried my hardest to design this mod to be compatible with as many popular combinations as possible. This work has been extended further by Arlock.
@@ -66,7 +70,7 @@ I have tried my hardest to design this mod to be compatible with as many popular
 
 ## EVA2
 - All configurations
-- Not compatible with the top MFBS mods. Please see the mod Arlock has released that adds compatibility with that ecosystem.
+- Not compatible with the top MFBS mods. Please see the mod [Arlock has released](https://www.printables.com/model/222832-klickyunklicky-dock-for-vcore-3-integrated-into-mf) that adds compatibility with that ecosystem.
 
 # Setup process
 Either watch the [youtube assembly video](https://youtu.be/YpNB8FlAlf0) below or scroll further down for a step by step written description of the process.
@@ -86,32 +90,27 @@ The new dock has been designed to locate accurately off of the existing frame. I
 
 The dock will only fit one way round due to the cutout for the idler bolt. Push the dock firmly into the corner, add the bolts and tighten up.
 
+## Assembling the probe 
+
+klicky probe, based on the [Quickdraw probe](https://github.com/Annex-Engineering/Quickdraw_Probe), with an added third magnet for added stability and fixed dock gantry setups.
+
+<img src="../../../Probes/KlickyProbe/Photos/KlickyProbe.png" alt="klickyprobe" style="zoom:50%;" />
+
+It uses magnets to secure the probe to the mount and also to make the electrical connection.
+The magnets can be glued to prevent them from coming loose.
+It supports a [microswitch probe](../../../Probes/KlickyProbe/) and [Unklicky](../../../Probes/UnklickyProbe/) (for Vcore, you need the BFP Unklicky_XL_body.stl) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
+
+There is a [new version (KlickyNG)](../../../Probes/KlickyNG/) that will be compatible with Vcore soon.
+
 ## Assembling Klicky piston probe
-Install the read magnet in the Klicky probe body. Add a small drop of superglue and then press the magnet in. This magnet needs to be oriented such that it attracts towards the one in the dock as it will be used to keep the Klicky probe in place. This magnet will sit just under flush to reduce the undocking force.
-
-<img src="Photos/4.png" alt="Piston Klicky Probe" style="zoom:60%;" />
-
-Remove the spring arm if required and then install the switch by pressing it into the probe body. Make sure the switch aligns with the arrow.
-
-<img src="Photos/5.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
 Install the printed piston into the piston housing. Run it back and forth a few times until it is running smoothly. If it is too tight scale the print down a little and try again. We will run 500 probes to bed the probe in but it needs to be reasonably close from the start.
 
 <img src="Photos/6.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
-Attach the piston housing to the probe body using two m2 self tapping screws. The piston will compress the switch very slightly when assembled but should not activate it until you press on it. This will also hold the switch in place for the next few steps of adding the remaining magnets.
+Attach the piston housing to the probe body using the two m2 self tapping screws, you may need to remove them if already installed. The piston will compress the switch very slightly when assembled but should not activate it until you press on it. This will also hold the switch in place for the next few steps of adding the remaining magnets.
 
 <img src="Photos/7.png" alt="Piston Klicky Probe" style="zoom:60%;" />
-
-Install the center magnet on the top face, orientation doesn’t matter unless you already have an existing probe arm installed, in which case match the polarity so it attracts to its corresponding magnet. Again add a small drop of superglue then press the magnet in. I find I can do this by hand but there are helper tools available in on the github. Apply pressure until glue has dried.
-
-<img src="Photos/8.png" alt="Piston Klicky Probe" style="zoom:60%;" />
-
-IMPORTANT – Wait for the glue to dry. It is really really easy to accidentally pull the magnet back out while you add the next two in.
-
-Install the other 2 magnets using the same method. These should have the opposite polarity to the central one.
-
-<img src="Photos/9.png" alt="Piston Klicky Probe" style="zoom:60%;" />
 
 Once finished your probe assembly should look like this. Check that the piston when pressed causes the switch to click and then again as you release. Now is the time to use a multimeter and check you get continuity between the two magnets circled above. You should be able to note the continuity being made and broken when you actuate the switch. This ensures the probe is assembled and working.
 
@@ -216,7 +215,7 @@ WARNING: make sure you bed is pretty close to level by eye before trying a new p
 - From X13.0 Y6.5 move your printhead about 60mm in positive X. The probe should - smoothly come out of the dock.
 - Move the printhead back to X13 Y6.5. the probe should smoothly move into the dock
 - Move the printhead by about 60mm in the positive y direction. The probe should - slide off the probe arm and stay seated in the dock.
-- Try running DEPLOY_PROBE and STOW_PROBE. the probe should smoothly dock and undock. If it doesn’t you may need to go back and repeat steps 1-8.
+- Try running DEPLOY_PROBE and STOW_PROBE (these are RatOS stowable probe macros). the probe should smoothly dock and undock. If it doesn’t you may need to go back and repeat steps 1-8.
 - Deploy the probe and move it to the centre of the bed. Run the command below to do 500 probe cycles. This will help bed in the piston section and give you more reliable results going forwards
 ```PROBE_ACCURACY samples=500```
 
