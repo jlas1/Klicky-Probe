@@ -32,3 +32,6 @@ Added a 3mm socket height, to better handle 3mm magnets
 
 KlickyProbe_v2_v57
 Added initial Switchwire servo dock
+
+KlickyNGProbe_v6
+Improved AB/SB mount and front attachment, revised back probe magnet seat

@@ -1,8 +1,8 @@
-# Klicky Probe NG (Next Generation)
+# Klicky Probe NG (Next Generation) (or No Glue :-) )
 Microswitch probe with magnetic attachment, primarily aimed at CoreXY 3d printers, with enclosed magnets, don't fall, don't need to be glued.
 
-This version is still a **BETA** version, so please use with care.
-Its parent version, and still the recommended one is [Klicky](../KlickyProbe/).
+This version has been used on tens (hundreds ?) of machines, so it can be considered functional and safe.
+For new setups and due to it's easier assembly i would recommend the KlickyNG over Klicky regular for new builds.
 
 The objectives for this project are:
 - drop in replacement for Omron TL-Q5MC2 or PL-08N2 (you don't need to replace the toolhead), replacement of BLtouch probes
@@ -51,10 +51,10 @@ There is no need for supports; recommended settings are 4 perimeters/top/bottom,
 
 | <img src="./Photos/NG_Probe_Dock.JPG" alt="NG_Probe_Dock" width="200" /><img src="./Photos/NG_2mm_extender.JPG" alt="NG_2mm_extender" width="200"  /> | If you want to reuse your old Klicky dock, it needs to use this setup for the back magnet. It will also be necessary to print the 2mm NG extender, as the dock needs to be 2mm longer. |
 | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| <img src="./Photos/NG_Probe_insert.JPG" alt="NG_Probe_insert" width="200"  /> | Probe Insert, required to hold the switch and the two magnets that make the electrical connection |
-| <img src="./Photos/NG_Probe_body.JPG" alt="NG_Probe_body" width="200"  /> | Probe body, required to prevent the two front magnets from escaping the probe, holds the third magnet to help attach the probe to the mount and the back magnet to secure it to the dock |
+| <img src="./Photos/NG_Probe_insert.JPG" alt="NG_Probe_insert" width="200"  /> | Probe Insert, required to hold the switch and the two magnets that make the electrical connection, two versions; one for around 2.75mm (instead of 3mm) height, and one for actual 3mm-height magnets |
+| <img src="./Photos/NG_Probe_body.JPG" alt="NG_Probe_body" width="200"  /> | Probe body, required to prevent the two front magnets from escaping the probe, holds the third magnet to help attach the probe to the mount and the back magnet to secure it to the dock. |
 | <img src="./Photos/NG_back_mount.JPG" alt="NG_back_mount" width="200"  /> | Mount back, mounts to the AB/SB, holds the third magnet and the wire connections |
-| <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" width="200"  /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" width="200"  /> | Mount front, 2 versions; one for around 2.75mm (instead of 3mm) height, and one for actual 3mm-height magnets |
+| <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" width="200"  /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" width="200"  /> | Mount front, two versions; one for around 2.75mm (instead of 3mm) height, and one for actual 3mm-height magnets |
 
 # Bill of Materials (BOM)
 
