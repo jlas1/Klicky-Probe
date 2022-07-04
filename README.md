@@ -51,7 +51,7 @@ First klicky probe, based on the [Quickdraw probe](https://github.com/Annex-Engi
 
 It uses magnets to secure the probe to the mount and also to make the electrical connection.
 The magnets can be glued to prevent them from coming loose.
-It supports a [microswitch probe](./Probes/KlickyProbe/) and [Unklicky](./Probes/UnklickyProbe/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
+It supports a [microswitch probe](./Probes/KlickyProbe/) and [Unklicky](./Probes/Unklicky/) ([invented by DustinSpeed](https://github.com/majarspeed/Unklicky)) (self built probe, that so far surpasses the microswitches in common use) based probing.
 
 ### [Assembly instruction](./Probes/KlickyProbe/)
 
