@@ -35,3 +35,6 @@ Added initial Switchwire servo dock
 
 KlickyNGProbe_v6
 Improved AB/SB mount and front attachment, revised back probe magnet seat
+
+KlickyNGProbe_v7
+reduced AB/SB mount front hole size, added better magnet installation helper, extended the dock magnet wall from 0.44mm to 1mm
