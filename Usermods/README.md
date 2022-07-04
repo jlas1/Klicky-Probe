@@ -22,4 +22,4 @@ There are two types of user mod:
 | TheMacBoy | [Klicky Probe mount for EVA](./TheMacBoy)                    | probe mount | EVA 2.2+         |
 | DoubleT   | [Klicky Probe mount for EVA Trihorn UHF fan duct](./DoubleT) | probe mount | EVA 2.4+         |
 | SSerpente | [Klicky Probe mount for VzBot](./SSerpente)                  | dock mount  | VzBot            |
-
+| Rama      | [Integrated KlickyNG Carriage for MGN12](./Rama)             | carriage    | Voron T/2.4+     |
