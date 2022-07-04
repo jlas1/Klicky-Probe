@@ -8,6 +8,10 @@ This is a modified Mantis Xcarriage to fit KlickyNG based on [KayosMaker's Klick
 
 Modified Mantis Xcarriage for the UnklickyNG 6x3 including a fitting dock. this one is just as lightweight as the stock mantis Xcarriage!
 
+[## Integrated KlickyNG Carriage for MGN12](./Rama/) by Rama
+
+Integrated KlickyNG Carriage for MGN12, can use the same probe dock mounts
+
 [## Klicky Probe with additional holes](./StefanRaatz/) by StefanRaatz
 
 This is a modified Klicky probe with two holes so that you can feed through the uninsolated part of the cable a little bit more.
@@ -67,8 +71,8 @@ Tested on MGN12 carriage from V2.4. Mounts with M3x20 SHCS.
 * Prints flat on the back. Magnet bed is a vertical face, not bridged surface, may improve installed flatness.
 * Eyebrows o\ /o
 
-
 [## X Carriage Probe Bracket for Klicky](./eamars/) by EAMARS
-* Fix the Klicky mount in place without too much stress.
-* Tested only against MGN12 X Carriage.
 
+Fix the Klicky mount in place without too much stress.
+
+* Tested only against MGN12 X Carriage.

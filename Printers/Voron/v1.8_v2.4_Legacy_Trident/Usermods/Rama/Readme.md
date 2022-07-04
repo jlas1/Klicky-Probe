@@ -6,16 +6,16 @@
   </summary>
 - Update (04.07.22): Initial Release / Testing Phase!<br>
 </details>
-
 <details>
   <summary>
     CREDITS: jlas1, Voron-Team & all the great people we have in our community :-)
   </summary>
 * Voron-Team: Yeah, without you Guys, nothing were possible here :-)<br>
 * jlas1: Basically its his KlickyNG, just merged into the Carriage! Thanks Jose that you made this all possible!<br>
-* Quickdraw & Euclid guys: They camed first with a microswitch probe, so thank you for the inspiration! 
+* Quickdraw & Euclid guys: They came first with a microswitch probe, so thank you for the inspiration!<br>
 * Community: Feelingwise discord is a Place filled with only nice and always helpful People! A special thanks to all of them, i personally just love everyone there!<br>
 </details>
+
 
 <details>
   <summary>
