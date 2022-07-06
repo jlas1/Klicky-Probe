@@ -155,18 +155,18 @@ To support euclid side dock and undock, try these values
 #it's a relative move
 Variable_attachmove_x:          -70
 Variable_attachmove_y:            0
-Variable_attachmove_z:         1000
+Variable_attachmove_z:            0
 
 #Attach move2
 Variable_attachmove2_x:          0
 Variable_attachmove2_y:         40
-Variable_attachmove2_z:       1000
+Variable_attachmove2_z:          0
 
 #Dock move, final toolhead movement to release the probe on the dock
 #it's a relative move
 Variable_dockmove_x:              0
 Variable_dockmove_y:            -40
-Variable_dockmove_z:           1000
+Variable_dockmove_z:              0
 ```
 
 **you need to check whay is the Z height of the Euclid Dock to replace the 1000 z moves above**
