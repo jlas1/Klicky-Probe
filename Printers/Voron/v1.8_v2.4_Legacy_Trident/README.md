@@ -240,11 +240,11 @@ Variable_attachmove_z:              0     # (can be negative)
 
 ```
 
-This example uses the default Voron V2 SKR1.4 configuration, with the probe connected to the P0.10 pin, please update it to your specific configuration.
+This example uses the the probe connected to the E0DET pin, pin P1.26, please update it to your specific configuration, you can use other ports, but **you should use a endstop pin**, as it is the ones that have a hardware voltage pull-up, that is necessary for a better precision.
 
 ```python
 [probe]
-pin: ^P0.10
+pin: ^P1.26
 x_offset: 0
 y_offset: 19.75
 z_offset: 6.42
