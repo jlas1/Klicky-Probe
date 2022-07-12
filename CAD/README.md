@@ -38,3 +38,6 @@ Improved AB/SB mount and front attachment, revised back probe magnet seat
 
 KlickyNGProbe_v7
 reduced AB/SB mount front hole size, added better magnet installation helper, extended the dock magnet wall from 0.44mm to 1mm
+
+KlickyNGProbe_v8
+improved probe body, reducing probe tilt

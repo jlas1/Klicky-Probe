@@ -45,46 +45,54 @@ There is also [an exploded view](https://youtu.be/mlyU2tHjebo).
 
 There is no need for supports; recommended settings are 4 perimeters/top/bottom, at least 23% infill. The STL's are already oriented for you, so you only need to send them to the slicer.
 
-![](./Photos/print_orientation.jpg)
+![](./Photos/print_orientation.jpG)
 
 ## Required parts
 
-| <img src="./Photos/NG_Probe_Dock.JPG" alt="NG_Probe_Dock" width="200" /><img src="./Photos/NG_2mm_extender.JPG" alt="NG_2mm_extender" width="200"  /> | If you want to reuse your old Klicky dock, it needs to use this setup for the back magnet. It will also be necessary to print the 2mm NG extender, as the dock needs to be 2mm longer. |
+|                                                              |                                                              |
 | :----------------------------------------------------------: | ------------------------------------------------------------ |
+| <img src="./Photos/NG_Probe_Dock.JPG" alt="NG_Probe_Dock" width="200" /><img src="./Photos/NG_2mm_extender.JPG" alt="NG_2mm_extender" width="200"  /> | If you want to reuse your old Klicky dock, it needs to use this setup for the back magnet. It will also be necessary to print the 2mm NG extender, as the dock needs to be 2mm longer. |
 | <img src="./Photos/NG_Probe_insert.JPG" alt="NG_Probe_insert" width="200"  /> | Probe Insert, required to hold the switch and the two magnets that make the electrical connection, two versions; one for around 2.75mm (instead of 3mm) height, and one for actual 3mm-height magnets |
 | <img src="./Photos/NG_Probe_body.JPG" alt="NG_Probe_body" width="200"  /> | Probe body, required to prevent the two front magnets from escaping the probe, holds the third magnet to help attach the probe to the mount and the back magnet to secure it to the dock. |
 | <img src="./Photos/NG_back_mount.JPG" alt="NG_back_mount" width="200"  /> | Mount back, mounts to the AB/SB, holds the third magnet and the wire connections |
 | <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" width="200"  /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" width="200"  /> | Mount front, two versions; one for around 2.75mm (instead of 3mm) height, and one for actual 3mm-height magnets |
+
+## Optional parts
+
+|                                                              |                                                              |
+| :----------------------------------------------------------: | ------------------------------------------------------------ |
+| <img src="./Photos/probe_helpers.jpg" alt="NG_Probe_Dock" width="300" /> | To help with magnet installation (they can be very powerful and interact with each other before final assembly), you can use these parts, they require 3 more magnets (can be reused). |
 
 # Bill of Materials (BOM)
 
 - 1x microswitch (the Omron D2F-5, or D2F-5L with the lever removed, are recommended, but similar-sized microswitches like D2F-1 and KW10 will also work)
 - 30cm of wire, AWG22 or similar
 - 5 M2x10mm self-tapping screws
-- 8x 6mm diameter x 3mm height magnets
+- 8x 6mm diameter x 3mm height magnets (add 3 more if you want to do the magnet helpers)
 - 2x M3x18mm/M3x20mm screws
 
 # Build Process
 
 First, assemble the required materials.
 
-<img src="./Photos/20220510_234804.jpg" alt="material" height="400"  />
+<img src="./Photos/material.jpg" alt="material" height="400"  />
 
 ## Probe assembly
 
-- Put two magnets on the KlickyNGProbe_v3 Insert, and make sure they have the same polarity.
-  <img src="./Photos/20220510_234928.jpg" alt="20220510_234928" height="400" />
-- Next, insert another magnet on the back groove of the KlickyNGProbe_v3 Body. In this image, all 3 magnets should have the same polarity on top, so that when they are assembled, the back magnet will repulse the two front magnets.
-  <img src="./Photos/20220510_235026.jpg" alt="20220510_235026" height="400" />
-- Now, place the insert on the body, aligning the magnets and making sure that the front magnets do not move out of place.
-  <img src="./Photos/20220510_235051.jpg" alt="20220510_235051" height="400" />
-- Insert the microswitch in its place (pictured here a KW10)
-  <img src="./Photos/20220510_235119.jpg" alt="20220510_235119" height="400" />
-- Secure the microswitch with the two M2x10 screws to secure the switch, and also pull the two parts of the probe body together.
-  <img src="./Photos/20220510_235228.jpg" alt="20220510_235228" height="400" />
-- Insert the back magnet, and the probe is complete!
-  | <img src="./Photos/20220510_235234.jpg" alt="20220510_235234" height="200" /> | <img src="./Photos/20220510_235241.jpg" alt="20220510_235241" height="200" /> |
-  | ------------------------------------------------------------ | ------------------------------------------------------------ |
+- Put one magnet on the back groove of KlickyNG_Probe_body, and add another to the matching hole on the KlickyNG_cap_magnet helper.
+  <img src="./Photos/step1.jpg" alt="step1" height="300" /> <img src="./Photos/step2.jpg" alt="step2" height="300">
+  
+- Next, insert two magnets on the front sockets KlickyNG_Probe_body Body. These magnets should have the inverted polarity of the back magnet. After inserting each one, make sure to add the corresponding magnet to the magnet helper, it will help keep the magnets in place during assembly.
+  <img src="./Photos/step3.jpg" alt="step3" height="300" />
+
+- Now, place the insert on the body (select either the regular insert or the 3mm one), aligning the magnets and making sure that the front magnets do not move out of place, attach the switch (note the arrow pointing to the switch pin) secure with the M2x10 screws.
+  <img src="./Photos/step4.jpg" alt="step4" height="300" /> <img src="./Photos/step5.jpg" alt="step5" height="300" />
+  
+  
+  
+- (left to right) insert a magnet on the dock, via the back hole. Then place a magnet on the front of the dock and insert it on the back pocket of the probe, taking care to follow the same magnetic orientation, finally make sure the probe docks properly.
+  
+  <img src="./Photos/step6.jpg" alt="step6" height="300"/> <img src="./Photos/step7.jpg" alt="step7" height="300"/> <img src="./Photos/step8.jpg" alt="step8" height="300"/>
 
 ## AB/SB mount assembly
 
