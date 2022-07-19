@@ -118,6 +118,48 @@ First, assemble the required materials.
   | <img src="./Photos/20220511_000033.jpg" alt="20220511_000033" width="200" /> | <img src="./Photos/20220511_000042.jpg" alt="20220511_000042" width="200" /> |
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
+## Check Your Work
+
+Before anything, make sure the magnet orientations are correct. Go
+through the assembly instructions again to ensure correct orientation.
+Below are a bunch of checks assuming correct magnet orientation.
+
+- Ensure that the AB/SB mount wires and the magnets are making contact
+
+  <img src="./Photos/check_your_work1.jpg" alt="Probe Magnets and Wire Making Contact" height="400" />
+
+- If you have a multimeter handy, use it to check for continuity. Touch
+  the bare wire on the top of the mount with one probe and the magnet
+  on the opposing side with the other probe and check for continuity.
+
+  <img src="./Photos/check_your_work2.jpg" alt="Mount Continuity Check using Multimeter" height="400" />
+
+- Ensure that the probe magnets and the microswitch leads are touching
+
+  <img src="./Photos/check_your_work3.jpg" alt="Probe and switch Making Contact" height="400" />
+
+- Once again, if you have a multimeter handy, check for continuity by
+  touching the two magnets with your multimeter probes.
+
+  <img src="./Photos/check_your_work4.jpg" alt="Probe magnets and switch continuity check" height="400" />
+
+- When you are first installing the AB/SB mount, don't tightening the bolts
+  down all the way. Make sure the mount can still move since we need to adjust how far the mount sits above the probe/dock.
+
+  <img src="./Photos/check_your_work5.jpg" alt="Loose AB mount bolts to allow for height adjustments" height="400" />
+
+- Move the toolhead by hand to allow for the mount to sit right above
+  the probe. There should be a hairs worth of gap between the mount and
+  the probe. Once the correct height has been established, lock in the
+  position by tightening down the bolts.
+
+  <img src="./Photos/check_your_work6.jpg" alt="Loose AB mount bolts to allow for height adjustments" height="400" />
+
+- You should now be able to move the toolhead back by hand and ensure
+  that the probe attaches correctly.
+
+  <img src="./Photos/check_your_work7.jpg" alt="Probe attaching to mount properly" height="400" />
+
 ## Final thoughts
 
 For the installation, you should now replace the dock (or add the extender to your existing dock) and mount the probe mount to AB or SB and test it. You shouldn't need to change any configuration on your printer, if Klicky was already running without problems.
