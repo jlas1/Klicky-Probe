@@ -24,14 +24,21 @@ updated the probe dock to have back inserted magnets, it's not possible now for 
 KlickyProbe_v2_v57
 Added V0.1 integrated Voron Revo Cowling
 
+KlickyProbe_v2_v57
+Added initial Switchwire servo dock
+
+KlickyProbe_v2_v58
+Changed the servo arms magnets, can't come loose now during a print
+
+
+
+
+
 KlickyNGProbe_v4
 Reduced the probe socket height, to better handle 2.7mm magnets
 
 KlickyNGProbe_v5
 Added a 3mm socket height, to better handle 3mm magnets
-
-KlickyProbe_v2_v57
-Added initial Switchwire servo dock
 
 KlickyNGProbe_v6
 Improved AB/SB mount and front attachment, revised back probe magnet seat
@@ -41,3 +48,6 @@ reduced AB/SB mount front hole size, added better magnet installation helper, ex
 
 KlickyNGProbe_v8
 improved probe body, reducing probe tilt
+
+KlickyNGProbe_v9
+probe body tilt further reduced, lower and smaller dock mount (no need to change Y offset)
