@@ -12,9 +12,9 @@ Modified Mantis Xcarriage for the UnklickyNG 6x3 including a fitting dock. this 
 
 Integrated KlickyNG Carriage for MGN12, can use the same probe dock mounts
 
-[## Integrated KlickyNG Carriage for MGN12 SB/CW2 and SW SB/CW2](./JosAr/) by JosAr
+[## Integrated KlickyNG Carriage for MGN12 SB/CW2](./JosAr/) by JosAr
 
-Integrated KlickyNG Carriage for MGN12 SB/CW2 and SW SB/CW2, can use the same probe dock mounts
+Integrated KlickyNG Carriage for MGN12 SB/CW2, can use the same probe dock mounts
 
 [## Klicky Probe with additional holes](./StefanRaatz/) by StefanRaatz
 
