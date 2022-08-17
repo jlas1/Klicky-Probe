@@ -122,7 +122,7 @@ To get the best experience, please consider purchasing from the trusted list of 
 
 ## Parts location
 
-The probe STL's are located [here](../../../Probes/KlickyProbes/STL).
+The probe STL's are located [here](../../../Probes/KlickyProbe/STL).
 
 The printer specific STL's are located [here](./v0_STL).
 
