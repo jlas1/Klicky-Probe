@@ -166,7 +166,7 @@ For the installation, you should now replace the dock (or add the extender to yo
 
 I have tested Aliexpress N35, N42 and N45 (graciously provided by Drachenkatze) with over 2000 attach/probe/dock without a single probe or dock operation failure.
 
-Please test and report, but remember, **this is a BETA! It may twist your extrusions, or ruin your print surface. Use with care.**
+Please test and report, but remember, it's still under development.
 
 There will also be soon a [Unklicky](https://github.com/majarspeed/Unklicky) for KlickyNG, stay tuned.
 
