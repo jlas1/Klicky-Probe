@@ -1,6 +1,4 @@
----
-title: SemperDiscere's Klicky Probe for the Phaetus DragonUHF with Standard Dragon Mount
----
+## SemperDiscere's Klicky Probe for the Phaetus DragonUHF with Standard Dragon Mount
 
 > Created by: [SemperDiscere](https://github.com/SemperDiscere)
 
@@ -25,7 +23,7 @@ Build Is Similar to the AB Mount.
 
 ![Klicky probe Rear](./Photos/Probe_Dragon_UHF_Rear.JPG)
 
-![Klicky probe Wires](./Photos/Wired.JPG)
+![Klicky probe Wires](./Photos/Wired.jpg)
 ## Source Klicky probe file
 [Klicky Probe](../../CAD/KlickyProbe_v2_v59.step)
 
