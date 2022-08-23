@@ -17,6 +17,7 @@ Build Is Similar to the AB Mount.
 - Seat Magnets
 - Test continuity
 - Trim wires
+- Screw switch to Main Body
 
 ![Klicky probe Front](./Photos/Probe_Dragon_UHF_Front.JPG)
 
