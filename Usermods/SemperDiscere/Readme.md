@@ -7,6 +7,17 @@ title: SemperDiscere's Klicky Probe for the Phaetus DragonUHF with Standard Drag
 ## Description
 This is a modification of Klicky probe to be used with a Dragon UHF (Ultra High Flow) with the UHF Extesion on a standard Dragon Mount.  It's only Klicky (no NG or UnKlicky planned, feel free to expand).  The Dragon UHF (57mm) is 17mm longer (without nozzles) than the DragonSF/HF (40mm). The Probe point is dropped 17mm to accomodate the Volcano style heater and UHF extension.
 
+## Build
+Build Is Similar to the AB Mount. 
+- Solder wires to the outside pins of the D5F-L switch
+- Remove Lever from switch
+- Estimate wire length and cut
+- Strip Wires
+- Feed wires through Holes
+- Seat Magnets
+- Test continuity
+- Trim wires
+
 ![Klicky probe Front](Probe_Dragon_UHF_Front.JPG)
 
 ![Klicky probe 3/4](./Photos/Probe_Dragon_UHF_Quarter.JPG)
@@ -42,6 +53,7 @@ v0 23/08/2022 SemperDiscere's Dragon UHF Probe Initital
 | 4 | 6x3 Magnets | Neodymium preferred |
 | 2 | M2 10mm | carpentry type |
 | 2 | 5cm 24 ga wire | FEP or PTFE preferred |
+| 1 | Omron D5F switch | remove lever if present |
 
 ## Hardware Required 
 Voron (or printer that uses a voron probe) + Standard Dragon Mount + Dragon UHF Hotend
