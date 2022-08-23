@@ -11,10 +11,11 @@ All the compatible printers require:
 
 The recommended macros can be found [here for klipper](..//Klipper_macros) macros and [here for RRF](../RRF_macros).
 
-There are two types of user mod:
+There are three types of user mod:
 
 * Printer dock mount (identified by "dock mount")
 * Toolhead probe mount (identified by "probe mount")
+* Klicky Probe (identified by "probe")
 
 | Owner     | Descrption                                                   | Mod Type    | Printer/Toolhead |
 | --------- | ------------------------------------------------------------ | ----------- | ---------------- |
@@ -22,4 +23,5 @@ There are two types of user mod:
 | TheMacBoy | [Klicky Probe mount for EVA](./TheMacBoy)                    | probe mount | EVA 2.2+         |
 | DoubleT   | [Klicky Probe mount for EVA Trihorn UHF fan duct](./DoubleT) | probe mount | EVA 2.4+         |
 | SSerpente | [Klicky Probe mount for VzBot](./SSerpente)                  | dock mount  | VzBot            |
+| SemperDiscere   | [Klicky Probe for Dragon UHF Hotend](./SemperDiscere) | probe | Voron Dragon UHF         |
 
