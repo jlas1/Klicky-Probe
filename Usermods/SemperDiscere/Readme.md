@@ -18,12 +18,13 @@ Build Is Similar to the AB Mount.
 - Test continuity
 - Trim wires
 
-![Klicky probe Front](Probe_Dragon_UHF_Front.JPG)
+![Klicky probe Front](./Photos/Probe_Dragon_UHF_Front.JPG)
 
 ![Klicky probe 3/4](./Photos/Probe_Dragon_UHF_Quarter.JPG)
 
 ![Klicky probe Rear](./Photos/Probe_Dragon_UHF_Rear.JPG)
 
+![Klicky probe Wires](./Photos/Wired.JPG)
 ## Source Klicky probe file
 [Klicky Probe](../../CAD/KlickyProbe_v2_v59.step)
 
