@@ -53,7 +53,7 @@ v0 23/08/2022 SemperDiscere's Dragon UHF Probe Initital
 | 4 | 6x3 Magnets | Neodymium preferred |
 | 2 | M2 10mm | carpentry type |
 | 2 | 5cm 24 ga wire | FEP or PTFE preferred |
-| 1 | Omron D5F switch | remove lever if present |
+| 1 | Omron D2F-5 switch | remove lever if present |
 
 ## Hardware Required 
 Voron (or printer that uses a voron probe) + Standard Dragon Mount + Dragon UHF Hotend
