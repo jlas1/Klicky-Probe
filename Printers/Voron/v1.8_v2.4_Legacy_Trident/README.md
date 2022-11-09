@@ -358,6 +358,9 @@ Besides the macros from this repository, you will need to install the Z autocali
 Sometimes after installation it's necessary to run the install script manually, if you installed using the moonraker mothod above, run "/home/pi/klipper_z_calibration/install.sh" on the raspberry pi command prompt.
 
 **[I would advise you to read the detailed explanation of the plugin functionality if you want to start using it](https://github.com/protoloft/klipper_z_calibration#how-to-configure-it)**
+<p>
+
+***For help setting up Automatic Z Calibration, look at toynbee insights and guide, [here](https://gist.github.com/conlank/7904ba9529a27b03d707d3a6417877df)***
 
 #### Probe_accuracy and Probe_calibrate
 
