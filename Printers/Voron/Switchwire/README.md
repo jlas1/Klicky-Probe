@@ -274,8 +274,8 @@ gcode:
 restart klipper now, wire the servo and check if you can move it by issuing the following commands:
 
 ```python
-_servo_test_angle angle=0
-_servo_test_angle angle=90
+_servo_test_angle angle=40
+_servo_test_angle angle=130
 ```
 
 Your servo should move more or less 90 degree between those two commands.
@@ -283,7 +283,7 @@ Your servo should move more or less 90 degree between those two commands.
 ### Step 7: Servo calibration
 
 The servo position needs to be reset, so that we can setup the angle easily.
-Begin by issuing the instruction "_servo_test_angle angle=5" so that the servo will move to it's calibrated 5 degree position, then:
+Begin by issuing the instruction "_servo_test_angle angle=45" so that the servo will move to it's calibrated 45 degree position, then:
 
 move the arms to the deploy position, like on the picture
 
@@ -311,9 +311,9 @@ and finally install the servo in its place and secure with the two included scre
 
 <img src="./Photos/20220601_123952.png" alt="servo_installed" width=400 />
 
-Test now with "_servo_test_angle angle=0" the arm should move fully to the deploy position, if it does not, you need to recheck the servo arm position, or decrease the angle, you can go until -90, remember that value.
+Test now with "_servo_test_angle angle=40" the arm should move fully to the deploy position, if it does not, you need to recheck the servo arm position, or decrease the angle, you can go until -90, remember that value.
 
-Now, using the same macro, test the correct value for the arms to fully retract, start with the value above and add 10 or 5 degrees each time, preferably until the arm magnets touch one another.
+Now, using the same macro, test the correct value for the arms to fully retract, start with the value above and add 10 or 5 degrees each time, preferably until the arms are touching one another.
 
 Remember these values, you will need them later on klicky-variables configuration:
 

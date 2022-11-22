@@ -17,11 +17,14 @@ There are three types of user mod:
 * Toolhead probe mount (identified by "probe mount")
 * Klicky Probe (identified by "probe")
 
+
 | Owner     | Descrption                                                   | Mod Type    | Printer/Toolhead |
 | --------- | ------------------------------------------------------------ | ----------- | ---------------- |
 | TheMacBoy | [support arm for Ender 5 Plus with rails](./TheMacBoy)       | dock mount  | Ender 5 Plus     |
 | TheMacBoy | [Klicky Probe mount for EVA](./TheMacBoy)                    | probe mount | EVA 2.2+         |
 | DoubleT   | [Klicky Probe mount for EVA Trihorn UHF fan duct](./DoubleT) | probe mount | EVA 2.4+         |
 | SSerpente | [Klicky Probe mount for VzBot](./SSerpente)                  | dock mount  | VzBot            |
+| WhistlinRic | [UnklickyNG BFG in halves with m2x10](./WhistlinRic)         | probe       | N/A              |
 | SemperDiscere   | [Klicky Probe for Dragon UHF Hotend](./SemperDiscere) | probe | Voron Dragon UHF         |
+
 

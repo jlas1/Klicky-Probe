@@ -11,3 +11,5 @@ The following shops are all responsive and helpful, they can help with the sourc
 | [Vonwange](https://vonwange.com/)    |    :eu: :de:    | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:  | lots of parts to expand 3d printers    |
 | [Replimat](https://www.replimat.eu)  |    :eu: :de:    | :heavy_check_mark: | :heavy_check_mark: |         :x:          | specializes in some hard to find items |
 | [KB-3D](https://kb-3d.com)           |      :us:       | :heavy_check_mark: | :heavy_check_mark: |         :x:          | specializes in Open source community builds and parts|
+| [DFH](https://dfh.fm/)           |      :us:       | :heavy_check_mark: | :heavy_check_mark: |         :x:          | "shit you don't need, at prices you can't afford"|
+| [West3D](https://west3d.com/)           |      :us:       | :heavy_check_mark: | :heavy_check_mark: |         :x:          | "We help you turn your ideas into reality"|
