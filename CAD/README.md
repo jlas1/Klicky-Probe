@@ -30,7 +30,9 @@ Added initial Switchwire servo dock
 KlickyProbe_v2_v58
 Changed the servo arms magnets, can't come loose now during a print
 
-
+KlickyProbe_v2_v60
+added UHF probe
+beefed up the probe AB/SB mount and adopted probe mount holder from EAMARS
 
 
 
@@ -51,3 +53,9 @@ improved probe body, reducing probe tilt
 
 KlickyNGProbe_v9
 probe body tilt further reduced, lower and smaller dock mount (no need to change Y offset)
+
+KlickyNGProbe_v10
+improved Unklicky cap function, now the cap has 2.7 and 3mm versions, most probes have only one body
+added V0.1 compatibility
+added Tiny-M compatibility
+added V0 and UHF probes
