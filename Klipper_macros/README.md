@@ -71,7 +71,7 @@ unzip Klipper_macros.zip
 ```
 
 Check the klicky-probe.cfg, remove or comment the macros that are not required for your printer or that you do not want to implement.
-Edit klicky-variables.cfg (there are printers specific recommendations on the printer configuration page) for klicky to operate properly.
+Edit klicky-variables.cfg ([there are printers specific recommendations on the printer configuration page](https://github.com/jlas1/Klicky-Probe#printers-with-detailed-instructions-and-specific-parts-by-support-order)) for klicky to operate properly.
 
 There are some configurations that need to be checked, otherwise your will run into **out of range** problems, that is by design.
 
