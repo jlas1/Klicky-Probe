@@ -328,10 +328,12 @@ Your variable_docklocation_x is 17
 Now manually (with gcode commands) move the toolhead to the  Xvariable_docklocation_x Y(max-40) position.
 In the example above, it would be "G0 X17 Y265".
 
+Then again with gcode commands, move the toolhead towards Y max.
 The probe and dock magnet can be 1/2 mm away from each other, that is ok, they will attact when the probe is released from the mount.
 
 Now move the toolhead 40mm to the side and check if the probe is docked securely.
-If it does, perfect, variable_docklocation_y is your Ymax, if not, you need to either increase the Ymax or add a dock extender and repeat the process.
+If it does, perfect, variable_docklocation_y is your current Y coordinate, most likely it's your Ymax.
+If it can't go back enough to dock, you need to either increase the Ymax or add a dock extender and repeat the process.
 
 Open your `klicky-variables.cfg` and find the `#dock location` section and edit the following two line
 
