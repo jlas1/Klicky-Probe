@@ -59,3 +59,6 @@ improved Unklicky cap function, now the cap has 2.7 and 3mm versions, most probe
 added V0.1 compatibility
 added Tiny-M compatibility
 added V0 and UHF probes
+
+KlickyNGProbe_v11
+added a mount version for smaller magnets
