@@ -55,7 +55,7 @@ There is no need for supports; recommended settings are 4 perimeters/top/bottom,
 | <img src="./Photos/NG_Probe_insert.JPG" alt="NG_Probe_insert" width="200"  /> | Probe Insert, required to hold the switch and the two magnets that make the electrical connection, two versions; one for around 2.75mm (instead of 3mm) height, and one for actual 3mm-height magnets |
 | <img src="./Photos/NG_Probe_body.JPG" alt="NG_Probe_body" width="200"  /> | Probe body, required to prevent the two front magnets from escaping the probe, holds the third magnet to help attach the probe to the mount and the back magnet to secure it to the dock. |
 | <img src="./Photos/NG_back_mount.JPG" alt="NG_back_mount" width="200"  /> | Mount back, mounts to the AB/SB, holds the third magnet and the wire connections |
-| <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" width="200"  /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" width="200"  /> | Mount front, two versions; one for around 2.75mm (instead of 3mm) height, and one for actual 3mm-height magnets |
+| <img src="./Photos/NG_front_mount_3mm.JPG" alt="NG_front_mount_3mm" width="200"  /><img src="./Photos/NG_front_mount.JPG" alt="NG_front_mount" width="200"  /> | Mount front, three versions; one for around 2.75mm (instead of 3mm) height, one for 2.6mm height and one for actual 3mm-height magnets. Make sure to use the appropriate file, since loose magnets can lead to unreliable connections between the probe and the mount. |
 
 ## Optional parts
 
