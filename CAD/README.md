@@ -34,6 +34,8 @@ KlickyProbe_v2_v60
 added UHF probe
 beefed up the probe AB/SB mount and adopted probe mount holder from EAMARS
 
+KlickyProbe_v2_v61
+added V0.2 cowling with new magnet sizes option
 
 
 KlickyNGProbe_v4
@@ -59,3 +61,7 @@ improved Unklicky cap function, now the cap has 2.7 and 3mm versions, most probe
 added V0.1 compatibility
 added Tiny-M compatibility
 added V0 and UHF probes
+
+KlickyNGProbe_v11
+improved Unklicky cap function
+added V0.2 cowling with new magnet sizes option
