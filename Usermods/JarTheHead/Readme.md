@@ -14,11 +14,11 @@ Build Is Similar to the AB Mount.
 - Trim wires
 - Screw switch to Main Body
 
-![Klicky probe Front](./Photos/Probe_RtV6_Front.JPG)
+![Klicky probe Front](./Photos/Probe_RtV6_Front.jpg)
 
-![Klicky probe 3/4](./Photos/Probe_RtV6_Corner.JPG)
+![Klicky probe 3/4](./Photos/Probe_RtV6_Corner.jpg)
 
-![Klicky probe Rear](./Photos/Probe_RtV6_Rear.JPG)
+![Klicky probe Rear](./Photos/Probe_RtV6_Rear.jpg)
 ## Source Klicky probe file
 [Klicky Probe](../../CAD/KlickyProbe_v2_v59.step)
 
