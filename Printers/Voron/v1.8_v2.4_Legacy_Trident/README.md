@@ -26,7 +26,7 @@ There are several gantry extrusion mounts possible, all attached  between the A 
 |                 fixed docking position                  |                adjustable docking position                 |   fixed docking position, allows for purge bucket mod   |   fixed docking position, allows for purge bucket mod    | fixed docking position (Legacy) (designed by Baltojikale) |
 
 *usable on the V1.8, V2.4 and Trident
-**attempts to put the dock to the side of the [purge bucket](https://github.com/VoronDesign/VoronUsers/tree/master/orphaned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber), there is  [also a mod](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Deprecated/PurgeBucket_350_Klicky) to allow the usage of the fixed dock
+**attempts to put the dock to the side of the [purge bucket](https://github.com/VoronDesign/VoronUsers/tree/master/orphaned_mods/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber), there is  [also a mod](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Deprecated/PurgeBucket_350_Klicky) to allow the usage of the fixed dock
 
 There are also some more mounting options on [Usermods](./Usermods/), integrated magnets in the AfterBurner toolhead and some complementary items. ***Check it out***
 
