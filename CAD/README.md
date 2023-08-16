@@ -37,6 +37,9 @@ beefed up the probe AB/SB mount and adopted probe mount holder from EAMARS
 KlickyProbe_v2_v61
 added V0.2 cowling with new magnet sizes option
 
+KlickyProbe_v2_v62
+added V0.2r1 cowling
+
 
 KlickyNGProbe_v4
 Reduced the probe socket height, to better handle 2.7mm magnets
@@ -65,3 +68,6 @@ added V0 and UHF probes
 KlickyNGProbe_v11
 improved Unklicky cap function
 added V0.2 cowling with new magnet sizes option
+
+KlickyNGProbe_v12
+added V0.2r1 cowling
