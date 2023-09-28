@@ -168,8 +168,6 @@ I have tested Aliexpress N35, N42 and N45 (graciously provided by Drachenkatze) 
 
 Please test and report, but remember, it's still under development.
 
-There will also be soon a [Unklicky](https://github.com/majarspeed/Unklicky) for KlickyNG, stay tuned.
-
 It is working very well for me. If you decide to use it, please send me feedback, either here, or on Voron discord. My discord username is `@JosAr#0517`.
 
 By standing on the shoulders of giants, let's see if we can see further.
