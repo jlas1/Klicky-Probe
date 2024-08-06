@@ -96,7 +96,7 @@ First, assemble the required materials.
 
 ## AB/SB mount assembly
 
-- Cut the 30cm of wire in half to create two 15cm lengths of wire. Remove 7-8mm of insulation, and rotate the core to prevent loose wires.
+- Cut the 30cm of wire in half to create two 15cm lengths of wire. Remove 27-30mm of insulation, and rotate the core to prevent loose wires.
   <img src="./Photos/20220510_235357.jpg" alt="20220510_235357" height="400" />
 - Insert the wire on the holes on the back mount
   <img src="./Photos/20220510_235456.jpg" alt="20220510_235456" height="400" />
