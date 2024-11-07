@@ -47,7 +47,7 @@ Some printers, like the Voron v0 or Tiny-M don't have the probe as a standard co
 Download the appropriate files (or the zip containing them all and delete the ones that are not relevant) and upload it to your klipper Config folder.
 
 ```bash
-cd ~/klipper_config/
+cd ~/printer_data/config
 wget https://raw.githubusercontent.com/jlas1/Klicky-Probe/main/Klipper_macros/Klipper_macros.zip
 unzip Klipper_macros.zip
 ```
