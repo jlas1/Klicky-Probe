@@ -5,6 +5,10 @@ That macro as since evolved into a klipper plugin that currently is pending incl
 
 Would alse like to thank the Voron discord community and VoronDesign for all the work, suggestions and support that they have given to improve on the macros.
 
+## klicky macros variables version 2
+
+To allow for an easier upgrade path and easier customization, klicky dock and attach moves were replaced with absolute points [insert better documentation here]
+
 ## Klipper change 20240313
 
 Klipper `ACCEL_TO_DECEL` parameter of the `SET_VELOCITY_LIMIT` command has been deprecated, klicky macros used it on one location, that is now fixed on the versions going forward.
