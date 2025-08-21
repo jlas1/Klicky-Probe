@@ -5,10 +5,17 @@ That macro as since evolved into a klipper plugin that currently is pending incl
 
 Would alse like to thank the Voron discord community and VoronDesign for all the work, suggestions and support that they have given to improve on the macros.
 
+## Different between the original Klicky macros and macros from Klicky-Probe-SE
+
+* **Skew Correction:** The Klicky-Probe-SE macros have an added ability to account for skew correction when docking or undocking. This means the Skew profile can now be loaded before operations involving Probe Dock/Attach such as quad_gantry_level or bed_mesh_calibrate.
+
+* **Conditional Homing:** The Klicky macros can automatically home the printer before running a quad_gantry_level or z_tilt command if the printer is not already homed. 
+
+* **Global Variable Name Change:** The Klicky-Probe-SE macros change the global variable name from _User_Variables to _Klicky_Variables. This change allows you to use _User_Variables for other custom settings in your printer configuration without interfering with the Klicky probe's variables.
+
 ## Klipper change 20240313
 
 Klipper `ACCEL_TO_DECEL` parameter of the `SET_VELOCITY_LIMIT` command has been deprecated, klicky macros used it on one location, that is now fixed on the versions going forward.
-
 
 
 ## New installation

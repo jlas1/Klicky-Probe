@@ -1,3 +1,8 @@
+# Klicky Probe SE
+The Klicky Probe SE is my personal project to enhance the original Klicky Probe. My primary goal was to improve speed, user convenience, and integration with macros of MMU control software.
+
+Currently, these enhancements are limited to the macros that control the probe's behavior.
+
 # Klicky Probe
 Microswitch probe with magnetic attachment, primarily aimed at CoreXY 3d printers.
 
