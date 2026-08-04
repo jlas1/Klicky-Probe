@@ -80,6 +80,38 @@ If however you would like to reduce the times that the toolhead attaches and doc
 
 When you don't need the probe attached anymore, run Dock_Probe_Unlock to dock and unlock the probe.
 
+## Probe attachment retries
+
+Klicky verifies the electrical probe state after every attachment. If that
+check fails, the macros can perform a bounded recovery cycle: the toolhead
+follows the normal docking path, docks or reseats the probe, follows the normal
+attachment path, and verifies the electrical state again.
+
+Configure the maximum number of recovery cycles in `klicky-variables.cfg`.
+For example, to allow three retries:
+
+```ini
+variable_probe_attach_retries: 3
+```
+
+The accepted range is `0` through `3`. The default is `0`, which disables
+recovery and retains the immediate `Probe attach failed!` error. A positive
+value enables that many retries after the initial attachment attempt. A
+persistent failure still stops command processing after the configured number
+of retries; the retry mechanism does not bypass probe-state verification.
+
+Each recovery uses the existing dock coordinates, safe-Z behavior, feedrates,
+servo operations, and probe checks. Configure and test normal `Attach_Probe`
+and `Dock_Probe` operation before enabling unattended retries. Repeated
+failures usually indicate contaminated or misaligned magnets, damaged wiring,
+or a probe-pin configuration problem and should be corrected mechanically or
+electrically.
+
+Recovery remains synchronous: the caller cannot continue into homing, QGL, or
+bed probing until attachment succeeds or all retries fail. The three recovery
+stages use distinct internal macro names to avoid Klipper's recursive-macro
+protection while keeping the entire operation in the current command sequence.
+
 ## Pre and Post macros for dock operations
 
 If your setup requires a custom move, a macro to be called before attaching and docking, there are two macros **\_DeployDock** and **\_RetractDock** that are executed (if they are configured) when it's required for the dock to be ready for docking and attachment operations.
