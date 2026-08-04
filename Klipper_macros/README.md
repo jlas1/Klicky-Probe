@@ -107,10 +107,6 @@ failures usually indicate contaminated or misaligned magnets, damaged wiring,
 or a probe-pin configuration problem and should be corrected mechanically or
 electrically.
 
-Recovery is handed off through Klipper's `delayed_gcode` mechanism so the
-current attachment and state-check macros return before another dock/attach
-cycle begins. This avoids Klipper's recursive-macro protection.
-
 ## Pre and Post macros for dock operations
 
 If your setup requires a custom move, a macro to be called before attaching and docking, there are two macros **\_DeployDock** and **\_RetractDock** that are executed (if they are configured) when it's required for the dock to be ready for docking and attachment operations.
